@@ -71,14 +71,14 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Organo" "e Bassi" } }
-						% \transpose c c,
+						\transpose c c,
 						\StabatMaterOrgano
 					}
 				>>
 				\new FiguredBass { \StabatMaterBassFigures }
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
+			% \layout { }
+			\midi { \tempo 2 = 60 }
 		}
 	}
 }
