@@ -146,6 +146,186 @@ StabatMaterViolinoI = {
 	}
 }
 
+CuiusAnimamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/8 \tempoCuiusAnimam
+		d'8-!\fE d8.([ es16)]
+		\appoggiatura es d8 c16 b a g
+		g8-! g4~
+		g8-! g-! r16 d'-!\p
+		c8.[( d16)] b8-! %5
+		a16( b) g8-! r16 d'-!
+		c8~ c16. d32 b16.[ c32]
+		\appoggiatura b16 a8 g-! r16 d'-!
+		c16.(\f d32) c4-!
+		b16.( c32) b4-! %10
+		fis'16.( g32) fis4-!
+		g16.( a32) g4-!
+		d16.([\p es32)] d16-! g-! b-! g-!
+		es8-!\f fis,( g)
+		a16([ b32 c)] b8( a) %15
+		a16( b) r8 d(\p
+		a8)-! r d(
+		\scriptOut b)-! r g'(
+		fis) r fis(
+		g) r d(\f %20
+		a)-! r d(
+		\scriptOut b)-! r g'(
+		es16.) c32 \appoggiatura b8 a4
+		b'16 g d es c a
+		g4 \appoggiatura b32 a16( g) %25
+		g4 r8
+		d'8\p d4~
+		d8 c16 b a g
+		g8-! g4~
+		g8 g-! r16 d'-! %30
+		c8~ c16. d32 b16.([ c32)]
+		\appoggiatura b16 a8 g r16 d'-!
+		c8~ c16. d32 b16.([ c32)]
+		\appoggiatura b16 a8 g r
+		c4. %35
+		b
+		as4 g8
+		g( fis) r
+		f b4~
+		b8 a16 b c[ d] %40
+		es8 es, es
+		r d'16. b32 es16. c32
+		f8 f f
+		g g g
+		g g g %45
+		r16 f-! e( f) es( c)
+		b4.
+		h16( c h c h d)
+		c4.
+		c16( d c d c d) %50
+		c8-! c( es)
+		d16( b d f es c)
+		b4( c8)
+		b-! r f'(
+		\scriptOut d)-! r b'( %55
+		\scriptOut g)-! r es(
+		\scriptOut c)-! r a'(
+		\scriptOut b)-! r f(
+		\scriptOut d)-! r b'(
+		\scriptOut g)-! r es( %60
+		\scriptOut c)-! r a'(
+		\scriptOut b)-! r f(
+		\scriptOut d)-! r b'(
+		\scriptOut g)-! r es(
+		\scriptOut c)-! r a'( %65
+		\scriptOut b)-! r r
+		b, b b
+		a a a
+		as as as
+		g g g %70
+		h16( c h c h d)
+		c g c es d c
+		b!4( c8)
+		b16( c b c b d)
+		c8 c c %75
+		d16( es d es d f)
+		es8 es es
+		f16( g f g f g)
+		fis8 fis fis
+		g( f es) %80
+		d( es c)
+		b4.~
+		b8( d) c-!
+		b16.(\f c32) b4-!
+		es16.( f32) es4-! %85
+		a16.( b32) a4-!
+		b16.( c32) b4-!
+		b,16. c32 b16[ d f as]
+		g8-! a,!( b)
+		c16( d32 es) \appoggiatura d8 c4 %90
+		f16 a b f d f
+		\appoggiatura f32 g16 f32 es d8[ c]
+		b f d
+		\kneeBeam b f''\p f
+		f f f %95
+		f4 es16( d)
+		c8 h16( c h c)
+		d8 f4
+		\appoggiatura f16 es8 d d
+		d f4 %100
+		\appoggiatura f16 es8 d r
+		cis4.
+		c
+		h
+		b %105
+		a8 a a
+		a a a
+		a r a~\pocoF
+		a b16 a b c
+		d8-!\p d4~ %110
+		d8 c16 b a g
+		g8-! g4~
+		g8 g-! r16 d'-!
+		c8~ c16. d32 b16.[ c32]
+		\appoggiatura b16 a8 g r16 d'-! %115
+		c8~ c16. d32 b16.[ c32]
+		\appoggiatura b16 a8 g r
+		c4.
+		b
+		es %120
+		d
+		fis8 fis fis
+		g g g
+		g4 fis8
+		g r d( %125
+		a)-! r d(
+		b) r g'(
+		fis) r a(
+		g) r d(
+		a) r d( %130
+		b) r g'(
+		fis) r a(
+		g) r d(
+		a) r d(
+		b) r g'( %135
+		fis) r a(
+		g) r r
+		d d d
+		cis cis cis
+		c c c %140
+		b b b
+		es es es
+		es4 d16( c)
+		b8.( c16 a8)
+		g16( a g a g b) %145
+		a8 a a
+		b16( c b c b c)
+		h8 h h
+		c16( d c d c d)
+		cis8 cis cis %150
+		d d d
+		d( es c)
+		b4.~
+		b8( c a)
+		g'16( a g a g a) %155
+		fis8 fis fis
+		g16( a g a g a)
+		f!8 f f
+		es16( f es f es f)
+		e8 e e %160
+		d d d
+		d( es! c)
+		b4.~
+		b
+		b8-! b-! b-! %165
+		b( c a)
+		g16\f a b c d b
+		es8-! fis,( g)
+		a16( b32 c) \appoggiatura b8 a4
+		b'16 g d es c a %170
+		g4 \appoggiatura b32 a16( g)
+		g8 d b
+		g4 r8\fermata \bar "|." %173 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
