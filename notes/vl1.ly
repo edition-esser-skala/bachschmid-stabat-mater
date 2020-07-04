@@ -326,6 +326,98 @@ CuiusAnimamViolinoI = {
 	}
 }
 
+OQuamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 2/2 \tempoOQuam
+		r8 c'-!\p es([ c)] r c-! es([ c)]
+		r d-! f([ d)] r d-! f([ d)]
+		r es-!\f g([ es)] d( f) es( c)
+		h( c) d( c) h( as!) g( f)
+		es[-! c']-! es( c) r c-! es([ c)] %5
+		r d-! f([ d)] r d-! f([ d)]
+		r es-! g([ es)] d( f) es( c)
+		r g' g g g( f) f-! f-!
+		e4 c c'2~
+		c4 as f2 %10
+		d4 b b'2~
+		b4 g es2
+		r8 es( d es b' es, d es)
+		r es( d es c' es, d es)
+		r es( d es c' es, d es) %15
+		d2 r
+		as1\p
+		ges4( f) r b,
+		as'1
+		ges4( f) r2 %20
+		r8 as'( g! as) r as( g as)
+		r g!( fis g) r g( fis g)
+		r des( b' des,) r des( b' des,)
+		r c( as' c,) r c( as' c,)
+		b\f as'4 f as f8 %25
+		g b4 g b g8
+		es b4 es b es8~
+		es c4 es c es8
+		g,4 g f f
+		r8 b-! es([ b)] r b-! es([ b)] %30
+		r as-! b([ as)] r as-! b([ as)]
+		r as-! f'([ as,)] r as-! f'([ as,)]
+		r g-! as([ g)] r g-! as([ g)]
+		r4 b\p r b
+		r as r as %35
+		r as r as
+		r g r g
+		r b r b
+		r h r h
+		r c r c %40
+		r des r des
+		r c r c
+		r c r c
+		c2 d!4( c)
+		c2( h4) r %45
+		r8 d-! f([ d)] r d-! f([ d)]
+		r c-! es([ c)] r c-! es([ c)]
+		r h-! d([ h)] r h-! d([ h)]
+		r c-!\f es([ c)] r c-! es([ c)]
+		r d-! f([ d)] r d-! f([ d)] %50
+		e4 c c'2~
+		c4 as f2
+		d4 b b'2~
+		b4 g es2
+		d4 h as'2 %55
+		g4 es des2
+		c4 c, c'2
+		h r
+		d,2.(\p f4)
+		es( d) r g, %60
+		d'2.( f4)
+		es( d) r2
+		r8 f'( e f) r f( e f)
+		r es( d es) r es( d es)
+		r c( es c) r c( es c) %65
+		r g'( h g) r g( h g)
+		fis\f fis4 fis fis fis8(
+		g) h,4 g' h, g'8~
+		g c,4 c c c8~
+		c c4 c c c8~ %70
+		c4 c h h
+		c c,\p( d es)
+		f-! r d'( f,)
+		r es( f g)
+		as-! r c( as) %75
+		g-! r c( g)
+		f\f f'2 f4
+		es f g as
+		es es es es
+		d d d d %80
+		c2 g'8\p( e c b!)
+		\appoggiatura b as4 g2 b4
+		\appoggiatura b8 as4 g2 b4
+		\appoggiatura b8 as4-! as-! as-! as-!
+		g1\fermata \bar "|." %85 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

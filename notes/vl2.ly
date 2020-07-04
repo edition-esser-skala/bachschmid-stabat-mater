@@ -325,3 +325,95 @@ CuiusAnimamViolinoII = {
 		g4 r8\fermata \bar "|." %173 finis
 	}
 }
+
+OQuamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 2/2 \tempoOQuam
+		r8 es-!\p g([ es)] r es-! g([ es)]
+		r f-! as([ f)] r f-! d'([ f,)]
+		r c-!\f es([ g)] f( as) c,( es)
+		d( c) h( as!) g( f') es( d)
+		c-! es-! g([ es)] r es-! g([ es)] %5
+		r f-! as([ f)] r f-! d'([ f,)]
+		r c-! es([ g)] f( d) c( es)
+		c4 g' g,2
+		r4 e'' g b,!
+		as2 c4 as %10
+		f2 f'4 as,
+		g2 b4 g
+		r8 es( d es b' es, d es)
+		r es( d es c' es, d es)
+		ges4 ges2 ges4 %15
+		f2 r
+		f1\p
+		es4( d) r b
+		f'1
+		es4( d) r2 %20
+		r8 f( e f) r f( e f)
+		r es( d es) r es( d es)
+		r b( des b) r b( des b)
+		r as( c as) r as( c as)
+		b\f f''4 b, f' b,8~ %25
+		b g'4 b, g' b,8~
+		b es4 b es b8
+		c as4 c8 g es4 g8
+		es4 es d d
+		r8 g-! b([ g)] r g-! b([ g)] %30
+		r f-! g([ f)] r f-! g([ f)]
+		r f-! d'([ f,)] r f-! d'([ f,)]
+		r es-! f([ es)] r es-! f([ es)]
+		r4 g\p r g
+		r f r f %35
+		r f r f
+		r es r es
+		r es r es
+		r as r as
+		r g r g %40
+		r b r b
+		r as r g
+		r as r g
+		as( g) f( fis)
+		g d h g %45
+		r8 f'-! as([ f)] r f-! as([ f)]
+		r es-! g([ es)] r es-! g([ es)]
+		r f-! h([ f)] r f-! h([ f)]
+		r es-!\f g([ es)] r es-! g([ es)]
+		r f-! d'([ f,)] r f-! d'([ f,)] %50
+		r4 e g' b,!
+		as2 c4 as
+		f2 f'4 as,
+		g2 b4 es,
+		r f' d h %55
+		r c b g
+		as as, \appoggiatura f'8 es4 d8 es
+		<d g,>2 r
+		h2.(\p d4)
+		c( h) r g %60
+		h2.( d4)
+		c( h) r2
+		r8 d( cis d) r d( cis d)
+		r c( h c) r c( h c)
+		r fis-! fis-! fis-! r fis-! fis-! fis-! %65
+		r g( d' h) r h( d h)
+		c\f c4 c c c8(
+		h) d,4 h' d, h'8(
+		c) g g g g g g g
+		as as as f es es es es %70
+		d4 d d d
+		c2 r4 g\p
+		d'-! r f( d)
+		r c( d es)
+		f-! r as( f) %75
+		es-! r g( es)
+		d\f h'2 h4
+		c c2 c4~
+		c c c c
+		c c h h %80
+		c,8( h c d) e(\p c e g)
+		\appoggiatura g f4 e2 g4
+		\appoggiatura g8 f4 e2 g4
+		\appoggiatura g8 f4-! f-! f-! f-!
+		e1\fermata \bar "|." %85 finis
+	}
+}

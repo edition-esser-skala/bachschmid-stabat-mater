@@ -580,6 +580,186 @@ CuiusAnimamBassFigures = \figuremode {
 	r %173 finis
 }
 
+OQuamOrgano = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 2/2 \tempoOQuam
+		\mvTr c4\p-\solo r c r
+		c r h r
+		c2\f f4 fis
+		g2 g,
+		c4-\tutti r c r %5
+		c r h r
+		c r f r
+		g r g, r
+		c2 e
+		f as %10
+		b,! d
+		es! g
+		g,1
+		as
+		a %15
+		\mvTr b8(\p-\solo a b a) b( a b a)
+		b( a b a) b( a b a)
+		b( a b a) b( a b a)
+		b( a b a) b( a b a)
+		b( a b a) b( a b a) %20
+		b4 r b r
+		es r es r
+		g r g r
+		as r as r
+		\mvTr d,!\f-\tutti d d d %25
+		es es es es
+		g, g g g
+		as as a a
+		b b b b
+		es-\solo r es r %30
+		es r es r
+		d r d r
+		es r es r
+		es\p r es r
+		es r es r %35
+		d r d r
+		es r es r
+		g r g r
+		f r f r
+		es r es r %40
+		e r e r
+		f2( e)
+		f( e)
+		f as
+		g g, %45
+		h4 r h r
+		c r c r
+		d r d r
+		\mvTr c\f-\tutti r c r
+		c r h r %50
+		c2 e
+		f as
+		b,! d
+		es! g
+		f1 %55
+		es2 e
+		f fis
+		\mvTr g8(\p-\solo fis g fis) g( fis g fis)
+		g( fis g fis) g( fis g fis)
+		g( fis g fis) g( fis g fis) %60
+		g( fis g fis) g( fis g fis)
+		g( fis g fis) g( fis g fis)
+		g4 r g r
+		c, r c r
+		a r a r %65
+		g r g' r
+		\mvTr as!\f-\tutti as as as
+		g g f f
+		es es e e
+		f f fis fis %70
+		g g g g
+		c, \mvTr c\p-\solo c c
+		c c c c
+		c c c c
+		c c c c %75
+		c c c c
+		\mvTr g\f-\tuttiE g g g
+		c d es f
+		g g g g
+		g g g g %80
+		c, r c\p r
+		c r c r
+		c r c r
+		c c c c
+		c1\fermata \bar "|." %85 finis
+	}
+}
+
+OQuamBassFigures = \figuremode {
+	<5 3>1
+	<4 2>2 <6 5>
+	r <8 6>4 <7 5 [_!]>
+	<5 _!>1
+	r %5
+	<4 2>2 <6 5>
+	r <8 6>4 <7 5>
+	<6 4>2 <5 _!>
+	<8 _!> <6 5->
+	<_-> <[6]> %10
+	r <[6 5]>
+	r <[6]>
+	q1
+	r
+	<7- 5> %15
+	<5 3>
+	<7 5>
+	<6- 4>4 <5 3>2.
+	<7 5>1
+	<6- 4>4 <5 3>2. %20
+	<7>1
+	<_!>
+	<5->
+	<9>4 <8>2.
+	<6 5>1 %25
+	r
+	<6>
+	r2 <7 5>
+	<6 4> <5 3>
+	r1 %30
+	<4 2>
+	<6 5>
+	r
+	<5 3>
+	<\t \t>4 <4 2>2. %35
+	<6 5>1
+	<9 4>4 <8 3>2.
+	<6>1
+	<4! _->
+	<6> %40
+	<6>4 <7->2.
+	<5 3>2 <[6]>
+	r q
+	r \bo <6 [4!]>4 \bc <6\\ [3]>
+	<4>2 <_!> %45
+	<7 5>1
+	<5 3>
+	<6!>
+	<5 3>
+	<4 2>2 <6 5> %50
+	<_!> <6>4 <5->
+	<_->2 <[6]>
+	r <6>4 <5>
+	r2 <[6]>
+	<6 4! _->1 %55
+	<6>2 <7- 5->
+	<5 3> <7 5 [_!]>
+	<5 _!>1
+	<[7 _!]>
+	<6 4>4 <5 _!>2. %60
+	<7 [_!]>1
+	<6 4>4 <5 _!>2.
+	<[7 _!]>1
+	r
+	<6\\> %65
+	<_!>
+	<6\\>
+	<_!>2 <\t>
+	<6> <\t>
+	r <7 5 [_!]> %70
+	<5 4> <\t _!>
+	r1
+	<4 2>
+	<3 1>
+	<6 4> %75
+	<5 3>
+	<7 _!>
+	r2 <6>4 <\t>
+	<6 4>1
+	<5 4>2 <\t _!> %80
+	r <7- _!>
+	<6 4>4 <5 _!>2.
+	<6 4>4 <5 _!>2.
+	<6 4>1
+	<5 _!> %85 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

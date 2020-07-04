@@ -212,6 +212,127 @@ StabatMaterTenoreLyrics = \lyricmode {
 	us. %132 finis
 }
 
+OQuamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 2/2 \autoBeamOff \tempoOQuam
+		R1*4
+		\mvTr es2.\fE^\tutti es4 %5
+		f2 d
+		c as
+		g g
+		r4 g2 b!4
+		as2 as %10
+		r4 f2 as4
+		g2 g
+		r4 es'2 es4
+		es2 es
+		es2. es4 %15
+		d2 r
+		R1*4 %20
+		r4 \mvTr as2\pE^\solo as4
+		g!2 g
+		R1*2
+		\mvTr b4\fE^\tutti b b b %25
+		b2 b
+		es es
+		es es
+		es d
+		es r %30
+		R1*18 %48
+		\mvTr g,2.\fE^\tutti g4
+		as2 g %50
+		r4 g2 b!4
+		as2 as
+		r4 f2 as4
+		g2 g
+		d'2. d4 %55
+		c c b! b
+		f'2( es)
+		d r
+		\mvTr h2.\pE^\solo d4
+		c( h) h2 %60
+		h2. d4
+		c( h) h2
+		r4 f'2 f4
+		es2 es
+		R1*2 %66
+		\mvTr c4\fE^\tutti c c c
+		d2 d
+		es g
+		f es %70
+		d2. d4
+		c2 r
+		R1*2
+		\mvTr as1\pE^\solo %75
+		g
+		R
+		\mvTr c4\fE^\tutti c c c
+		es1(
+		d2.) d4 %80
+		c2 r
+		R1*3
+		R1\fermataMarkup \bar "|." %85 finis
+	}
+}
+
+OQuamTenoreLyrics = \lyricmode {
+	\xE O quam %5
+	tri -- stis
+	et af --
+	fli -- cta
+	fu -- it
+	il -- la %10
+	be -- ne --
+	di -- cta
+	ma -- ter
+	u -- ni --
+	ge -- ni -- %15
+	ti. \x
+
+	Fu -- it %21
+	il -- la,
+
+	\xE il -- la be -- ne -- %25
+	di -- cta
+	ma -- ter
+	u -- ni --
+	ge -- ni --
+	ti. %30
+
+	O quam %49
+	tri -- stis %50
+	et af --
+	fli -- cta,
+	et af --
+	fli -- cta
+	fu -- it %55
+	il -- la be -- ne --
+	di --
+	cta. \x
+	O quam
+	tri -- stis %60
+	et af --
+	fli -- cta
+	fu -- it
+	il -- la,
+
+	il -- la be -- ne --
+	di -- cta,
+	ma -- ter
+	u -- ni -- %70
+	ge -- ni --
+	ti,
+
+	ma -- %75
+	ter,
+
+	ma -- ter u -- ni --
+	ge --
+	ni -- %80
+	ti. %81 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

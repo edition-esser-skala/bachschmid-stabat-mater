@@ -212,6 +212,161 @@ StabatMaterAltoLyrics = \lyricmode {
 	us. %132 finis
 }
 
+OQuamAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 2/2 \autoBeamOff \tempoOQuam
+		R1*4
+		\mvTr g'2.\fE^\tutti g4 %5
+		as2 g
+		g f4( es)
+		es2 d
+		e g
+		as f %10
+		d f
+		g es
+		g b
+		as as
+		ges2. ges4 %15
+		f2 r
+		\mvTr f2.\pE^\solo f4
+		es( d) d2
+		f2. f4
+		es( d) d2 %20
+		R1*2
+		r4 b'2 b4
+		b( as) as2
+		\mvTr as4\fE^\tutti as as as %25
+		g2 g
+		b b
+		as g
+		g f
+		es r %30
+		R1*3
+		\mvTr g2.\pE^\solo g4
+		g( f) f2 %35
+		f2. f4
+		f( es) es2
+		R1
+		r4 as2 as4
+		g g g g %40
+		g2 g
+		as g
+		as g
+		as4( g) f( fis)
+		g4. g8 g4 r %45
+		R1*3
+		\mvTr es2.\fE^\tutti es4
+		f2 f %50
+		e2. g4
+		as2 f
+		d2. f4
+		g2 es
+		as2. as4 %55
+		g g g g
+		as2( a)
+		g r
+		\mvTr d2.\pE^\solo f4
+		es( d) d2 %60
+		d2. f4
+		es( d) d2
+		R1
+		r4 c'2 c4
+		fis,2 fis %65
+		R1
+		\mvTr fis4\fE^\tutti fis fis fis
+		g2 g
+		g g
+		as a %70
+		g2. g4
+		es2 r
+		\mvTr d1\pE^\solo
+		c
+		R1*2 %76
+		\mvTr f2.\fE^\tutti f4
+		es( f) g( as)
+		g1~
+		g2. g4 %80
+		g2 r
+		R1*3
+		R1\fermataMarkup \bar "|." %85 finis
+	}
+}
+
+OQuamAltoLyrics = \lyricmode {
+	\xE O quam %5
+	tri -- stis
+	et af --
+	fli -- cta
+	fu -- it
+	il -- la %10
+	be -- ne --
+	di -- cta
+	ma -- ter
+	u -- ni --
+	ge -- ni -- %15
+	ti. \x
+	O quam
+	tri -- stis
+	et af --
+	fli -- cta %20
+
+	fu -- it %23
+	il -- la,
+	\xE il -- la be -- ne -- %25
+	di -- cta
+	ma -- ter
+	u -- ni --
+	ge -- ni --
+	ti. \x %30
+
+	O quam %34
+	tri -- stis %35
+	et af --
+	fli -- cta
+
+	fu -- it
+	il -- la be -- ne -- %40
+	di -- cta
+	ma -- ter,
+	ma -- ter
+	u -- ni --
+	ge -- ni -- ti. %45
+
+	\xE O quam %49
+	tri -- stis %50
+	et af --
+	fli -- cta,
+	et af --
+	fli -- cta
+	fu -- it %55
+	il -- la be -- ne --
+	di --
+	cta. \x
+	O quam
+	tri -- stis %60
+	et af --
+	fli -- cta
+
+	fu -- it
+	il -- la, %65
+
+	il -- la be -- ne --
+	di -- cta,
+	ma -- ter
+	u -- ni -- %70
+	ge -- ni --
+	ti,
+	ma --
+	ter,
+
+	ma -- ter %77
+	u -- ni --
+	ge --
+	ni -- %80
+	ti. %81 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

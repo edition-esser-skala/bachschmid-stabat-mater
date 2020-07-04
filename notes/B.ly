@@ -207,6 +207,125 @@ StabatMaterBassoLyrics = \lyricmode {
 	us. %132 finis
 }
 
+OQuamBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 2/2 \tempoOQuam
+		R1*4
+		\mvTr c2.\fE^\tutti c4 %5
+		c2 h
+		c f
+		g g,
+		c e
+		f as %10
+		b,! d
+		es! g
+		g, g
+		as as
+		a2. a4 %15
+		b2 r
+		R1*3
+		r4 \mvTr b'2\pE^\solo b4 %20
+		d,2 d
+		R1*2
+		r4 \mvTr as'2\fE^\tutti as4
+		d,! d d d %25
+		es2 es
+		g, g
+		as a
+		b2. b4
+		es2 r %30
+		R1*18 %48
+		\mvTr c2.\fE^\tutti c4
+		c2 h %50
+		c e
+		f as
+		b,! d
+		es! g
+		f2. f4 %55
+		es es e e
+		f2( fis)
+		g r
+		R1*3 %61
+		r4 \mvTr g2\fE^\tutti g4
+		h,2 h
+		R1*2 %65
+		r4 \mvTr g'2\fE^\tutti g4
+		as! as as as
+		g2 f
+		es e
+		f fis %70
+		g2. g4
+		c,2 r
+		R1*2
+		\mvTr f1\pE^\solo %75
+		es
+		\mvTr d2.\fE^\tutti d4
+		c( d) es( f)
+		g1~
+		g2. g4 %80
+		c,2 r
+		R1*3
+		R1\fermataMarkup \bar "|." %85 finis
+	}
+}
+
+OQuamBassoLyrics = \lyricmode {
+	O quam %5
+	tri -- stis
+	et af --
+	fli -- cta
+	fu -- it
+	il -- la %10
+	be -- ne --
+	di -- cta
+	ma -- ter
+	u -- ni --
+	ge -- ni -- %15
+	ti.
+
+	Fu -- it %20
+	il -- la,
+
+	fu -- it %24
+	il -- la be -- ne -- %25
+	di -- cta
+	ma -- ter
+	u -- ni --
+	ge -- ni --
+	ti. %30
+
+	O quam %49
+	tri -- stis %50
+	et af --
+	fli -- cta,
+	et af --
+	fli -- cta
+	fu -- it %55
+	il -- la be -- ne --
+	di --
+	cta.
+
+	Fu -- it %62
+	il -- la,
+
+	fu -- it %66
+	il -- la be -- ne --
+	di -- cta,
+	ma -- ter
+	u -- ni -- %70
+	ge -- ni --
+	ti,
+
+	ma -- %75
+	ter,
+
+	ma -- ter u -- ni --
+	ge --
+	ni -- %80
+	ti. %81 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

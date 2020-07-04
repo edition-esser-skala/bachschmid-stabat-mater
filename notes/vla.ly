@@ -325,3 +325,95 @@ CuiusAnimamViola = {
 		g4 r8\fermata \bar "|." %173 finis
 	}
 }
+
+OQuamViola = {
+	\relative c' {
+		\clef alto
+		\key c \minor \time 2/2 \tempoOQuam
+		c4\p r c r
+		c r h r
+		c2\f f4( fis)
+		g2 g,
+		c4 r c r
+		c r h r
+		c r f, r
+		g r g' r
+		r c, e g
+		f as as,2
+		r4 b d f
+		es g g,2
+		b1
+		as
+		a
+		b8(\p a b a) b( a b a)
+		b( a b a) b( a b a)
+		b( a b a) b( a b a)
+		b( a b a) b( a b a)
+		b( a b a) b( a b a) %20
+		b4 r b r
+		es, r es r
+		g r g r
+		as r as r
+		f'\f d d d %25
+		es es es es
+		g, g g g
+		as as a a
+		b b b b
+		es r es r %30
+		c r c r
+		b r b r
+		b r b r
+		es\p r es r
+		c r c r %35
+		b r b r
+		b r b r
+		es r es r
+		d r d r
+		es r es r %40
+		e r e r
+		f2( e)
+		f( e)
+		f as,
+		g g' %45
+		h,4 r h r
+		c r c r
+		d r d r
+		c\f r c r
+		c r h r %50
+		r c e g
+		f as as,2
+		r4 b d f
+		es g g,2
+		f f' %55
+		es e
+		f, fis
+		g8(\p fis g fis) g( fis g fis)
+		g( fis g fis) g( fis g fis)
+		g( fis g fis) g( fis g fis) %60
+		g( fis g fis) g( fis g fis)
+		g( fis g fis) g( fis g fis)
+		g4 r g r
+		c, r c r
+		a' r a r %65
+		g r g' r
+		as8\f as4 as as as8
+		g4 g f f
+		es es e e
+		f f fis fis %70
+		g g g g
+		c, c\p c c
+		c c c c
+		c c c c
+		c c c c %75
+		c c c c
+		g\f g' g g
+		c, d es f
+		g g g g
+		g g g g %80
+		c, r c\p r
+		c r c r
+		c r c r
+		c-! c-! c-! c-!
+		c1\fermata \bar "|." %85 finis
+	}
+}

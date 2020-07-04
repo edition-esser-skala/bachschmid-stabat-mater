@@ -484,6 +484,153 @@ CuiusAnimamSopranoLyrics = \lyricmode {
 	us. %168 finis
 }
 
+OQuamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 2/2 \autoBeamOff \tempoOQuam
+		R1*4
+		\mvTr c'2.\fE^\tutti c4 %5
+		d2 d
+		es d4( c)
+		c2 h
+		c2. c4
+		c2 c %10
+		b2. b4
+		b2 b
+		b2. b4
+		c2 c
+		c2. c4 %15
+		f,2 r
+		\mvTr as2.\pE^\solo as4
+		ges( f) f2
+		as2. as4
+		ges( f) f2 %20
+		R1
+		r4 es'2 es4
+		des2 des
+		R1
+		\mvTr f4\fE^\tutti f f f %25
+		es2 es
+		b b
+		c c
+		b2. b4
+		b2 r %30
+		R1*3
+		\mvTr b2.\pE^\solo b4
+		b( as) as2 %35
+		as2. as4
+		as( g) g2
+		b2. b4
+		h2 h
+		c2. c4 %40
+		c( des) des2
+		c1
+		c
+		c2 d!4( c)
+		c4. h8 h4 r %45
+		R1*3
+		\mvTr c2.\fE^\tutti c4
+		d2 d %50
+		c2. c4
+		c2 c
+		b2. b4
+		b2 b
+		h2. h4 %55
+		c c des des
+		c1
+		h2 r
+		R1*6 %64
+		r4 \mvTr c2\pE^\solo c4 %65
+		h2 h
+		\mvTr c4\fE^\tutti c c c
+		h2 h
+		c c
+		c2. c4 %70
+		c2 h
+		c r
+		\mvTr f,1\pE^\solo
+		es
+		R1*2 %76
+		\mvTr h'2.\fE^\tutti h4
+		c2 c
+		c1~
+		c2 h %80
+		c r
+		R1*3
+		R1\fermataMarkup \bar "|." %85 finis
+	}
+}
+
+OQuamSopranoLyrics = \lyricmode {
+	O quam %5
+	tri -- stis
+	et af --
+	fli -- cta
+	fu -- it
+	il -- la %10
+	be -- ne --
+	di -- cta
+	ma -- ter
+	u -- ni --
+	ge -- ni -- %15
+	ti.
+	O quam
+	tri -- stis
+	et af --
+	fli -- cta %20
+
+	fu -- it
+	il -- la,
+
+	il -- la be -- ne -- %25
+	di -- cta
+	ma -- ter
+	u -- ni --
+	ge -- ni --
+	ti. %30
+
+	O quam %34
+	tri -- stis %35
+	et af --
+	fli -- cta
+	fu -- it
+	il -- la
+	be -- ne -- %40
+	di -- cta
+	ma --
+	ter
+	u -- ni --
+	ge -- ni -- ti. %45
+
+	O quam %49
+	tri -- stis %50
+	et af --
+	fli -- cta,
+	et af --
+	fli -- cta
+	fu -- it %55
+	il -- la be -- ne --
+	di --
+	cta.
+
+	Fu -- it %65
+	il -- la,
+	il -- la be -- ne --
+	di -- cta,
+	ma -- ter
+	u -- ni -- %70
+	ge -- ni --
+	ti,
+	ma --
+	ter,
+
+	ma -- ter %77
+	u -- ni --
+	ge --
+	ni -- %80
+	ti. %81 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

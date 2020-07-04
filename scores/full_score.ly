@@ -7,8 +7,8 @@
 \include "../definitions.ly"
 
 \paper {
-	#(set-paper-size "a4" 'landscape)
-	indent = 1\cm
+	% #(set-paper-size "a4" 'landscape)
+	% indent = 1\cm
 	% #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
@@ -85,56 +85,119 @@
 	% 		\midi { \tempo 2 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "II"
+	% 		title = "C U I U S   A N I M A M   G E M E N T E M"
+	% 	}
+	% 	\tocSection "2" "Cuius animam gementem"
+	% 	\paper {
+	% 		top-system-spacing.basic-distance = #15
+	% 		top-system-spacing.minimum-distance = #15
+	% 		markup-system-spacing.basic-distance = #10
+	% 		markup-system-spacing.minimum-distance = #10
+	% 		systems-per-page = #2
+	% 	}
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\CuiusAnimamViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\CuiusAnimamViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\CuiusAnimamViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff \with { \smallGroupDistance } <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \CuiusAnimamSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \CuiusAnimamSopranoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\CuiusAnimamOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \CuiusAnimamBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4. = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "II"
-			title = "C U I U S   A N I M A M   G E M E N T E M"
+			number = "III"
+			title = "O   Q U A M   T R I S T I S   E T   A F F L I C T A"
 		}
-		\tocSection "2" "Cuius animam gementem"
-		\paper {
-			top-system-spacing.basic-distance = #15
-			top-system-spacing.minimum-distance = #15
-			markup-system-spacing.basic-distance = #10
-			markup-system-spacing.minimum-distance = #10
-			systems-per-page = #2
-		}
+		% \tocSection "3" "O quam tristis et afflicta"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
+				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\CuiusAnimamViolinoI
+							\OQuamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\CuiusAnimamViolinoII
+							\OQuamViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\CuiusAnimamViola
+						\OQuamViola
 					}
 				>>
-				\new ChoirStaff \with { \smallGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \CuiusAnimamSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \OQuamSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \CuiusAnimamSopranoLyrics
+					\new Lyrics \lyricsto Soprano \OQuamSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \OQuamAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \OQuamAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \OQuamTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \OQuamTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \OQuamBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \OQuamBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\CuiusAnimamOrgano
+						\OQuamOrgano
 					}
 				>>
-				\new FiguredBass { \CuiusAnimamBassFigures }
+				\new FiguredBass { \OQuamBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 2 = 50 }
 		}
 	}
 }
