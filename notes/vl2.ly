@@ -699,3 +699,125 @@ ViditSuumViolinoII = {
 		a2-! r\fermata \bar "|." %67 finis
 	}
 }
+
+EiaMaterViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \tempoEiaMater
+		b'8-!\f b4.
+		f'8-! f4.
+		d16( es) es4 g16( es)
+		es( f) d8-! r16 d( f d)
+		h( c) c4 es16( c) %5
+		c( d) b8-! r4
+		f-!\p f-!
+		f-! f-!
+		a'16-!\f a( g f) a-! a( g f)
+		b8-! d,16.([\p es32)] d16.( es32) d16.( es32) %10
+		d4( c)
+		b8-! d16.([\f es32)] d16.( es32) d16.( es32)
+		d16.( es32) d4 c8-\parenthesize-!
+		b-! f-! d-! f-!
+		b,-! d'\p d d %15
+		r c c c
+		r b b b
+		r a a a
+		r g g g
+		r b b b %20
+		b b b b
+		a a b b
+		a a4 b8
+		\appoggiatura c16 b8 a a a
+		r a r a %25
+		r g r g
+		r c, r c'
+		c4 r
+		a,( b)
+		a( b) %30
+		a16-! a'( gis a) b-! b( a b)
+		c-! c( h c) d-! d( cis d)
+		f,8-! f4( g16 b,)
+		a4 r
+		d32(\mf c16.) c4.\p %35
+		b32(\mf a16.) a4.\p
+		b8 r b' r
+		r a,( b c)
+		d32(\mf c16.) c4.\p
+		b32(\mf a16.) a4.\p %40
+		a'4 h
+		c r8\fermata c
+		a16-! a-! a( c) b-! b-! b( c)
+		a-! a-! a( c) b-! b-! b( c)
+		a-! a( gis a) b-! b( a b) %45
+		c-! c( h c) d-! d( cis d)
+		a8-! a4( b16 g)
+		f4 r
+		a( h)
+		c8 r c, r %50
+		a4( h)
+		c r
+		a'16-! a-! a( c) b-! b-! b( c)
+		a-! a-! a( c) b-! b-! b( c)
+		a-! a( gis a) b-! b( a b) %55
+		c-! c( h c) d-! d( cis d)
+		f,8 f' f f
+		f f e e
+		f4 r
+		r r8 c %60
+		f,16-! f-! f-! f-! f-! f-! f( g)
+		es!-! es-! es-! es-! es-! es-! es( f)
+		d8 d d d
+		b' b b b
+		as as as as %65
+		as g g g
+		r g r g
+		r g r g
+		r f r f
+		r f r f %70
+		r f r f
+		r ges r ges
+		r g r g
+		c,4 r
+		c( des) %75
+		c8 b4 a8~
+		a b4 c8~
+		c b4 a8~
+		a4-! r
+		a( b) %80
+		a8 b4 c8~
+		c des4 es8~
+		es-! es-! es-! es-!
+		des des c c
+		b d'!4( b8) %85
+		r a4( c8)
+		r d4( b8)
+		r a4( c8)
+		r d,( es f)
+		g( es) f( d) %90
+		es( c) d( b)
+		g'4 g
+		c, r8\fermata f
+		d16-! d-! d( f) es-! es-! es( f)
+		d-! d-! d( f) es-! es-! es( f) %95
+		d-! d( cis d) es-! es( d es)
+		f-! f( e f) g-! g( fis g)
+		d8-! d4( es16 c)
+		b4 r
+		c'-! c,-! %100
+		b-! r
+		c'-! c,-!
+		b-! r8 f'
+		d16-! d-! d( f) es-! es-! es( f)
+		d-! d-! d( f) es-! es-! es( c) %105
+		d-! d( cis d) es-! es( d es)
+		f-! f( e f) g-! g( fis g)
+		b8 b b b
+		b b a a
+		b-! d16.( es32) d16.( es32) d16.( es32) %110
+		d4.( c8)
+		b-! d16.([\f es32)] d16.( es32) d16.( es32)
+		d8 d,4 c8-\parenthesize-!
+		b-! f'-! d-! f-!
+		b,4-! r\fermata \bar "|."
+	}
+}

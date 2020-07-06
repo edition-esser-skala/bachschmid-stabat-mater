@@ -691,3 +691,125 @@ ViditSuumViola = {
 		f2-! r\fermata \bar "|." %67 finis
 	}
 }
+
+EiaMaterViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key b \major \time 2/4 \tempoEiaMater
+		b'8\f b b b
+		a a a a
+		g g g g
+		f f f f
+		es es es es %5
+		es d d4
+		a(\p b)
+		es( d)
+		c8\fE a' c c,
+		d4 r %10
+		b(\p c)
+		d-! r
+		f8\f f f, f
+		b4 r
+		b'8\p b b b %15
+		a a a a
+		g g g g
+		f f f f
+		es es es es
+		es d d4 %20
+		es8 es es es
+		es es d d
+		c c b b
+		f' f f f
+		f r f r %25
+		f r f r
+		e r e r
+		f4 r
+		f f
+		f f %30
+		f8 f4 g8~
+		g a4 b8
+		c c c, c
+		f f f f
+		f f f f %35
+		f f f f
+		f f f f
+		f f f f
+		f f f f
+		f f f f %40
+		f e d4
+		c r8\fermata r
+		c c4 c8~
+		c c4 c8~
+		c f4 g8~ %45
+		g a4 b8
+		c4 c,
+		f r
+		d2(
+		c8) r c r %50
+		d r d r
+		c4 r
+		c8 c4 c8~
+		c c4 c8~
+		c f4 g8~ %55
+		g a4 b8
+		c c c c
+		c, c c c
+		f4 r8 f
+		c'4( a) %60
+		f( b,)
+		c( a)
+		b8 b b b
+		b b b b
+		b b b b8 %65
+		h h h h
+		h r h r
+		c r c r
+		a r a r
+		b! r b r %70
+		b r b r
+		es r es r
+		e r e r
+		f4 r
+		a,( b) %75
+		f-! f-!
+		f-! f-!
+		f-! f-!
+		f-! r
+		f2~ %80
+		f4 r
+		R2
+		es2(
+		\scriptOut f4)-! f-!
+		b8 r b r %85
+		b r b r
+		b r b r
+		b r b r
+		b r b r
+		R2 %90
+		r4 b
+		es( e)
+		f r8\fermata r
+		f, f4 f8~
+		f f4 f8( %95
+		b) b4 c8~
+		c d4 es8
+		f4 f
+		b,8 r b r
+		a4( f) %100
+		b8 r b r
+		a4( f)
+		b-! r
+		f8 f4 f8~
+		f f4 f8 %105
+		b b4 c8~
+		c d4 es8
+		f f f f
+		f, f f f
+		b4 r %110
+		f'8-! f4( es8)
+		d4 r
+		b'8\fE b4 f8
+		b-! f-! d-! f-!
+		b,4 r\fermata \bar "|." %115 finis
+	}
+}

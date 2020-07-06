@@ -247,6 +247,8 @@ rf   = \dynScript "rf"  ##f
 rfE  = \dynScript "rf"  ##t
 rfz  = \dynScript "rfz" ##f
 rfzE = \dynScript "rfz" ##t
+msf  = \dynScript "msf" ##f
+msfE = \dynScript "msf" ##t
 
 piuF   = \dynScriptPrefix "più"  "f" ##f
 piuFE  = \dynScriptPrefix "più"  "f" ##t
@@ -648,6 +650,7 @@ tempoOQuam = \tempoMarkup "Adagio"
 tempoQuaeMaerebat = \tempoMarkup "Andante con moto"
 tempoQuisEst = \tempoMarkup "Largo"
 tempoViditSuum = \tempoMarkup "Andante moderato"
+tempoEiaMater = \tempoMarkup "Andante ma non troppo"
 
 
 \include "notes/vl1.ly"

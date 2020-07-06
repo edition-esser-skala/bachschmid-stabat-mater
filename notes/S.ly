@@ -714,6 +714,197 @@ QuisEstSopranoLyrics = \lyricmode {
 	tum. %44 finis
 }
 
+EiaMaterSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \autoBeamOff \tempoEiaMater
+		R2*14 %14
+		\mvTr b'8\pE^\soloE b4. %15
+		\appoggiatura g'16 f8 f4.
+		es g16([ es)]
+		es([ d)] d8 r4
+		c4. es16([ c)]
+		c([ b)] b8 r4 %20
+		g'4. b,8
+		\appoggiatura b a4 b
+		es4. d8
+		\appoggiatura es16 d8 c r4
+		c4. c8 %25
+		c16([ h)] h4 g'8
+		g \appoggiatura f16 e8 \appoggiatura d16 c8. b16
+		\appoggiatura b8 a4 r
+		R2*2 %30
+		a4 b
+		c d
+		f,4. g8
+		f4 r
+		b32([ a16.)] a4. %35
+		g32([ f16.)] f4.
+		d'4~ d16[ b] f'([ d)]
+		h8 c r4
+		b32([ a16.)] a4.
+		g32([ f16.)] f4. %40
+		f'4. h,8
+		\appoggiatura d16 c8([\fermata h16 c)] c8 r
+		R2*2
+		a4 b %45
+		c d
+		f,4. g8
+		f4 r
+		f'4. h,8
+		\appoggiatura d16 c8 c r4 %50
+		f4. h,8
+		c4 r
+		R2*2
+		a4 b %55
+		c d
+		c2~
+		c4. g8
+		f4 r
+		R2*3 %62
+		b8 b4.
+		d8 d4.
+		f4. as,8 %65
+		as16([ g)] g8 r4
+		d'4. f8
+		\appoggiatura f16 e8 e4.
+		es4. f8
+		\appoggiatura es16 d8 d4. %70
+		des4. des8
+		\appoggiatura des c4 c
+		c4. b8
+		\appoggiatura b a4 r
+		R2 %75
+		a4 b
+		c des
+		es des
+		c r
+		R2 %80
+		c4 des
+		es f
+		ges2(
+		f4) a,
+		b r %85
+		c8 c4( es8)
+		d!16([ c)] b8 r4
+		c4. es8
+		d16([ c)] b8 r4
+		es d %90
+		g f
+		es8([ d)] c([ b)]
+		a8([\fermata g16 f)] f8 r
+		R2*2 %95
+		d'4 es
+		f g
+		b,4. c8
+		b4 r
+		es4. a,8 %100
+		\appoggiatura c16 b8 b r4
+		es4. a,8
+		\appoggiatura c8 b4 r
+		R2*2 %105
+		d4 es
+		f g
+		f2~
+		f4. c8
+		b4 r %110
+		R2*4
+		R2\fermataMarkup \bar "|." %115 finis
+	}
+}
+
+EiaMaterSopranoLyrics = \lyricmode {
+	E -- ia, %15
+	ma -- ter,
+	fons a --
+	mo -- ris,
+	fons a --
+	mo -- ris, %20
+	me sen --
+	ti -- re
+	vim do --
+	lo -- ris
+	fac, ut %25
+	te -- cum, ut
+	te -- cum lu --
+	ge -- am,
+
+	fac, ut %31
+	te -- cum
+	lu -- ge --
+	am.
+	E -- ia, %35
+	ma -- ter,
+	fons __ a --
+	mo -- ris,
+	me sen --
+	ti -- re %40
+	vim do --
+	lo -- ris
+
+	fac, ut %45
+	te -- cum
+	lu -- ge --
+	am,
+	fac, ut
+	te -- cum %50
+	lu -- ge --
+	am,
+
+	fac, ut %55
+	te -- cum
+	lu --
+	ge --
+	am.
+
+	E -- ia, %63
+	ma -- ter,
+	fons a -- %65
+	mo -- ris,
+	me sen --
+	ti -- re
+	vim do --
+	lo -- ris %70
+	fac, ut
+	te -- cum
+	lu -- ge --
+	am,
+	%75
+	fac, ut
+	te -- cum
+	lu -- ge --
+	am,
+	%80
+	fac, ut
+	te -- cum
+	lu --
+	ge --
+	am. %85
+	E -- ia, __
+	ma -- ter,
+	fons a --
+	mo -- ris,
+	me sen -- %90
+	ti -- re
+	vim do --
+	lo -- ris
+
+	fac, ut %96
+	te -- cum
+	lu -- ge --
+	am,
+	fac, ut %100
+	te -- cum
+	lu -- ge --
+	am,
+
+	fac, ut %106
+	te -- cum
+	lu --
+	ge --
+	am. %110 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

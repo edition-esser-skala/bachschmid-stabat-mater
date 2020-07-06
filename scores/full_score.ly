@@ -315,12 +315,64 @@
 	% 		\midi { \tempo 4 = 50 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "VIII"
+	% 		title = "V I D I T   S U U M   D U L C E M   N A T U M"
+	% 	}
+	% 	\tocSection "8" "Vidit suum dulcem natum"
+	% 	\paper {
+	% 		top-system-spacing.basic-distance = #15
+	% 		top-system-spacing.minimum-distance = #15
+	% 		markup-system-spacing.basic-distance = #10
+	% 		markup-system-spacing.minimum-distance = #10
+	% 		systems-per-page = #2
+	% 	}
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\ViditSuumViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\ViditSuumViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\ViditSuumViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff \with { \smallGroupDistance } <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \ViditSuumTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \ViditSuumTenoreLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\ViditSuumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \ViditSuumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "VIII"
-			title = "V I D I T   S U U M   D U L C E M   N A T U M"
+			number = "IX"
+			title = "E I A,   M A T E R,   F O N S   A M O R I S"
 		}
-		\tocSection "8" "Vidit suum dulcem natum"
+		% \tocSection "9" "Eia, mater, fons amoris"
 		\paper {
 			top-system-spacing.basic-distance = #15
 			top-system-spacing.minimum-distance = #15
@@ -335,36 +387,36 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\ViditSuumViolinoI
+							\EiaMaterViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\ViditSuumViolinoII
+							\EiaMaterViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\ViditSuumViola
+						\EiaMaterViola
 					}
 				>>
 				\new ChoirStaff \with { \smallGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \ViditSuumTenoreNotes }
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \EiaMaterSopranoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \ViditSuumTenoreLyrics
+					\new Lyrics \lyricsto Soprano \EiaMaterSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\ViditSuumOrgano
+						\EiaMaterOrgano
 					}
 				>>
-				\new FiguredBass { \ViditSuumBassFigures }
+				\new FiguredBass { \EiaMaterBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }
