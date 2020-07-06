@@ -647,6 +647,7 @@ tempoCuiusAnimam = \tempoMarkup "Allegro"
 tempoOQuam = \tempoMarkup "Adagio"
 tempoQuaeMaerebat = \tempoMarkup "Andante con moto"
 tempoQuisEst = \tempoMarkup "Largo"
+tempoViditSuum = \tempoMarkup "Andante moderato"
 
 
 \include "notes/vl1.ly"

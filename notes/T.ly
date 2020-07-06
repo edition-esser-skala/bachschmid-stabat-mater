@@ -393,6 +393,123 @@ QuisEstTenoreLyrics = \lyricmode {
 	tum. %44 finis
 }
 
+ViditSuumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \autoBeamOff \tempoViditSuum
+		R1*7 %7
+		\mvTr d4.\pE^\solo f8 e16([ d)] d4.
+		d16([ cis] e4) g,8 \appoggiatura a16 g8 f r4
+		d'4. d8 cis([ d)] d4 %10
+		d4. d8 cis([ d)] d4
+		b4. b8 a4 a
+		gis4. gis8 a4 r
+		R1*2 %15
+		c4. c8 cis16([ d)] d4.
+		c16([ b)] b4. b16([ a)] a4.
+		f'4. es8 cis([ d)] d r
+		f4. es8 cis([ d)] d r
+		f4. es8 d c4( b8) %20
+		b4. a8 g4 r
+		b4. a16([ g)] \appoggiatura g f8 f r4
+		b4. a16([ g)] \appoggiatura g f8 f r4
+		r r8 f16 f des'8 des4( c8)
+		h h4. g'16([ b,)] b4. %25
+		a!8 r a r a r a r
+		a2 as
+		g2. g4
+		f r r2
+		R1*3 %32
+		c'4. c8 c16([ d)] c4.
+		c8( es4) g,8 \appoggiatura a16 g8 fis r4
+		c'!4. c8 h([ c)] c4 %35
+		c4. c8 h8([ c)] c4
+		c4. c8 b([ d)] es([ c)]
+		b4~ b16[ c] a8 g4 r
+		R1*2 %40
+		d'4. f8 e16([ d)] d4.
+		d16[( cis] e4) g,8 \appoggiatura a16 g8 f r4
+		d'4. d8 d([ cis)] cis4
+		c4. c8 c([ h)] h4
+		b4. b8 a4 a %45
+		gis4. gis8 a4 r
+		g'4. f16([ e)] \appoggiatura e d8 d r4
+		g4. f16([ e)] \appoggiatura e d8 d r4
+		r r8 d16 d \appoggiatura c b8 b4( a8)
+		gis gis4. e'16([ g,)] g4. %50
+		fis8 r fis r fis r fis r
+		fis2 f
+		e2. e4
+		d r r2
+		R1 %55
+		r2 g'4. f16([ e)]
+		\appoggiatura e d8 d r4 g4. f16([ e)]
+		\appoggiatura e d8 d r4 r r8 d16 d
+		\appoggiatura c b8 b4( a8) gis gis4.
+		e'16([ g,)] g4. fis8 r fis r %60
+		fis r fis r fis2
+		f e~
+		e4. e8 d4 r
+		R1*3 %66
+		R1\fermataMarkup \bar "|." %67 finis
+	}
+}
+
+ViditSuumTenoreLyrics = \lyricmode {
+	Vi -- dit su -- um %8
+	dul -- cem na -- tum
+	mo -- ri -- en -- tem, %10
+	de -- so -- la -- tum,
+	dum e -- mi -- sit
+	spi -- ri -- tum.
+
+	Vi -- dit su -- um %16
+	dul -- cem na -- tum
+	mo -- ri -- en -- tem,
+	de -- so -- la -- tum,
+	dum e -- mi -- sit __ %20
+	spi -- ri -- tum.
+	Vi -- dit su -- um
+	dul -- cem na -- tum
+	mo -- ri -- en -- tem, __
+	de -- so -- la -- tum, %25
+	dum e -- mi -- sit
+	spi -- _
+	_ ri --
+	tum.
+
+	Vi -- dit su -- um %33
+	dul -- cem na -- tum
+	mo -- ri -- en -- tem, %35
+	de -- so -- la -- tum,
+	dum e -- mi -- sit
+	spi -- ri -- tum.
+
+	Vi -- dit su -- um %41
+	dul -- cem na -- tum
+	mo -- ri -- en -- tem,
+	de -- so -- la -- tum,
+	dum e -- mi -- sit %45
+	spi -- ri -- tum.
+	Vi -- dit su -- um
+	dul -- cem na -- tum
+	mo -- ri -- en -- tem, __
+	de -- so -- la -- tum, %50
+	dum e -- mi -- sit
+	spi -- _
+	_ ri --
+	tum.
+	%55
+	Vi -- dit
+	su -- um dul -- cem
+	na -- tum mo -- ri --
+	en -- tem, de -- so --
+	la -- tum, dum e -- %60
+	mi -- sit spi --
+	_ _
+	ri -- tum. %63 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

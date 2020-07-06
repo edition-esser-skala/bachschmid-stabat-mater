@@ -252,67 +252,119 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "V–VII"
+	% 		title = "Q U I S   E S T   H O M O ,   Q U I   N O N   F L E R E T"
+	% 	}
+	% 	\tocSection "5–7" "Quis est homo, qui non fleret"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\QuisEstViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\QuisEstViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\QuisEstViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \QuisEstSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \QuisEstSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \QuisEstAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \QuisEstAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \QuisEstTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \QuisEstTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \QuisEstBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \QuisEstBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\QuisEstOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \QuisEstBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 50 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "V–VII"
-			title = "Q U I S   E S T   H O M O ,   Q U I   N O N   F L E R E T"
+			number = "VIII"
+			title = "V I D I T   S U U M   D U L C E M   N A T U M"
 		}
-		% \tocSection "5–7" "Quis est homo, qui non fleret"
+		\tocSection "8" "Vidit suum dulcem natum"
+		\paper {
+			top-system-spacing.basic-distance = #15
+			top-system-spacing.minimum-distance = #15
+			markup-system-spacing.basic-distance = #10
+			markup-system-spacing.minimum-distance = #10
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new StaffGroup <<
+				\new StaffGroup \with { \smallGroupDistance } <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\QuisEstViolinoI
+							\ViditSuumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\QuisEstViolinoII
+							\ViditSuumViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\QuisEstViola
+						\ViditSuumViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \QuisEstSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \QuisEstSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \QuisEstAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \QuisEstAltoLyrics
-
+				\new ChoirStaff \with { \smallGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \QuisEstTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \ViditSuumTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \QuisEstTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \QuisEstBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \QuisEstBassoLyrics
+					\new Lyrics \lyricsto Tenore \ViditSuumTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\QuisEstOrgano
+						\ViditSuumOrgano
 					}
 				>>
-				\new FiguredBass { \QuisEstBassFigures }
+				\new FiguredBass { \ViditSuumBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 50 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }

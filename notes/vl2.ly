@@ -625,3 +625,77 @@ QuisEstViolinoII = {
 		<b d>-! q-! q-! q-! q4-! r\fermata \bar "|." %45 finis
 	}
 }
+
+ViditSuumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoViditSuum
+		d4.\fE( f8) e16( d cis d) d4-!
+		d16( cis) e4 cis8 d16.( e32) f8-! r16 a,( d a)
+		a8 b4 cis d e8
+		f16.-! a'32 \appoggiatura b a16 g32 a b16.-! cis,32 \appoggiatura d cis16 h32 cis d16.-! a32\p \appoggiatura b a16 g32 a b16.-! g32 \appoggiatura a g16 fis32 g
+		g16( f) a16. d,32 e4\trill f16.-!\f a'32 \appoggiatura b a16 g32 a b16.-! cis,32 \appoggiatura d cis16 h32 cis %5
+		d16.-! a32\p \appoggiatura b a16 g32 a b16.-! g32 \appoggiatura a g16 fis32 g g16( f) a16. f32 f16( e) g16. e32
+		f32(\f a16.) b32( g16.) f32( d16.) e32( cis16.) d8 a d4
+		r8 f\p r f r f r a
+		r cis r e d4 r
+		a2 b8( a) a4-! %10
+		a2 b8( a) a4-!
+		f2(\pp e4 es)
+		d2( cis4) r
+		f8\p f4 f f f8(
+		b,) b4 b8( a) a4 a8~ %15
+		a f' r f r f r f
+		r e r e r f r f
+		f f f f f f f f
+		f f f f f f f f
+		f f f f f f g g %20
+		g4.( f8) r e-! e-! e-!
+		e( g b) r f( a) c( f)
+		e,( g b) r f( a c) r
+		r4 r8 f,( b) b4( as8)
+		r g4( g8) r g4( g8) %25
+		r a!4(\pp a8) r a4( a8)
+		r a4( a8) r as4( as8)
+		r g4( g8) r g4( g8)
+		h,32(\f c16.) c4. cis32( d16.) d4.
+		d32( e16.) e4. e32( f16.) f4. %30
+		a16. f'32 \appoggiatura g f16 e32 f c16. f32 \appoggiatura g f16 e32 f d16. b32 \appoggiatura c b16 a32 b g16( b) d-! b-!
+		b( a) c16. a32 a16( g) b16. g32 f8 c f4
+		a8\p a a a g g g g
+		g g g g g fis fis r
+		a4. a8 gis([ a)] a-! a-! %35
+		r a4 a8 gis([ a)] a-! a-!
+		r a4 a8 g([ b!)] c( a)
+	 	g4.( fis8) g-! r g16(\pp b g b)
+		cis,8-! r cis16( e cis e) g,8-! r g'16(\f b g b)
+		e,( g e g) cis,( e cis e) a,8-! b'(\p a g) %40
+		r f r f r f r a
+		r cis r e d4 r
+		f,2( g)
+		a( d,)
+		f(\pp e4 es) %45
+		d2( cis4) r
+		g'8\p( e cis) r f( a) d( f)
+		g,( e cis) r a'( f d) r
+		r4 r8 d( g) g4( f8)
+		e e'4( e8) r e4( e8) %50
+		r a,4( a8) r a4( a8)
+		r a4(\pp a8) r a4( a8)
+		r a4( a8) r a4( a8)
+		a4 r r8 g-!\p g-! g-!
+		r a-! a-! a-! r g-! g-! g-! %55
+		r a-! a-! a-! g( e cis) r
+		f( a) d( f) g,( e cis) r
+		a'( f d) r r4 r8 d(
+		g) g4( f8) e-! e4( e8)
+		r e4( e8) r fis4( fis8) r %60
+		fis4( fis8) r fis4(\pp fis8)
+		r  f4( f8) r e4( e8)
+		r e4( e8) d4 r
+		g2(\p f4) r
+		e2( \scriptOut d8-!) a'( b g) %65
+		f-! a( b g) f-! a,-! a-! a-!
+		a2-! r\fermata \bar "|." %67 finis
+	}
+}

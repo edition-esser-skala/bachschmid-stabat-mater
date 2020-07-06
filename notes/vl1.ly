@@ -626,6 +626,80 @@ QuisEstViolinoI = {
 	}
 }
 
+ViditSuumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoViditSuum
+		d'4.\fE( f8) e16( d cis d) d4-!
+		d16( cis) e4 g,8 f16.( g32) a8-! r16 a( d a)
+		a8 b4 cis d e8
+		f16.-! a32 \appoggiatura b a16 g32 a b16.-! cis,32 \appoggiatura d cis16 h32 cis d16.-! a32\p \appoggiatura b a16 g32 a b16.-! g32 \appoggiatura a g16 fis32 g
+		g16( f) a16. d,32 e4\trill f16.-!\f a'32 \appoggiatura b a16 g32 a b16.-! cis,32 \appoggiatura d cis16 h32 cis %5
+		d16.-! a32\p \appoggiatura b a16 g32 a b16.-! g32 \appoggiatura a g16 fis32 g g16( f) a16. f32 f16( e) g16. e32
+		f32(\f a16.) d32( b16.) a32( f16.) g32( e16.) d8 a d4
+		r8 d'\p r d r d r d
+		r e r g r a-! e([ f)]
+		d2 cis8( d) d4-! %10
+		d2 cis8( d) d4-!
+		b2(\pp a)
+		gis( a4) r16 b(\p a b)
+		h( c h c) h( c h c) cis( d cis d) d4-!
+		e16( f e f) e( b' g e) e( f e f) f4-! %15
+		r8 c r c r d r d
+		r b' r b r a r a
+		r f4( es8) r d4( b'8)
+		r f4( es8) r d4( b'8)
+		r f4( es8) d( c4 b8) %20
+		b4.( a8) r g-! g-! g-!
+		g( b e) r a,( c) f( a)
+		g,( b e) r a,( c) f-! f,16. f32
+		c'8-! c4( f8) des-! des4( c8)
+		r h4( h8) r b4( b8) %25
+		r c4(\pp c8) r c4( c8)
+		r c4( c8) r c4( c8)
+		r c4( c8) r c4( c8)
+		h32(\f c16.) c4. cis32( d16.) d4.
+		d32( e16.) e4. e32( f16.) f4. %30
+		a16. f32 \appoggiatura g f16 e32 f c16. f32 \appoggiatura g f16 e32 f d16. b32 \appoggiatura c b16 a32 b g16( b) d-! b-!
+		b( a) c16. a32 a16( g) b16. g32 f8 c f4
+		r8 \slurDashed c'4(\p c8) r c4( c8) \slurSolid
+		r c4( cis8) d a a r
+		c4. c8 h([ c)] c-! c-! %35
+		r c4 c8 h([ c)] c-! c-!
+		r c4 c8 b( d) es( c)
+		b4.( a8)g-! r g'16(\pp b g b)
+		cis,8-! r cis16( e cis e) g,8-! r g16(\f b g b)
+		e,( g e g) cis,( e cis e) a,4 r %40
+		r8 d'\p r d r d r d
+		r e r g r a-! e([ f)]
+		d4. d8 d( cis) cis4
+		c4. c8 c( h) h4
+		b2(\pp a) %45
+		gis r16 a(\p gis a gis a gis a)
+		a8( cis e) r a,( d) f( a)
+		a,( cis e) r d,( f) a-! d16. d32
+		a'8-! a4( d8) \appoggiatura c16 b8-! b4( a8)
+		r gis4( gis8) r g4( g8) %50
+		r fis4( fis8) r fis4( fis8)
+		r fis4(\pp fis8) r f4( f8)
+		r e4( e8) r e4( e8)
+		r16 a(\p gis a gis a f d) d32( cis16.) cis4.
+		g'32( f16.) f4. d32( cis16.) cis4. %55
+		e32( d16.) d4. a8( cis e) r
+		a,( d) f( a) a,( cis e) r
+		d,( f) a-! d16. d32 a'8-! a4( d8)
+		\appoggiatura c16 b8-! b4( a8) gis8-! gis,4( gis8)
+		r g4( g8) r a4( a8) %60
+		r a4( a8) r a4(\pp a8)
+		r a4( a8) r a4( a8)
+		r a4( a8) a a'4\p b8~
+		b cis,4 d a b8~
+		b cis,4 d8~ d4-! r %65
+		d-! r d-! d-!
+		d2-! r\fermata \bar "|." %67 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

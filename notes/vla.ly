@@ -617,3 +617,77 @@ QuisEstViola = {
 		g-! g-! g-! g-! g4-! r\fermata \bar "|." %45 finis
 	}
 }
+
+ViditSuumViola = {
+	\relative c' {
+		\clef alto
+		\key d \minor \time 4/4 \tempoViditSuum
+		d4\fE c! b f
+		e a d, f'
+		g e d cis
+		d8 f g a b-! f\p g e
+		d d4 cis8 d\f f g a %5
+		b-! f\p g e d4 cis
+		d8\f g, a a a4 r
+		d8\p r c! r b r f' r
+		e r a, r d4 r
+		f2 g8( f) f4-! %10
+		f2 g8( f) f4-!
+		d2(\pp cis4 c)
+		h( b) a8 b a g!
+		f\p a4 a8( b) b4 b8(
+		g) g4 g8( f) f4 f8~ %15
+		f a a a b b b b
+		g g g g f f f f
+		a a a a b b b b
+		a a a a b b b b
+		a a a a b b e,! e %20
+		f f h h c r c r
+		c r c r c r c r
+		c r c r c4 r
+		r2 r4 r8 f~
+		f f4( f8) r e4( e8) %25
+		r f4(\pp f8) r f4( f8)
+		r f4( f8) r f4( f8)
+		r f4( f8) r e4( e8)
+		f\f f g a! b b, b' a
+		g c, c' b a b a g %30
+		f f a a b g e e
+		f a, b c f,4 r
+		f'8\p f f f e e e e
+		es es es es d d d d
+		d d d d d d d d %35
+		d d d d d d d d
+		d d d d g, g c c
+		d d4 c8 b4 r
+		r2 r4 g'16(\f b g b)
+		e,( g e g) cis,( e cis e) a,8-! g'(\p f e) %40
+		d8 r c! r b r f' r
+		e r a, r d4 r
+		d2( e)
+		fis( g)
+		d(\pp cis4 c) %45
+		h( b) a r
+		a8\p r a r a r a r
+		a r a r a4 r
+		r2 r4 r8 d~
+		d d4( d8) r cis4( cis8) %50
+		r d4( d8) r d4( d8)
+		r d4(\pp d8) r d4( d8)
+		r d4( d8) r cis4( cis8)
+		d4 r r8 e-!\p e-! e-!
+		r d-! d-! d-! r e-! e-! e-! %55
+		r f-! f-! f-! e r a, r
+		a r a r a r a r
+		a4 r r2
+		r4 r8 d~ d-! d4( d8)
+		r cis4( cis8) r d4( d8) %60
+		r d4( d8) r d4(\pp d8)
+		r d4( d8) r d4( d8)
+		r cis4( cis8) d4 r
+		g,8\p r a r b4 r
+		g8 r a r d-! f( g e) %65
+		d-! f( g e) d-! f,-! f-! f-!
+		f2-! r\fermata \bar "|." %67 finis
+	}
+}
