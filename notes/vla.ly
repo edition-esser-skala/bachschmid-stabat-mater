@@ -417,3 +417,151 @@ OQuamViola = {
 		c1\fermata \bar "|." %85 finis
 	}
 }
+
+QuaeMaerebatViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key es \major \time 2/4 \tempoQuaeMaerebat
+		es4(\f e)
+		f as8-! c-!
+		b4 d,
+		es r8 b'
+		g\p g g g %5
+		as as g g
+		g, g g g
+		as as g g
+		g\f g' g g
+		as as as as %10
+		g c as b
+		es,4 r
+		b4.\p a8
+		b4. a8
+		b4. a8 %15
+		b4-! r
+		es,8-![\f r16 as']-! g( as f d)
+		es8 es es es
+		es as b b,
+		es r es r %20
+		es r es r
+		b\p b b b
+		b4~ b8 r
+		es4( e)
+		f r %25
+		d b
+		es r
+		g8 g g g
+		as as g g
+		g, g g g %30
+		as as g g
+		b4 b
+		es r8 b'
+		as( g) f( es)
+		es4( d8) r %35
+		d'2
+		g,
+		a
+		b4 r16 b-! f-! d-!
+		b8 r b r %40
+		b r b r
+		a r a r
+		b r b r
+		b16-! b-! b-! b-! b4-!
+		c16-! c-! c-! c-! c4-! %45
+		d16-! d-! d-! d-! d4-!
+		es16-! es-! es-! es-! es4-!
+		b'8 b b b
+		es, es es es
+		f f f f %50
+		b, r b' r
+		a r a, r
+		b r b' r
+		a r a, r
+		b r b' r %55
+		a r a, r
+		b-! c-! d4-!
+		es8 f g4
+		a8 b c4
+		f,8 es d4 %60
+		d8 d d d
+		es es es es
+		f f f f
+		b,4\f f'8 d
+		es4 g8 es %65
+		d d f d
+		es es g es
+		d b' es, b'
+		d, b' es, b'
+		d, es f f, %70
+		b r b r
+		b r b r
+		b(\p a b a)
+		a4( b8) r
+		R2*7 %81
+		r8 b b b
+		b b b b
+		b b b b
+		b b b b %85
+		b4 r
+		b r
+		b r
+		b\f b
+		es(\p e) %90
+		f r
+		d b
+		es r
+		g8 g g g
+		as as g g %95
+		g, g g g
+		as as g g
+		b4 b
+		es r8 b'
+		as( g) f( es) %100
+		es4( d8) r
+		g2
+		c,
+		d
+		es4 r16 es-! b-! g-! %105
+		es8 r es' r
+		es r es r
+		d r d r
+		es r es r
+		es16-! es-! es-! es-! es4-! %110
+		f16-! f-! f-! f-! f4-!
+		g16-! g-! g-! g-! g4-!
+		as16-! as-! as-! as-! as4-!
+		es8 es es es
+		as, as as as %115
+		b b b b
+		es,4 r
+		R2*3 %120
+		r8 b' b b
+		b4. a8
+		b4. a8
+		b4. a8
+		b4 r %125
+		g!8 g g g
+		as as as as
+		b b b b
+		es r es' r
+		d r d, r %130
+		es r es' r
+		d r d, r
+		es r es' r
+		d r d, r
+		es-! f-! g4-! %135
+		as8 b c4
+		d,8 es f4
+		es8 f g4
+		g,8 g' g g
+		as as as as %140
+		b b b b
+		es,4 r
+		f2(\pp
+		es4) r
+		f,2( %145
+		es8)\f r es r
+		es r es r
+		b'\p b b b
+		b4~ b8 r\fermata \bar "|." %149 finis
+	}
+}

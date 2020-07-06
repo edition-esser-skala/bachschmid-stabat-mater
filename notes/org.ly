@@ -760,6 +760,282 @@ OQuamBassFigures = \figuremode {
 	<5 _!> %85 finis
 }
 
+QuaeMaerebatOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key es \major \time 2/4 \tempoQuaeMaerebat
+		\mvTr es4(\f-\soloE e)
+		f r
+		d b
+		es r
+		R2*3 %7
+		r4 r8 es16\f f
+		g8 g g g
+		as as as as %10
+		g c as b
+		es,4 r
+		b'4.\p a8
+		b4. a8
+		b4. a8 %15
+		b4 r
+		es,8\f es es es
+		es es es es
+		es as b b,
+		es r es r %20
+		es r es r
+		es\p b es b
+		es4~ es8 r
+		es4( e)
+		f r %25
+		d b
+		es r
+		R2*4 %31
+		b4 b
+		es r
+		as( a)
+		b b, %35
+		b'2
+		c
+		a
+		b
+		b,8 r b r %40
+		b r b r
+		a r a r
+		b r b r
+		b b b b
+		b b b b %45
+		b b b b
+		b b b b
+		b b b b
+		es es es es
+		f f f f %50
+		b, r b' r
+		a r a, r
+		b r b' r
+		a r a, r
+		b r b' r %55
+		a r a, r
+		b c d4
+		es8 f g4
+		a8 b c4
+		b8 c d4 %60
+		d,8 d d d
+		es es es es
+		f f f f
+		b,\f b d b
+		es es g es %65
+		b b d b
+		es es g es
+		d b' es, b'
+		d, b' es, b'
+		d, es f f, %70
+		b r b r
+		b r b r
+		b\p f' b, f'
+		b,4~ b8 r
+		R2*7 %81
+		r8 b b b
+		b b b b
+		b b b b
+		b b b b
+		b4 r
+		b r
+		b r
+		b\f b
+		es(\p e)
+		f r
+		d b
+		es r
+		R2*4
+		b4 b
+		es r
+		as( a)
+		b b,
+		es2
+		f
+		d
+		es
+		es8 r es r
+		es r es r
+		d r d r
+		es r es r
+		es es es es
+		es es es es
+		es es es es
+		es es es es
+		es es es es
+		as as as as
+		b b b b
+		es,4 r
+		b'4. a8
+		b4. a8
+		b4. a8
+		b4 r
+		b,4. a8
+		b4. a8
+		b4. a8
+		b4 r
+		R2*3
+		es8 r es' r
+		d r d, r
+		es r es' r
+		d r d, r
+		es r es' r
+		d r d, r
+		es f g4
+		as8 b c4
+		d,8 es f4
+		es8 f g4
+		g8 g g g
+		as as as as
+		b b b b
+		es,4 r
+		b2\pp
+		es4 r
+		b2
+		es8\f r es r
+		es r es r
+		es\p b es b
+		es4~ es8 r\fermata \bar "|."
+	}
+}
+
+QuaeMaerebatBassFigures = \figuremode {
+	<5 3>4 <\t \t>
+	\bo <[9]> \bc <[8]>
+	<5> <\t>
+	\bo <[9]> \bc <[8]>
+	r2*3 %7
+	r2
+	<6>
+	r %10
+	<[6]>4 <6 5>
+	r2
+	<5 3>4. <7- 5>8
+	<5 3>4. <7- 5>8
+	<5 3>4. <7- 5>8 %15
+	<5 3>2
+	r4. <[7 2]>8
+	\bo <[8 3]>4. \bc <[6 4]>8
+	<[5 3]> <8 6> <6 4> <5 3>
+	r2 %20
+	r
+	r8 <7>4 q8
+	\bo <[9] 4>4 \bc <[8] 3>
+	<5 3> <\t \t>
+	<4>8 <3>4. %25
+	<5>4 <\t>
+	<4>8 <3>4.
+	r2*4 %31
+	<7>2
+	r
+	\bo <[10 8]>8 <9 7> <8 6> \bc <[7 5]>
+	<6 4>4 <5 3> %35
+	r2
+	r
+	<[6]>
+	r
+	r %40
+	<[5 3]>8 <4 2!>4.
+	<5- 3>2
+	\bo <[4]>8 \bc <[3]>4.
+	<8 3>2
+	<7! 2> %45
+	<7- 3>
+	<6 4>
+	<5+ 3>
+	r4. <[6]>8
+	<6 4>4 <5 _!> %50
+	r2
+	<6 5>
+	r
+	q
+	r %55
+	q
+	\bo <[3]>8 <3> \bc <[3]>4
+	<3>8 <3!> <3>4
+	q8 q q4
+	q8 q q4 %60
+	<6>4 <6!>
+	<6>2
+	<6 4>4 <5 _!>
+	r <[6]>
+	r q %65
+	r q
+	r q
+	q2
+	q
+	q4 <6 4>8 <5 _!> %70
+	r2
+	r
+	r8 \bo <[7 _!]>4 \bc q8
+	\bo <[9 4]>4 \bc <[8 3]>
+	r2*7 %81
+	r8 <5 3>4.
+	<6- 4>4 <5 3>
+	<8 6-> <7 5>
+	<6- 4>2 %85
+	<5 3>
+	r
+	r
+	r
+	\bo <[5 3]>4 \bc <[\t \t]> %90
+	<4>8 <3>4.
+	<5>4 <\t>
+	<4>8 <3>4.
+	r2*4 %97
+	<7>2
+	r
+	\bo <[10 8]>8 <9 7> <8 6> \bc <[7 5]> %100
+	<6 4>4 <5 3>
+	r2
+	r
+	<[6]>
+	r %105
+	r
+	<[5 3]>8 <4! 2>4.
+	<6 5->2
+	<4>8 <3>4.
+	<8 3>2 %110
+	<7 2>
+	<7- 5>
+	<6 4>
+	<5! 3>
+	r4. <[6]>8 %115
+	<6 4>4 <5 3>
+	r2
+	<5 3>4. <7- 5>8
+	<5 3>4. <7- 5>8
+	<5 3>4. <7- 5>8 %120
+	<6- 4> <5 3>4.
+	<5 3>4. <7- 5>8
+	<5 3>4. <7- 5>8
+	<5 3>4. <7- 5>8
+	<6- 4> <5 3>4. %125
+	r2*3
+	r2
+	<[6 5]> %130
+	r
+	q
+	r
+	q
+	<3>8 q q4 %135
+	q8 q q4
+	q8 q q4
+	q8 q q4
+	<6>4 <6!>
+	<6>2 %140
+	<6 4>4 <5 3>
+	r2
+	<7>
+	r
+	q %145
+	r
+	r
+	r8 \bo <[7]>4 \bc q8
+	\bo <[9 4]>4 \bc <[8 3]> %149 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

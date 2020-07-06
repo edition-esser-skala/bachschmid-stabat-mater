@@ -645,6 +645,7 @@ tocLabel = #(define-music-function
 tempoStabatMater = \tempoMarkup "Lento"
 tempoCuiusAnimam = \tempoMarkup "Allegro"
 tempoOQuam = \tempoMarkup "Adagio"
+tempoQuaeMaerebat = \tempoMarkup "Andante con moto"
 
 
 \include "notes/vl1.ly"

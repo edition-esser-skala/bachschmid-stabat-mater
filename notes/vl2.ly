@@ -417,3 +417,159 @@ OQuamViolinoII = {
 		e1\fermata \bar "|." %85 finis
 	}
 }
+
+QuaeMaerebatViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \major \time 2/4 \tempoQuaeMaerebat
+		r8 g'\f g'4~
+		g8 e-! f-! f,-!
+		r f f'4~
+		f8 d-! es-! es,-!
+		b'\p b b b %5
+		b b b b
+		b, b b b
+		b b b b
+		b4\f b'
+		c, c' %10
+		R2
+		r16 b a b as ges f es
+		d4.\p es8
+		d4. es8
+		d4. es8 %15
+		d8[-! r16 as']-!\f g!( as f d)
+		es8[-! r16 c']-! b( c as f)
+		g8[-! r16 c]-! b8 as
+		g16( as) f8-! \once \slurDashed es16( f) d8-\parenthesize-!
+		es16 g'8 es b g16~ %20
+		g b8 g es b16
+		g8(\p as) g( as)
+		as4( g8) r
+		r g''4 g8
+		r c,4 c8 %25
+		r b4 b8
+		r b4 b8
+		b b b b
+		b b b b
+		b, b b b %30
+		b b b b
+		r f' f f
+		g( b) es( d)
+		c( b) as( g)
+		g4( f8) r %35
+		f16( es d es) f( b, g' f)
+		f( es d c) h c8 d16
+		es( d c d) es( c f es)
+		es( d g f) f8-! r
+		r d' r d %40
+		r c r c
+		r c r c
+		r b r b
+		d,16-! d-! d-! d-! d4-!
+		es16-! es-! es-! es-! es4-! %45
+		f16-! f-! f-! f-! f4-!
+		g16-! g-! g-! g-! g4-!
+		d'8 d4 d8
+		es8 g,4 es'8
+		b b a a %50
+		b-! d( es d)
+		c-! c,( d c)
+		b-! d'( es d)
+		c-! c,( d c)
+		b-! d'( es d) %55
+		c-! c,( d c)
+		b4 b'8-! as!-!
+		g4 es'8-! d-!
+		c4 a8 f
+		b4 f8 d %60
+		b f' f f
+		g g g g
+		b b a a
+		f'16\f d b4 b8
+		g'16 es b4 b8 %65
+		f'16( d) b-! b-! b4\trill
+		g'16( es) b-! b-! b4\trill
+		f'16( d) b-! b-! g'( es) b-! b-!
+		f'16( d) b-! b-! g'( es) b-! b-!
+		f'( b) g-! es-! d( f) es-! c-! %70
+		b d8 b f d16~
+		d b'8 f d b16~
+		b8(\p c) b( c)
+		c4( b8) r
+		b'8-! b-! b-! b-! %75
+		as!-! as-! as-! as-!
+		as-! as( g f)
+		es4.(\mf e8)
+		f4 r
+		f8-!\p f-! f-! f-! %80
+		es!-! es-! es-! es-!
+		d4 r8 f
+		es4( d)
+		ges( f)
+		\appoggiatura f es2 %85
+		d4-! r
+		r b'16( c d es)
+		f8-! r b,,16-!\f a-! b-! c-!
+		d-! es-! f-! g-! as-! b-! c-! d-!
+		es8\p g4 g8 %90
+		r c,4 c8
+		r b4 b8
+		r b4 b8
+		b b b b
+		b b b b %95
+		b, b b b
+		b b b b
+		r f' f f
+		g( b) es( d)
+		c( b) as( g) %100
+		g4( f8) r
+		b16( as g as) b( es, c' b)
+		b( as g f) e f8 g16
+		as( g f g) as( f b as)
+		as( g c b) b8-! r %105
+		r g' r g
+		r f r f
+		r f r f
+		r es r es
+		g,16-! g-! g-! g-! g4-! %110
+		as16-! as-! as-! as-! as4-!
+		b16-! b-! b-! b-! b4-!
+		es,16-! es-! es-! es-! es4-!
+		g8 g4 g8
+		as8 as4 c8 %115
+		g g f f
+		r b-! d,([ es)]
+		b4. es8(
+		d4.) es8(
+		d4.) es8-! %120
+		es( d) r4
+		d4. es8
+		d4. es8
+		d4. es8
+		r b'( a as) %125
+		g! b b b
+		c c c f
+		es es d d
+		es-! g( as g)
+		f-! f,( g f) %130
+		es-! g'( as g)
+		f-! f,( g f)
+		es-! g'( as g)
+		f-! f,( g f)
+		es4 es'8-! des-! %135
+		c4 as8 g
+		f4 d'!8 b
+		es4 b8 g
+		es b' b b
+		c c c c %140
+		es es d d
+		es4 r
+		as,2(\pp
+		g4) r
+		as,2( %145
+		\kneeBeam g16) g''8\f es b g16~
+		g b8 g es b16
+		g8(\p as) g( as)
+		as4( g8) r\fermata \bar "|."
+	}
+}

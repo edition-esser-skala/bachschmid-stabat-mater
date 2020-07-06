@@ -137,67 +137,119 @@
 	% 		\midi { \tempo 4. = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "III"
+	% 		title = "O   Q U A M   T R I S T I S   E T   A F F L I C T A"
+	% 	}
+	% 	\tocSection "3" "O quam tristis et afflicta"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\OQuamViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\OQuamViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\OQuamViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \OQuamSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \OQuamSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \OQuamAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \OQuamAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \OQuamTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \OQuamTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \OQuamBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \OQuamBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\OQuamOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \OQuamBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 50 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "III"
-			title = "O   Q U A M   T R I S T I S   E T   A F F L I C T A"
+			number = "IV"
+			title = "Q U A E   M A E R E B A T   E T   D O L E B A T"
 		}
-		% \tocSection "3" "O quam tristis et afflicta"
+		% \tocSection "4" "Quae maerebat et dolebat"
+		\paper {
+			top-system-spacing.basic-distance = #15
+			top-system-spacing.minimum-distance = #15
+			markup-system-spacing.basic-distance = #10
+			markup-system-spacing.minimum-distance = #10
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new StaffGroup <<
+				\new StaffGroup \with { \smallGroupDistance } <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\OQuamViolinoI
+							\QuaeMaerebatViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\OQuamViolinoII
+							\QuaeMaerebatViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\OQuamViola
+						\QuaeMaerebatViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \OQuamSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \OQuamSopranoLyrics
-
+				\new ChoirStaff \with { \smallGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \OQuamAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuaeMaerebatAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \OQuamAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \OQuamTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \OQuamTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \OQuamBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \OQuamBassoLyrics
+					\new Lyrics \lyricsto Alto \QuaeMaerebatAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\OQuamOrgano
+						\QuaeMaerebatOrgano
 					}
 				>>
-				\new FiguredBass { \OQuamBassFigures }
+				\new FiguredBass { \QuaeMaerebatBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 50 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

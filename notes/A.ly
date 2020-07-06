@@ -367,6 +367,217 @@ OQuamAltoLyrics = \lyricmode {
 	ti. %81 finis
 }
 
+QuaeMaerebatAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \major \time 2/4 \autoBeamOff \tempoQuaeMaerebat
+		R2*23 %23
+		\mvTr b'4.\pE^\soloE c16([ b)]
+		b8([ as)] as4 %25
+		as4. b16([ as)]
+		as8([ g)] g r
+		es4. es8
+		f([ d)] es4
+		es4. es8 %30
+		f([ d)] es4
+		as4. as8
+		g[( b es d]
+		c[ b]) as([ g)]
+		g8. f16 f4 %35
+		R2*4
+		f4. g16([ f)] %40
+		f8([ e)] e r
+		es4. f16([ es)]
+		es8([ d)] d r
+		b' b4.
+		a8 a4. %45
+		as8 as4.
+		g8 g4.
+		fis4 fis
+		g8( es'4) d16([ c)]
+		b4( a8.) b16 %50
+		b4 r
+		f4. es8
+		d f r4
+		f4. es8
+		d f r4 %55
+		f4. es8
+		d[ es] f4
+		g8[ a] b4
+		c8[ d] es4
+		d8[ c] b4~ %60
+		b h
+		c es16[ c] es([ c)]
+		b4( c8.) b16
+		b4 r
+		R2*10 %74
+		b4 b %75
+		b b
+		h4. h8
+		c([ g)] g r
+		as4 as
+		as as %80
+		a4. a8
+		b([ f)] f r
+		ges4 f
+		b as
+		\appoggiatura as ges4. ges8 %85
+		f4 r
+		R2*3
+		b4. c16([ b)] %90
+		b8([ as)] as r
+		as4. b16([ as)]
+		as8([ g)] g r
+		es4. es8
+		f([ d)] es4 %95
+		es4. es8
+		f([ d)] es4
+		as4. as8
+		g[( b es d]
+		c[ b]) as([ g)] %100
+		g8. f16 f4
+		R2*4 %105
+		b4. c16([ b)]
+		b8([ a)] a r
+		as4. b16([ as)]
+		as8([ g)] g r
+		es' es4. %110
+		d8 d4.
+		des8 des4.
+		c8 c4.
+		h4 h
+		c8( as4) g16([ f)] %115
+		es4( d8.) es16
+		es4 r
+		R2*4 %121
+		f4. ges8
+		f4. ges8
+		f4. ges8
+		ges f r4 %125
+		es e
+		f8( as4) g16[( f)]
+		es4( d8.) es16
+		es4 r
+		b'4. as8 %130
+		g b r4
+		b4. as8
+		g b r4
+		b4. as8
+		g[ as] b4 %135
+		c8[ d] es4
+		f,8[ g] as4
+		g8[ f] es4~
+		es e
+		f as16[ f] as([ f)] %140
+		es4( f8.) es16
+		es4 r
+		R2*6 %148
+		R2\fermataMarkup \bar "|." %149 finis
+	}
+}
+
+QuaeMaerebatAltoLyrics = \lyricmode {
+	Quae mae -- %24
+	re -- bat %25
+	et do --
+	le -- bat,
+	et tre --
+	me -- bat
+	cum vi -- %30
+	de -- bat
+	na -- ti
+	poe --
+	nas
+	in -- cli -- ti. %35
+
+	Quae mae -- %40
+	re -- bat
+	et do --
+	le -- bat,
+	et tre --
+	me -- bat %45
+	cum vi --
+	de -- bat
+	na -- ti
+	poe -- nas
+	in -- cli -- %50
+	ti,
+	et tre --
+	me -- bat
+	cum vi --
+	de -- bat %55
+	na -- ti
+	poe -- _
+	_ _
+	_ _
+	_ _ %60
+	_
+	_ _ nas
+	in -- cli --
+	ti.
+
+	Quae mae -- %75
+	re -- bat
+	et do --
+	le -- bat,
+	et tre --
+	me -- bat %80
+	cum vi --
+	de -- bat
+	na -- ti
+	poe -- nas
+	in -- cli -- %85
+	ti.
+
+	Quae mae -- %90
+	re -- bat
+	et do --
+	le -- bat,
+	et tre --
+	me -- bat %95
+	cum vi --
+	de -- bat
+	na -- ti
+	poe --
+	nas %100
+	in -- cli -- ti.
+
+	Quae mae -- %106
+	re -- bat
+	et do --
+	le -- bat,
+	et tre -- %110
+	me -- bat
+	cum vi --
+	de -- bat
+	na -- ti
+	poe -- nas %115
+	in -- cli --
+	ti,
+
+	et tre -- %122
+	me -- bat
+	cum vi --
+	de -- bat %125
+	na -- ti
+	poe -- nas
+	in -- cli --
+	ti,
+	et tre -- %130
+	me -- bat
+	cum vi --
+	de -- bat
+	na -- ti
+	poe -- _ %135
+	_ _
+	_ _
+	_ _
+	_
+	_ _ nas %140
+	in -- cli --
+	ti. %142 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
