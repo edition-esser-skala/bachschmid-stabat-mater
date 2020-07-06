@@ -1036,6 +1036,106 @@ QuaeMaerebatBassFigures = \figuremode {
 	\bo <[9 4]>4 \bc <[8 3]> %149 finis
 }
 
+QuisEstOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoQuisEst
+		\mvTrr g'8\mfE-\solo r g r a r a r
+		d, r d r g r g r
+		c, r c r f r b, r
+		c r c r d r16 d-!\f es( e f fis)
+		g8\p r g r a r a r %5
+		d, r d r g r g r
+		c, r c r f r b, r
+		c r c r d4 r
+		g( f!) es( h)
+		c8( d) es([ e)] f2\fermata %10
+		b,8 r b r c r c r
+		d r d r h r h r
+		c r c' r fis, r g r
+		c, r c r d4 r
+		g( f!) es( h) %15
+		c8( d) es( e) f2\fermata
+		f8 f f f f f f f
+		f f f f f f f f
+		f f f f f f f f
+		f f f f f f4 es8 %20
+		d2 es
+		c d4 r
+		\mvTr g8\f-\tutti r g r g16( a g a) g( a g a)
+		fis8 r fis r f16( g f g) f( g f g)
+		e8 r e r es16( f es f) es( f es f) %25
+		d8\ff d d d es es es es
+		d d d d es es es es
+		d d d d es es d d
+		cis cis cis cis d4 r
+		es8 es es es d d d d %30
+		cis cis cis cis d4 r
+		es8 es es es d d d d
+		cis cis cis cis d4 r
+		d2-\tasto d
+		r8 a' e fis g g, g' r %35
+		r2 r8 g4 g8~
+		g fis r f~ f e r es~
+		es d r d~ d c r c'~
+		c b! a! g fis4 g
+		d2 es4 r %40
+		es8 es es es d4 b
+		c2 cis
+		d4 d d2
+		g,4-!\p g-! g-! g-!
+		g8-! g-! g-! g-! g4-! r\fermata \bar "|." %45 finis
+	}
+}
+
+QuisEstBassFigures = \figuremode {
+	<5 3>2 <7 [5!] _+>
+	<7! _+> <7! _!>
+	<7- _!> <7- 3>4 \bo <[7 4]>8 \bc <[8 3]>
+	\bo <[7]> <6>4 \bc <[5]>8 <4> <_+>4.
+	<5 3>2 <7 [5!] _+> %5
+	<7! _+> <7! _!>
+	<7- _!> <7- 3>4 \bo <[7 4]>8 \bc <[8 3]>
+	<7> <6> <\t> <5> <4> <_+>4.
+	<_->4 <4!> <6> <6 5>
+	<5 3>8 <10 8> <8 6> <7 5> <5 3>2 %10
+	r2 <7>8 <6>4.
+	<5->2 <7->8 <6>4.
+	r2 <7 5>4 <5 3>
+	<6> <\t>8 <5> <4> <_+>4.
+	<_->4 <4!> <6> <6 5> %15
+	<5 3>8 <10 8> <8 6> <7 5> <5 3>2
+	q <6 4>
+	<7 5>4. <6 4>8 <\t \t> <5 3>4.
+	<\t \t>2 q8 <6 4>4.
+	<[8 6]>8 <7 5>4 <6 4>8 <\t \t> <5 3>4 <\t \t>8 %20
+	<6>4. \bo <[5-]>8 <\t> \bc <[3]>4.
+	<6! 5>2 <5 _+>
+	<5 3> <[6!] 4+ 2>
+	<5! 3> <4! 2>
+	<5- 3> <4! 2> %25
+	<6 5->1
+	q
+	q2 <5 3>2 \bassFigureExtendersOn
+	q4. q8 \bassFigureExtendersOff <5 _+>2
+	<6\\ 5-> <8 _+> %30
+	<6 5 _-> <5! _+>
+	<6\\ 5-> <8 _+>
+	<6 5 _-> <5! _+>
+	r1
+	\bo <[9-] 4>8 \bc <[8] _+> <6!> <\t> \bo <[9] 4> \bc <[8] _!>4. %35
+	r2 r8 <6! 4>4 <6- \t>8
+	r <6> r q <\t 2> <6> r q
+	<3> <_+> r \bo <[6!] _!> \bc <[7] \t> <_!> r <_->
+	<\t> <3> q q <6>4 <\t>
+	<5 4> <\t _+> <5 3>2 %40
+	<6\\> <8 _+>4 <6>
+	<\t>2 <6 5 _!>
+	<5 _+>4 <6 4> <5 4> <\t _+>
+	r1
+	r %45 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

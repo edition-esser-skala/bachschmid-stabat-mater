@@ -574,6 +574,58 @@ QuaeMaerebatViolinoI = {
 	}
 }
 
+QuisEstViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoQuisEst
+		d'16(\mf es d es) d( es d g) \appoggiatura d cis8-! cis4.
+		c16( d c d) c( d c a') \appoggiatura c, h8-! h4.
+		b16( c b c) b( c b g') \appoggiatura b, a8-! a4 b8~
+		b16 a8 b a g16 d'8 d, r4
+		d'16(\p es d es) d( es d g) \appoggiatura d cis8-! cis4. %5
+		c16( d c d) c( d c a') \appoggiatura c, h8-! h4.
+		b16( c b c) b( c b g') \appoggiatura b, a8-! a4( b8)
+		b16( c) a-! a-! a( b) g-! g-! g8( fis) r d'
+		g1~
+		g8( f!) es([ d)] c2\fermata %10
+		d8-! r d-! r es16( f es f) es( f es f)
+		f8-! r f-! r d16( es d es) d( es d f)
+		es8-! r es-! r es16( c es c) d( b d b)
+		a( b a b) a( b a g) d'4 r
+		b( h) c( d) %15
+		es8([ d)] c( b) a2\fermata
+		c16-! c8( f16) c-! c8( f16) d-! d8( f16) d-! d8( f16)
+		es-! es-! es-! es-! es-! es-! d-! d-! d c8 c c c16~
+		c-! c-! c-! c-! c4-! c16( d) d-! d-! d( es f g)
+		f( es) es-! es-! es-! es-! d-! d-! d8 c16.( d32) c8-! c-! %20
+		f2 r8 g16.( as32) g8-! g-!
+		g2( \scriptOut fis8-!) r16 a,!-!\f b( a b c)
+		d16( es d es) d( es d g) \appoggiatura d cis8-! cis4.
+		c16( d c d) c( d c a') \appoggiatura c, h8-! h4.
+		b16( c b c) b( c b g') \appoggiatura b, a8-! a4. %25
+		as16(\ff b as b) as( b as b) g( b g b) g( b g b)
+		as( b as b) as( b as b) g( b g b) g( b g b)
+		as( b as b) as( b as b) g8 g'4 g8~
+		g g4 g8 fis4 r
+		g16 g8 g g g16( fis) fis8 fis fis fis16( %30
+		g) g8 g g g16( fis4) r
+		g16 g8 g g g16( fis) fis8 fis fis fis16(
+		g) g8 g g g16( fis8) d'4 d8~
+		d cis-! r c~ c h-! r b~
+		b a-! r a~ a g-! g4 %35
+		r8 d a h c c, c'4
+		r2 r8 g'4 g8~
+		g fis-! r f~ f e-! r es~
+		es d c b a4 b
+		a2 g16 b'8 g b g16~ %40
+		g b8 g b g16 fis8 fis g g
+		g g4 g g g8
+		fis a, b b a a a a
+		g4~\p g16( a g fis) g4~ g16( a g fis)
+		g8-! g-! g-! g-! g4-! r\fermata \bar "|." %45 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

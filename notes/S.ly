@@ -631,6 +631,89 @@ OQuamSopranoLyrics = \lyricmode {
 	ti. %81 finis
 }
 
+QuisEstSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoQuisEst
+		R1*4
+		\mvTr d'4.\pE^\solo d8 \appoggiatura d16 cis8 cis4. %5
+		c4. c8 \appoggiatura c16 h8 h4.
+		b4. b8 \appoggiatura b16 a8 a4( b8)
+		b( a4) g8 g fis r d
+		g1~
+		g4 c8 b a8. g16 f!4\fermata %10
+		R1*5 %15
+		R1\fermataMarkup
+		c'4 r d r
+		es4. d8 d c r4
+		c4. c8 c16([ d)] d8 d16([ es)] f([ g)]
+		\appoggiatura f es8 es es d d c r f %20
+		f4 f16([ d)] b([ as)] as16. g32 g8 r4
+		R1
+		\mvTr d'4.\fE^\tutti d8 \appoggiatura d16 cis8 cis4.
+		c4. c8 \appoggiatura c16 h8 h4.
+		b4. b8 \appoggiatura b16 a8 a4. %25
+		as4. as8 g2(
+		as) g
+		as4. as8 g4 g
+		g4. g8 fis4 r
+		g4. g8 fis fis a a %30
+		a2 a4 r
+		g4. g8 fis fis a a
+		a2 a8 d4 d8
+		d[ cis] r c~ c[ h] r b~
+		b[ a] r a~ a[ g] g4 %35
+		R1
+		r2 r8 g'4 g8
+		g[ fis] r f~ f[ e] r es~
+		es[ d c b] a4 b
+		a4. a8 g4 r %40
+		cis4. cis8 d4 d8 d
+		es2 e
+		d4 b a4. a8
+		g4 r r2
+		R1\fermataMarkup \bar "|." %45 finis
+	}
+}
+
+QuisEstSopranoLyrics = \lyricmode {
+	Quis est ho -- mo, %5
+	qui non fle -- ret,
+	Chri -- sti ma -- trem __
+	si __ vi -- de -- re in
+	tan --
+	to sup -- pli -- ci -- o? %10
+
+	Quis, quis, %17
+	Quis est ho -- mo,
+	qui non fle -- ret, Chri -- sti
+	ma -- trem si vi -- de -- ret in %20
+	tan -- to sup -- pli -- ci -- o?
+
+	Pro pec -- ca -- tis
+	su -- ae gen -- tis
+	vi -- dit Ie -- sum %25
+	in tor -- men --
+	tis
+	et fla -- gel -- lis
+	sub -- di -- tum,
+	vi -- dit Ie -- sum in tor -- %30
+	men -- tis,
+	vi -- dit Ie -- sum in tor --
+	men -- tis et fla --
+	gel -- _ _
+	_ lis, %35
+
+	et fla --
+	gel -- _ _
+	_ lis
+	sub -- di -- tum, %40
+	et fla -- gel -- lis, fla --
+	gel -- _
+	_ lis sub -- di --
+	tum. %44 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -573,3 +573,55 @@ QuaeMaerebatViolinoII = {
 		as4( g8) r\fermata \bar "|."
 	}
 }
+
+QuisEstViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoQuisEst
+		g'8-!\mf r g-! r g16( a g a) g( a g a)
+		fis8-! r fis-! r f16( g f g) f( g f g)
+		e8-! r e-! r es16( f es f) es( f d b)
+		es8-! es-! es-! es-! a, r16 d-!\f es( e f fis)
+		g8-!\p r g-! r g16( a g a) g( a g a) %5
+		fis8-! r fis-! r f16( g f g) f( g f g)
+		e8-! r e-! r es16( f es f) es( f d b)
+		es8-! es-! es-! es-! a,4-! r
+		b'( h) c( d)
+		es8([ d)] c( b!) a2\fermata %10
+		b16( c b c) b( c b c) \appoggiatura b a8-! a4.
+		as16( b as b) as( b as b) \appoggiatura as g8-! g4.
+		c16( d c d) c( d c d) c8 c b b
+		es,-! es-! es-! es-! a,4 r8 d
+		g1~ %15
+		g8[( f!)] es( d) c2\fermata
+		a'16-! a8( c16) a16-! a8( c16) b-! b8( d16) b-! b8( d16)
+		c-! c-! c-! c-! c-! c-! b-! b-! b a8 a a a16~
+		a-! a-! a-! a-! a4-! a16( b) b-! b-! b( c d es)
+		d( c) c-! c-! c-! c-! b-! b-! b8 a16.( b32) a8-! a-! %20
+		b2~ b8-! b-! b-! b-!
+		a!2~ a8-! r16 fis-!\f g( fis g a)
+		b8 b4 b8 e, e4 e8
+		a a4 a8 d, d4 d8
+		g g4 g8 c, c4 c8 %25
+		f16(\ff d f d) f( d f d) b( g b g) b( g b g)
+		f'( d f d) f( d f d) b( g b g) b( g b g)
+		f'( d f d) f( d f d) b8 b'4 b8~
+		b b4 b8 a4 r
+		cis16 cis8 cis cis cis16( d) d8 d d d16( %30
+		es!) es8 es es es16( d4) r
+		cis16 cis8 cis cis cis16( d) d8 d d d16(
+		es!) es8 es es es16( d4) r
+		r8 a' e fis g g, g'4
+		r2 r8 g4 g8~ %35
+		g fis-! r f~ f e-! r es~
+		es d-\parenthesize-! r d~ d c-\parenthesize-! c4
+		r8 d a h c g c4
+		r r8 es d d g, g
+		g g fis fis \kneeBeam g,16 g''8 b, g' b,16~ %40
+		b cis8 cis cis cis16 d8 d d d
+		es es es es e e e e
+		d fis, g g g g fis fis
+		g(\p es) d( c) b(-\critnote es) d( c)
+		<b d>-! q-! q-! q-! q4-! r\fermata \bar "|." %45 finis
+	}
+}

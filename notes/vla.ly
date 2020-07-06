@@ -565,3 +565,55 @@ QuaeMaerebatViola = {
 		b4~ b8 r\fermata \bar "|." %149 finis
 	}
 }
+
+QuisEstViola = {
+	\relative c' {
+		\clef alto
+		\key g \minor \time 4/4 \tempoQuisEst
+		b'8\mf r b r e, e4 e8
+		a r a r d, d4 d8
+		g r g r c, c4 b8
+		c-! c-! c-! c-! d r16 d-!\f es( e f fis)
+		g8\p r b r e, e4 e8 %5
+		a r a r d, d4 d8
+		g r g g c,-! c4( b8)
+		c-! c-! c-! c-! d4 r
+		d2( es4 h)
+		c8([ d)] es( e) f2\fermata %10
+		b,8-! r b-! r c c4 c8
+		b-! r b-! r h h4 h8
+		c r c r fis, fis g g
+		c c c c d4 r
+		d2( es4 f) %15
+		es8( f g4) f2\fermata
+		f8 f f f f f f f
+		f f f f f f f f
+		f f f f f f f f
+		f f f f f f4 es8 %20
+		d2 es~
+		es d4 r
+		g8\f g4 g8 g16( a g a) g( a g a)
+		fis8 fis4 fis8 f16( g f g) f( g f g)
+		e8 e4 e8 es16( f es f) es( f es f) %25
+		d16(\ff f d f) d( f d f) es( g es g) es( g es g)
+		d( f d f) d( f d f) es( g es g) es( g es g)
+		d( f d f) d( f d f) es8 es4 es8
+		e e cis cis d4 r
+		b'16 b8 b b g16( a) a8 a a a16~ %30
+		a a8 a a a16~ a4 r
+		b16 b8 b b g16( a) a8 a a a16~
+		a a8 a a a16~ a4 r
+		r2 r8 d4 d8~
+		d cis-! r c~ c h-! r b %35
+		a a, r d c c' r4
+		r8 d, d' d, g g,4 es'!8~
+		es d-! r d~ d c-\parenthesize-! r c'~
+		c b! a! g fis4 g
+		d2 es4 r %40
+		es16 es8 es es es16 d8 d b b
+		c c c c cis cis cis cis
+		d d d d d d d d
+		g,(\p c) b( a) g( c) b( a)
+		g-! g-! g-! g-! g4-! r\fermata \bar "|." %45 finis
+	}
+}

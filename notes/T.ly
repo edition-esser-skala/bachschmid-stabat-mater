@@ -333,6 +333,66 @@ OQuamTenoreLyrics = \lyricmode {
 	ti. %81 finis
 }
 
+QuisEstTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoQuisEst
+		R1*9 %9
+		R1\fermataMarkup %10
+		R1*5 %15
+		R1\fermataMarkup
+		R1*6 %22
+		\mvTr d4.\fE^\tutti d8 e e4.
+		d d8 d d4.
+		c c8 c c4. %25
+		b b8 b2~
+		b b
+		b4. b8 b4 b
+		b4. b8 a4 r
+		b4. b8 d d d d %30
+		es!2 d4 r
+		b4. b8 d d d d
+		es!2 d4 r
+		r2 r8 d4 d8
+		d[ cis] r c~ c[ h] h r %35
+		r d([ a)] h c4 c
+		r8 d4 d8 g,4 g
+		R1
+		r2 d'8 d d d
+		d4. d8 b4 r %40
+		b4. g8 a4 g8 g
+		g2 a~
+		a4 b8[( c]) d4. d8
+		d4 r r2
+		R1\fermataMarkup \bar "|." %45 finis
+	}
+}
+
+QuisEstTenoreLyrics = \lyricmode {
+	\xE Pro pec -- ca -- tis
+	su -- ae gen -- tis
+	vi -- dit Ie -- sum %25
+	in tor -- men --
+	tis
+	et fla -- gel -- lis
+	sub -- di -- tum,
+	vi -- dit Ie -- sum in tor -- %30
+	men -- tis,
+	vi -- dit Ie -- sum in tor --
+	men -- tis \x
+	et fla --
+	gel -- _ lis, %35
+	et fla -- gel -- lis,
+	et fla -- gel -- lis,
+
+	et fla -- gel -- lis
+	sub -- di -- tum, %40
+	et fla -- gel -- lis, fla --
+	gel -- _
+	lis sub -- di --
+	tum. %44 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

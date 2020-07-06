@@ -578,6 +578,87 @@ QuaeMaerebatAltoLyrics = \lyricmode {
 	ti. %142 finis
 }
 
+QuisEstAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoQuisEst
+		R1*9 %9
+		R1\fermataMarkup
+		\mvTr b'4.\pE^\solo b8 \appoggiatura b16 a8 a4.
+		as4. as8 \appoggiatura as16 g8 g4.
+		g4. g8 c4 b
+		a~ a16[ b] a([ g)] g8 fis r d
+		g1~ %15
+		g4 c8 b a8. g16 f!4\fermata
+		a r b r
+		c4. b8 b a r4
+		a4. a8 a16([ b)] b8 b16([ c)] d([ es)]
+		\appoggiatura d c8 c c b b a r4 %20
+		r2 r4 r8 g
+		es'4 es16([ c)] a!([ g)] fis16. e32 d8 r4
+		\mvTr g4.\fE^\tutti g8 a a4.
+		a a8 g g4.
+		g g8 f! f4. %25
+		f f8 es2(
+		f) es
+		f4. f8 es4 es
+		e4. e8 d4 r
+		cis4. cis8 d d fis fis %30
+		g2 fis4 r
+		cis4. cis8 d d fis fis
+		g2 fis4 r
+		r8 a([ e)] fis g4 g
+		r2 r8 g4 g8 %35
+		g[ fis] r f~ f[ e] r es~
+		es[ d] r d~ d[ c] c4
+		r8 a'4 h8 c([ g)] c4
+		r2 a8 a g g
+		g4 fis g r %40
+		g4. g8 fis4 g8 g
+		g1
+		fis4 g g( fis8) fis
+		g4 r r2
+		R1\fermataMarkup \bar "|." %45 finis
+	}
+}
+
+QuisEstAltoLyrics = \lyricmode {
+	Quis non pos -- set %11
+	con -- tri -- sta -- ri,
+	pi -- am ma -- trem
+	con -- tem -- pla -- ri do --
+	len -- %15
+	tem cum fi -- li -- o?
+	Quis, quis,
+	quis non pos -- set
+	con -- tri -- sta -- ri, pi -- am
+	ma -- trem con -- tem -- pla -- ri %20
+	do --
+	len -- tem cum fi -- li -- o?
+	\xE Pro pec -- ca -- tis
+	su -- ae gen -- tis
+	vi -- dit Ie -- sum %25
+	in tor -- men --
+	tis
+	et fla -- gel -- lis
+	sub -- di -- tum,
+	vi -- dit Ie -- sum in tor -- %30
+	men -- tis,
+	vi -- dit Ie -- sum in tor --
+	men -- tis \x
+	et fla -- gel -- lis,
+	et fla -- %35
+	gel -- _ _
+	_ lis,
+	et fla -- gel -- lis,
+	et fla -- gel -- lis
+	sub -- di -- tum, %40
+	et fla -- gel -- lis, fla --
+	gel --
+	_ lis sub -- di --
+	tum. %44 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

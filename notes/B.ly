@@ -326,6 +326,66 @@ OQuamBassoLyrics = \lyricmode {
 	ti. %81 finis
 }
 
+QuisEstBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoQuisEst
+		R1*9 %9
+		R1\fermataMarkup %10
+		R1*5 %15
+		R1\fermataMarkup
+		R1*6 %22
+		\mvTr g'4.\fE^\tutti g8 g g4.
+		fis fis8 f f4.
+		e e8 es es4. %25
+		d d8 es2(
+		d) es
+		d4. d8 es4 d
+		cis4. cis8 d d4 d8
+		es4 es d d %30
+		cis2 d8 d4 d8
+		es4 es d d
+		cis2 d4 r
+		R1
+		r8 a'([ e)] fis g4 g8 r %35
+		r2 r8 g4 g8
+		g[ fis] r f~ f[ e] r es~
+		es[ d] r d~ d[ c] r c'~
+		c[ b! a! g] fis4 g
+		d4. d8 es4 r %40
+		es4. es8 d4 b8 b
+		c2 cis
+		d4 d d4. d8
+		g,4 r r2
+		R1\fermataMarkup \bar "|." %45 finis
+	}
+}
+
+QuisEstBassoLyrics = \lyricmode {
+	Pro pec -- ca -- tis
+	su -- ae gen -- tis
+	vi -- dit Ie -- sum %25
+	in tor -- men --
+	tis
+	et fla -- gel -- lis
+	sub -- di -- tum, vi -- dit
+	Ie -- sum in tor -- %30
+	men -- tis, vi -- dit
+	Ie -- sum in tor --
+	men -- tis
+
+	et fla -- gel -- lis, %35
+	et fla --
+	gel -- _ _
+	_ _
+	_ lis
+	sub -- di -- tum, %40
+	et fla -- gel -- lis, fla --
+	gel -- _
+	_ lis sub -- di --
+	tum. %44 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

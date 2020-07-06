@@ -200,56 +200,119 @@
 	% 		\midi { \tempo 2 = 50 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "IV"
+	% 		title = "Q U A E   M A E R E B A T   E T   D O L E B A T"
+	% 	}
+	% 	\tocSection "4" "Quae maerebat et dolebat"
+	% 	\paper {
+	% 		top-system-spacing.basic-distance = #15
+	% 		top-system-spacing.minimum-distance = #15
+	% 		markup-system-spacing.basic-distance = #10
+	% 		markup-system-spacing.minimum-distance = #10
+	% 		systems-per-page = #2
+	% 	}
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\QuaeMaerebatViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\QuaeMaerebatViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\QuaeMaerebatViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff \with { \smallGroupDistance } <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \QuaeMaerebatAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \QuaeMaerebatAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\QuaeMaerebatOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \QuaeMaerebatBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "IV"
-			title = "Q U A E   M A E R E B A T   E T   D O L E B A T"
+			number = "V–VII"
+			title = "Q U I S   E S T   H O M O ,   Q U I   N O N   F L E R E T"
 		}
-		% \tocSection "4" "Quae maerebat et dolebat"
-		\paper {
-			top-system-spacing.basic-distance = #15
-			top-system-spacing.minimum-distance = #15
-			markup-system-spacing.basic-distance = #10
-			markup-system-spacing.minimum-distance = #10
-			systems-per-page = #2
-		}
+		% \tocSection "5–7" "Quis est homo, qui non fleret"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
+				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\QuaeMaerebatViolinoI
+							\QuisEstViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\QuaeMaerebatViolinoII
+							\QuisEstViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\QuaeMaerebatViola
+						\QuisEstViola
 					}
 				>>
-				\new ChoirStaff \with { \smallGroupDistance } <<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \QuisEstSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \QuisEstSopranoLyrics
+
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \QuaeMaerebatAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuisEstAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \QuaeMaerebatAltoLyrics
+					\new Lyrics \lyricsto Alto \QuisEstAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \QuisEstTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \QuisEstTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \QuisEstBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuisEstBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\QuaeMaerebatOrgano
+						\QuisEstOrgano
 					}
 				>>
-				\new FiguredBass { \QuaeMaerebatBassFigures }
+				\new FiguredBass { \QuisEstBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 50 }
 		}
 	}
 }
