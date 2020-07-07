@@ -367,56 +367,119 @@
 	% 		\midi { \tempo 4 = 70 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "IX"
+	% 		title = "E I A,   M A T E R,   F O N S   A M O R I S"
+	% 	}
+	% 	\tocSection "9" "Eia, mater, fons amoris"
+	% 	\paper {
+	% 		top-system-spacing.basic-distance = #15
+	% 		top-system-spacing.minimum-distance = #15
+	% 		markup-system-spacing.basic-distance = #10
+	% 		markup-system-spacing.minimum-distance = #10
+	% 		systems-per-page = #2
+	% 	}
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\EiaMaterViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\EiaMaterViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\EiaMaterViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff \with { \smallGroupDistance } <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \EiaMaterSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \EiaMaterSopranoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\EiaMaterOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \EiaMaterBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 80 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "IX"
-			title = "E I A,   M A T E R,   F O N S   A M O R I S"
+			number = "X"
+			title = "F A C,   U T   A R D E A T   C O R   M E U M"
 		}
-		% \tocSection "9" "Eia, mater, fons amoris"
-		\paper {
-			top-system-spacing.basic-distance = #15
-			top-system-spacing.minimum-distance = #15
-			markup-system-spacing.basic-distance = #10
-			markup-system-spacing.minimum-distance = #10
-			systems-per-page = #2
-		}
+		\tocSection "10" "Fac, ut ardeat cor meum"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
+				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\EiaMaterViolinoI
+							\FacUtViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\EiaMaterViolinoII
+							\FacUtViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\EiaMaterViola
+						\FacUtViola
 					}
 				>>
-				\new ChoirStaff \with { \smallGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \EiaMaterSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \FacUtSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \EiaMaterSopranoLyrics
+					\new Lyrics \lyricsto Soprano \FacUtSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \FacUtAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \FacUtAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \FacUtTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \FacUtTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \FacUtBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \FacUtBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\EiaMaterOrgano
+						\FacUtOrgano
 					}
 				>>
-				\new FiguredBass { \EiaMaterBassFigures }
+				\new FiguredBass { \FacUtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 1 = 70 }
 		}
 	}
 }

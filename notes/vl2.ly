@@ -821,3 +821,161 @@ EiaMaterViolinoII = {
 		b,4-! r\fermata \bar "|."
 	}
 }
+
+FacUtViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 2/2 \tempoFacUt
+		r4 b'\fE c d
+		es2 d4 c
+		b b c d
+		es2 d4 c
+		b b c d %5
+		es c d b
+		c b8 c d4 c
+		b a g2
+		d'1
+		d %10
+		d2. d4
+		d2 d
+		d d
+		d d~
+		d cis %15
+		d4 es! d c
+		b g a b
+		c2 b4 a
+		g g a b
+		c2 b4 a %20
+		g g a b
+		c a b g
+		a2 d,
+		g4 d' b g
+		d1 %25
+		R1*7 %32
+		g'1
+		g
+		g2. g4 %35
+		g2 g
+		g g
+		g g~
+		g fis
+		g es %40
+		d4 c b a
+		b c8 d es2
+		d4 c b a
+		b c8 d es2
+		d4 c b a %45
+		b c8 d es2
+		d d~
+		d c
+		d-! d-!
+		d-! d-! %50
+		b-! b-!
+		h1
+		c2-! c-!
+		c-! c-!
+		c-! c-! %55
+		c1
+		r4 d es f
+		g2 f4 es
+		d d es f
+		g2 f4 es %60
+		d d es f
+		g es f d
+		es d8 es f4 es
+		d es2 es4
+		d c b a %65
+		b c8 d es2
+		d4 c b a
+		b c8 d es2
+		d4 c b a
+		b c8 d es2 %70
+		d4 c b a
+		b as g b
+		c as f b
+		g2 es'-!
+		es-! es-! %75
+		es2. es4
+		es2-! es-!
+		es-! es-!
+		es-! es-!
+		es-! f~ %80
+		f es~
+		es d
+		r4 c d es
+		f2 es4 d
+		c c d es %85
+		f2 es4 d
+		c c d es
+		f c es c~
+		c h8 a h2
+		c4 f2 f4 %90
+		es d c h
+		c d8 es f2
+		es4 d c h
+		c d8 es f2
+		es4 d c h %95
+		c2 es~
+		es4 f d2~
+		d4 es c2~
+		c4 d b!2~
+		b4 c a!2~ %100
+		a4 b g2~
+		g4 a fis2
+		d'4 c b a
+		b c8 d es2
+		d4 c b a %105
+		b c8 d es2
+		d4 c b a
+		b c8 d es2
+		d4 d, d'2
+		es e %110
+		d4 fis d fis
+		d fis d fis
+		cis e cis e
+		cis e cis e
+		c a c a %115
+		c a c a
+		h d h d
+		h d h d
+		b d b d
+		b d b d %120
+		a c a c
+		b d b d
+		a g a g
+		a fis a fis
+		g2 es' %125
+		d4 c b a
+		b c8 d es2
+		d4 c b a
+		b c8 d es2
+		d4 c b a %130
+		b g b d
+		c es c es
+		g,2 b'
+		a1
+		g4( f!) f2-! %135
+		es4 d c h
+		c2 f
+		es4 d c h
+		c2 f
+		es4 d c h %140
+		c2-! c~
+		c c-!
+		c4 a! c2
+		d4 b d2
+		fis4 d fis2 %145
+		d4 b d2
+		es c
+		a a,
+		r4 g''8( a b4) b,,
+		c g' d g %150
+		es-! g'8( a b4) b,,
+		c g' d g
+		es g'8( a b4) b,,
+		c g' d g
+		es g'8( a b4) g-! %155
+		a2 a,
+		g r\fermata \bar "|." %157 finis
+	}
+}

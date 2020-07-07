@@ -822,6 +822,165 @@ EiaMaterViolinoI = {
 	}
 }
 
+FacUtViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 2/2 \tempoFacUt
+		g''1\fE
+		g
+		g2. g4
+		g2 g
+		g g %5
+		g g~
+		g fis
+		g1
+		r4 f! g a
+		b2 a4 g %10
+		f2 g4 a
+		b2 a4 g
+		f f g a
+		b g a f
+		g f8 g a4 g %15
+		f2 fis
+		g4 b, c d
+		es2 d4 c
+		b b c d
+		es2 d4 c %20
+		b b c d
+		es c d b
+		c b8 c d4 c
+		b2 r
+		d1 %25
+		d
+		d2. d4
+		d2 d
+		d d
+		d d~ %30
+		d cis
+		d4 es! d c
+		b2 r
+		R1*6 %39
+		r4 c'2 c4 %40
+		b a g fis
+		g2 c
+		b4 a g fis
+		g2 c
+		b4 a g fis %45
+		g2 c
+		b4 g a d,
+		g a8 b a4 g
+		fis2 r
+		g-! g-! %50
+		g-! g-!
+		g-! g-!
+		g1
+		f2-! f-!
+		f-! f-! %55
+		f-! f-!
+		b1
+		b
+		b2. b4
+		b2 b %60
+		b b
+		b b~
+		b a
+		b g
+		f4 es d c %65
+		d2 g
+		f4 es d c
+		d2 g
+		f4 es d c
+		d2 g %70
+		f4 es d c
+		d f es2~
+		es d
+		es r4 c'
+		b c b as %75
+		g as b c
+		b c b as
+		g as b c
+		b as b g
+		c b c as %80
+		b as b g
+		as g as f
+		es2 c'-!
+		c-! c-!
+		c2. c4 %85
+		c2 c
+		c c
+		c c
+		d1
+		c4 as2 as4 %90
+		g f es d
+		es2 as
+		g4 f es d
+		es2 as
+		g4 f es d %95
+		es c g'2
+		as2. f4
+		g2. es4
+		f2. d4
+		es2. c4 %100
+		d2. b!4
+		c2 c'
+		b4 a g fis
+		g2 c
+		b4 a g fis %105
+		g2 c
+		b4 a g fis
+		g2 c
+		b g~
+		g4 b a g %110
+		fis a fis a
+		fis a fis d
+		g e g e
+		g e g e
+		fis a fis a %115
+		fis a fis d
+		g h g h
+		g h g h
+		g b g b
+		g b g b %120
+		fis a fis a
+		g b g b
+		g a g a
+		fis a fis a
+		g2 c %125
+		b4 a g fis
+		g2 c
+		b4 a g fis
+		g2 c
+		b4 a g fis %130
+		g b g d
+		es g es c
+		b2 g'
+		a, fis'
+		g4( as) as2-! %135
+		g4 f! es d
+		es2 as
+		g4 f es d
+		es2 as
+		g4 f es d %140
+		es2 g~
+		g g
+		<fis a,!>1
+		<g b,>
+		<a c,> %145
+		<g b,>~
+		<g a,>
+		<fis a,>
+		r4 g8( a b4) b,,
+		c g' d g %150
+		es-! g'8( a b4) b,,
+		c g' d g
+		es g'8( a b4) b,,
+		c g' d g
+		es g'8( a b4) g-! %155
+		a2 fis
+		g r\fermata \bar "|." %157 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

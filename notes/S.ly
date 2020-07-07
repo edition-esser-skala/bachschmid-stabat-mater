@@ -905,6 +905,281 @@ EiaMaterSopranoLyrics = \lyricmode {
 	am. %110 finis
 }
 
+FacUtSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 2/2 \autoBeamOff \tempoFacUt
+		R1*8 %8
+		\mvTr d'1\fE^\tutti
+		d %10
+		d2. d4
+		d2 d
+		d d
+		d d
+		d( cis) %15
+		d r
+		r4 b c( d)
+		es2 d4 c
+		b2 c4 d
+		es2 d4 c %20
+		b2 c4( d)
+		es2 d
+		c( d4 c)
+		b1
+		r4 f!( g a) %25
+		b2 a4 g
+		f2 g4 a
+		b2 a4 g
+		f2 g4 a
+		b2 a %30
+		g a
+		a1
+		R1*8 %40
+		r2 d
+		d es
+		r d
+		d es
+		r d %45
+		d es
+		d r
+		R1
+		d
+		d %50
+		b2 g
+		R1
+		c
+		c
+		a2 f %55
+		R1
+		b
+		b
+		b2. b4
+		b2 b %60
+		b b
+		b b
+		b( a)
+		b4 es2 es4
+		d c b a %65
+		b2 es
+		d4 c b a
+		b2 es
+		d4 c b a
+		b2 es %70
+		d4 c b( a)
+		b2 es
+		es( d)
+		es r4 c
+		b( c) b as %75
+		g as b c
+		b c b( as)
+		g2 r
+		R1*4 %82
+		c1
+		c
+		c2. c4 %85
+		c2 c
+		c c
+		c c
+		d1
+		c4 f2 f4 %90
+		es d c h
+		c2 f
+		es4 d c h
+		c2 f
+		es4 d c h %95
+		c2 es
+		es d
+		d c~
+		c b!
+		b a!~ %100
+		a g
+		g fis
+		g r4 a
+		b2 es
+		d4 c b a %105
+		b2 es
+		d4 c b a
+		b2 es
+		d r
+		R1 %110
+		d2 d
+		d d
+		cis1~
+		cis
+		c~ %115
+		c
+		h~
+		h
+		b~
+		b %120
+		a
+		\once \tieDashed g~
+		g
+		fis
+		g2 c %125
+		b4( a) g fis
+		g2 c
+		b4 a g fis
+		g2 c
+		b4 a g fis %130
+		g2 d'
+		es c
+		b1
+		a
+		g2 r %135
+		r g
+		g as
+		r g
+		g as
+		r g %140
+		g1
+		c
+		a!
+		b
+		c %145
+		b
+		a
+		a
+		g2 r
+		R1*7 %156
+		R1\fermataMarkup \bar "|." %157 finis
+	}
+}
+
+FacUtSopranoLyrics = \lyricmode {
+	Fac, %9
+	ut %10
+	ar -- de --
+	at, ut
+	ar -- de --
+	at cor
+	me -- %15
+	um
+	in a --
+	man -- _ _
+	_ _ _
+	_ _ _ %20
+	_ do __
+	Chri -- stum
+	De --
+	um,
+	ut __ %25
+	si -- bi com --
+	pla -- _ _
+	_ _ _
+	_ _ _
+	_ _ %30
+	_ ce --
+	am,
+
+	ut %41
+	si -- bi,
+	ut
+	si -- bi
+	com -- %45
+	pla -- ce --
+	am,
+
+	in
+	a -- %50
+	man -- do
+
+	Chri --
+	stum
+	De -- um. %55
+
+	Fac,
+	ut
+	ar -- de --
+	at, ut %60
+	ar -- de --
+	at cor
+	me --
+	um in a --
+	man -- _ _ _ %65
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ _ %70
+	_ _ do __
+	Chri -- stum
+	De --
+	um, ut
+	si -- bi com -- %75
+	pla -- _ _ _
+	_ _ ce --
+	am.
+
+	Fac, %83
+	ut
+	ar -- de -- %85
+	at, ut
+	ar -- de --
+	at cor
+	me --
+	um in a -- %90
+	man -- _ _ _
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ _ %95
+	_ do
+	Chri -- stum
+	De -- um, __
+	ut
+	si -- bi __ %100
+	com --
+	pla -- ce --
+	am, com --
+	pla -- _
+	_ _ _ _ %105
+	_ _
+	_ _ _ _
+	_ ce --
+	am,
+	%110
+	ut si --
+	bi com --
+	pla --
+
+	_ %115
+
+	_
+
+	_
+	%120
+	_
+	_
+
+	ce --
+	am, ut %125
+	si -- bi com --
+	pla -- _
+	_ _ _ _
+	_ _
+	_ _ _ _ %130
+	_ _
+	_ _
+	_
+	ce --
+	am, %135
+	ut
+	si -- bi,
+	ut
+	si -- bi
+	com -- %140
+	pla --
+	_
+	_
+	_
+	_ %145
+	_
+	_
+	ce --
+	am. %149 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

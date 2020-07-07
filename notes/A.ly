@@ -659,6 +659,286 @@ QuisEstAltoLyrics = \lyricmode {
 	tum. %44 finis
 }
 
+FacUtAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 2/2 \autoBeamOff \tempoFacUt
+		\mvTr g'\fE^\tutti
+		g
+		g2. g4
+		g2 g
+		g g %5
+		g g
+		g( fis)
+		g1
+		r4 d e( f!)
+		g2 f4 e %10
+		d2 e4 f
+		g2 f4 e
+		d2 e4( f)
+		g2 f
+		e1 %15
+		d
+		r4 g( a b)
+		c2 b4 a
+		g2 a4 b
+		c2 b4 a %20
+		g2 a4 b
+		c2 b
+		a2. a4
+		g1
+		R1*8 %32
+		g1
+		g
+		g2. g4 %35
+		g2 g
+		g g
+		g g
+		g( fis)
+		g4 c2 c4 %40
+		b( a) g( fis)
+		g2 c
+		b4 a g fis
+		g2 c
+		b4 a g fis %45
+		g2 c
+		b a
+		g1
+		fis2 r
+		g1 %50
+		g
+		g
+		g
+		f
+		f %55
+		f2 r
+		r4 d es( f)
+		g2 f4 es
+		d2 es4 f
+		g2 f4 es %60
+		d2 es4( f)
+		g2 f
+		es f
+		r g
+		f4( es) d c %65
+		d2 g
+		f4 es d c
+		d2 g
+		f4 es d c
+		d2 g %70
+		f4 es d c
+		d es8[ f] g2
+		f2. f4
+		es2 r
+		R1*8 %82
+		r4 es f( g)
+		as2 g4 f
+		es2 f4 g %85
+		as2 g4 f
+		es2 f4( g)
+		as2 g
+		f1
+		es2 as %90
+		g4( f) es d
+		es2 as
+		g4 f es d
+		es2 as
+		g4 f es( d) %95
+		es2 r
+		as1
+		g
+		f
+		es %100
+		d
+		c
+		b!2 r4 d
+		g2 c
+		b4 a g fis %105
+		g2 c
+		b4 a g fis
+		g2 c
+		b g~
+		g g %110
+		fis r
+		R1
+		g2 g
+		g g
+		fis1~ %115
+		fis
+		g~
+		g~
+		\once \tieDashed g~
+		g %120
+		c
+		b
+		a
+		a
+		g2 r %125
+		r d
+		d c
+		r d
+		d c
+		r d %130
+		g1
+		g2 g
+		g1~
+		g2 fis
+		g as %135
+		g4( f!) es d
+		es2 as
+		g4 f es d
+		es2 as
+		g4 f es d %140
+		es1
+		g
+		fis
+		g
+		a %145
+		g~
+		g
+		fis
+		g2 r
+		R1*7 %156
+		R1\fermataMarkup \bar "|." %157 finis
+	}
+}
+
+FacUtAltoLyrics = \lyricmode {
+	Fac,
+	ut
+	ar -- de --
+	at, ut
+	ar -- de -- %5
+	at cor
+	me --
+	um
+	in a --
+	man -- _ _ %10
+	_ _ _
+	_ _ _
+	_ do __
+	Chri -- stum
+	De -- %15
+	um,
+	ut __
+	si -- bi com --
+	pla -- _ _
+	_ _ _ %20
+	_ _ _
+	_ _
+	_ ce --
+	am.
+
+	Fac, %33
+	ut
+	ar -- de -- %35
+	at, ut
+	ar -- de --
+	at cor
+	me --
+	um in a -- %40
+	man -- do __
+	Chri -- stum
+	De -- _ _ _
+	_ _
+	_ _ _ _ %45
+	_ _
+	_ _
+	_
+	um,
+	ut %50
+	si --
+	bi
+	com --
+	pla --
+	ce -- %55
+	am,
+	in a --
+	man -- _ _
+	_ _ _
+	_ _ _ %60
+	_ do __
+	Chri -- stum
+	De -- um,
+	ut
+	si -- bi com -- %65
+	pla -- _
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ _ %70
+	_ _ _ _
+	_ _ _
+	_ ce --
+	am,
+
+	in a -- %83
+	man -- _ _
+	_ _ _ %85
+	_ _ _
+	_ do __
+	Chri -- stum
+	De --
+	um, ut %90
+	si -- bi com --
+	pla -- _
+	_ _ _ _
+	_ _
+	_ _ ce -- %95
+	am,
+	ut
+	si --
+	bi
+	com -- %100
+	pla --
+	ce --
+	am, com --
+	pla -- _
+	_ _ _ _ %105
+	_ _
+	_ _ _ _
+	_ _
+	_ _
+	ce -- %110
+	am,
+
+	ut si --
+	bi com --
+	pla -- %115
+
+	_
+
+	_ %121
+	_
+	_
+	ce --
+	am, %125
+	ut
+	si -- bi,
+	ut
+	si -- bi,
+	ut %130
+	si --
+	bi com --
+	pla --
+	ce --
+	am, ut %135
+	si -- bi com --
+	pla -- _
+	_ _ _ _
+	_ _
+	_ _ _ _ %140
+	_
+	_
+	_
+	_
+	_ %145
+	_
+
+	ce --
+	am. %149 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

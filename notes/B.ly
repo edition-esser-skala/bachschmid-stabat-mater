@@ -386,6 +386,243 @@ QuisEstBassoLyrics = \lyricmode {
 	tum. %44 finis
 }
 
+FacUtBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 2/2 \autoBeamOff \tempoFacUt
+		R1*16 %16
+		\mvTr g'1\fE^\tutti
+		g
+		g2. g4
+		g2 g %20
+		g g
+		g g
+		g( fis)
+		g1
+		r4 d e( f!) %25
+		g2 f4 e
+		d2 e4 f
+		g2 f4 e
+		d2 e4( f)
+		g2 f %30
+		e1
+		d2 r
+		r4 g( a b)
+		c2 b4 a
+		g2 a4 b %35
+		c2 b4 a
+		g2 a4 b
+		c2 b
+		a2. a4
+		g2 r %40
+		r4 c2 c4
+		b( a) g( fis)
+		g2 c
+		b4( a g fis)
+		g2 c4 c %45
+		b( a) g( fis)
+		g2 f
+		es1
+		d2 r
+		R1 %50
+		g
+		g
+		es2 c
+		R1
+		f %55
+		f
+		d2 b
+		R1*7 %64
+		r2 es %65
+		d4( c) b a
+		b2 es
+		d4 c b a
+		b2 es
+		d4 c b a %70
+		b2 es
+		d es
+		as, b
+		es2 r4 as
+		g( as) g f %75
+		es f g as
+		g as g f
+		es f g as
+		g f g es
+		as g as f %80
+		g f g es
+		f es f d
+		es d c2
+		R1*7 %90
+		r4 f2 f4
+		es( d) c( h)
+		c2 f
+		es4 d c h
+		c2 f %95
+		es c
+		R1*6 %102
+		g'2 c
+		b4 a g fis
+		g2 c %105
+		b4 a g fis
+		g2 c
+		b4 a g( fis)
+		g2 b,
+		c( cis) %110
+		d1
+		d
+		d
+		d2 d
+		d1~ %115
+		d~
+		d~
+		d~
+		d~
+		d~ %120
+		d~
+		d~
+		d
+		d
+		g2 r %125
+		r c
+		b4( a) g fis
+		g2 c
+		b4 a g fis
+		g2 c %130
+		b b,
+		c es
+		d es
+		c d
+		g, r %135
+		r f'!
+		es4( d) c h
+		c2 f
+		es4 d c h
+		c2 f %140
+		es4 d c d
+		es d es c
+		d1~
+		d~
+		d~ %145
+		d2 b
+		c1
+		d
+		g,2 r
+		R1*7 %156
+		R1\fermataMarkup \bar "|." %157 finis
+	}
+}
+
+FacUtBassoLyrics = \lyricmode {
+	Fac, %17
+	ut
+	ar -- de --
+	at, ut %20
+	ar -- de --
+	at cor
+	me --
+	um
+	in a -- %25
+	man -- _ _
+	_ _ _
+	_ _ _
+	_ do __
+	Chri -- stum %30
+	De --
+	um,
+	ut __
+	si -- bi com --
+	pla -- _ _ %35
+	_ _ _
+	_ _ _
+	_ _
+	_ ce --
+	am, %40
+	in a --
+	man -- do __
+	Chri -- stum
+	De --
+	um, in a -- %45
+	man -- do __
+	Chri -- stum
+	De --
+	um,
+	%50
+	in
+	a --
+	man -- do
+
+	Chri -- %55
+	stum
+	De -- um,
+
+	ut %65
+	si -- bi com --
+	pla -- _
+	_ _ _ _
+	_ _
+	_ _ _ _ %70
+	_ _
+	_ _
+	_ ce --
+	am, ut
+	si -- bi com -- %75
+	pla -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %80
+	_ _ _ _
+	_ _ _ _
+	_ ce -- am,
+
+	in a -- %91
+	man -- do __
+	Chri -- stum
+	De -- _ _ _
+	_ _ %95
+	_ um,
+
+	in a -- %103
+	man -- _ _ _
+	_ _ %105
+	_ _ _ _
+	_ _
+	_ _ do __
+	Chri -- stum
+	De -- %110
+	um,
+	ut
+	si --
+	bi com --
+	pla -- %115
+
+	ce -- %124
+	am, %125
+	ut
+	si -- bi com --
+	pla -- _
+	_ _ _ _
+	_ _ %130
+	_ _
+	_ _
+	_ _
+	_ ce --
+	am, %135
+	ut
+	si -- bi com --
+	pla -- _
+	_ _ _ _
+	_ _ %140
+	_ _ _ _
+	_ _ _ _
+	_
+
+	_ %146
+	_
+	ce --
+	am. %149 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

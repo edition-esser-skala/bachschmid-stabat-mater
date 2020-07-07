@@ -510,6 +510,253 @@ ViditSuumTenoreLyrics = \lyricmode {
 	ri -- tum. %63 finis
 }
 
+FacUtTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 2/2 \autoBeamOff \tempoFacUt
+		R1*24 %24
+		\mvTr d1\fE^\tutti %25
+		d
+		d2. d4
+		d2 d
+		d d
+		d d %30
+		d( cis)
+		d1
+		r4 b c!( d)
+		es2 d4 c
+		b2 c4 d %35
+		es2 d4 c
+		b2 c4( d)
+		es2 d
+		c( a)
+		b es %40
+		d4( c) b a
+		b2 es
+		d4 c b a
+		b2 es
+		d4 c b a %45
+		b2 c4 a
+		b2 d~
+		d c
+		d r
+		b1 %50
+		b
+		h
+		c
+		a
+		a %55
+		a2 r
+		r4 b c( d)
+		es2 d4 c
+		b2 c4 d
+		es2 d4 c %60
+		b2 c4( d)
+		es2 d
+		c( f,)
+		b r
+		r f' %65
+		f g
+		r f
+		f g
+		r f
+		f g %70
+		d r
+		R1*2
+		es1
+		es %75
+		es2. es4
+		es2 es
+		es es
+		es es
+		es f~ %80
+		f es~
+		es d
+		r4 c d( es)
+		f2 es4 d
+		c2 d4 es %85
+		f2 es4 d
+		c2 d4( es)
+		f2 c
+		c( h)
+		c r %90
+		R1*5 %95
+		g'1
+		f
+		es2 es
+		d1
+		c %100
+		b!
+		a!2. a4
+		g2 r
+		R1
+		r2 d' %105
+		d c
+		r d
+		d c
+		r d
+		es e %110
+		d r
+		R1*3
+		a2 a %115
+		a a
+		g1~
+		g
+		d'~
+		d %120
+		c
+		d~
+		d
+		d
+		d2 es %125
+		d4( c) b a
+		b2 es
+		d4 c b a
+		b2 es
+		d4 c b a %130
+		b2 d
+		c r
+		R1*2
+		r2 f! %135
+		es4( d) c h
+		c2 f
+		es4 d c h
+		c2 f
+		es4 d c h %140
+		c2 es
+		c1
+		a!2 c
+		b1
+		fis %145
+		g
+		es'
+		d
+		d2 r
+		R1*7 %156
+		R1\fermataMarkup \bar "|." %157 finis
+	}
+}
+
+FacUtTenoreLyrics = \lyricmode {
+	Fac, %25
+	ut
+	ar -- de --
+	at, ut
+	ar -- de --
+	at cor %30
+	me --
+	um
+	in a --
+	man -- _ _
+	_ _ _ %35
+	_ _ _
+	_ do __
+	Chri -- stum
+	De --
+	um, ut %40
+	si -- bi com --
+	pla -- _
+	_ _ _ _
+	_ _
+	_ _ _ _ %45
+	_ _ _
+	_ _
+	ce --
+	am,
+	ut %50
+	si --
+	bi
+	com --
+	pla --
+	ce -- %55
+	am,
+	in a --
+	man -- _ _
+	_ _ _
+	_ _ _ %60
+	_ do __
+	Chri -- stum
+	De --
+	um,
+	ut %65
+	si -- bi,
+	ut
+	si -- bi
+	com --
+	pla -- ce -- %70
+	am.
+
+	Fac, %74
+	ut %75
+	ar -- de --
+	at, ut
+	ar -- de --
+	at cor
+	me -- _ %80
+	_
+	um
+	in a --
+	man -- _ _
+	_ _ _ %85
+	_ _ _
+	_ do __
+	Chri -- stum
+	De --
+	um, %90
+
+	ut %96
+	si --
+	bi com --
+	pla --
+	_ %100
+	_
+	_ ce --
+	am,
+
+	ut %105
+	si -- bi,
+	ut
+	si -- bi
+	com --
+	pla -- ce -- %110
+	am,
+
+	ut si -- %115
+	bi com --
+	pla --
+
+	_
+	%120
+	_
+	_
+
+	ce --
+	am, ut %125
+	si -- bi com --
+	pla -- _
+	_ _ _ _
+	_ _
+	_ _ _ _ %130
+	_ ce --
+	am,
+
+	ut %135
+	si -- bi com --
+	pla -- _
+	_ _ _ _
+	_ _
+	_ _ _ _ %140
+	_ _
+	_
+	_ _
+	_
+	_ %145
+	_
+	_
+	ce --
+	am. %149 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

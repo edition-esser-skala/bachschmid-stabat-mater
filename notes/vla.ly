@@ -813,3 +813,167 @@ EiaMaterViola = {
 		b,4 r\fermata \bar "|." %115 finis
 	}
 }
+
+FacUtViola = {
+	\relative c' {
+		\clef alto
+		\key g \minor \time 2/2 \tempoFacUt
+		r4 g'\fE a b
+		c2 b4 a
+		g g a b
+		c2 b4 a
+		g g a b %5
+		c a b g
+		a2 d,
+		g g,
+		r4 d' e! f!
+		g2 f4 e %10
+		d d e f
+		g2 f4 e
+		d d e f
+		g e f d
+		e2 a, %15
+		d d,
+		g'1
+		g
+		g2. g4
+		g2 g %20
+		g g
+		g g~
+		g fis
+		g g,
+		r4 f'! g a %25
+		b2 a4 g
+		f f g a
+		b2 a4 g
+		f f g a
+		b g a f %30
+		g f8 g a4 g
+		f2 fis
+		g4 b c d
+		es2 d4 c
+		b b c d %35
+		es2 d4 c
+		b b c d
+		es c d b
+		c b8 c d4 c
+		b a g2 %40
+		r4 c2 c4
+		b a g fis
+		g2 c
+		b4 a g fis
+		g2 c %45
+		b4 a g fis
+		g2 f
+		es1
+		d2 r
+		b' b %50
+		d, d
+		d1
+		es2 es'
+		a,! a
+		a a %55
+		a1
+		r4 b c d
+		es2 d4 c
+		b b c d
+		es2 d4 c %60
+		b b c d
+		es c d b
+		c2 f,
+		b r
+		r4 es2 es4 %65
+		d c b a
+		b2 es
+		d4 c b a
+		b2 es
+		d4 c b a %70
+		b2 es,
+		f b,
+		as b
+		es2. as4
+		g as g f %75
+		es f g as
+		g as g f
+		es f g as
+		g f g es
+		as g as f %80
+		g f g es
+		f es f d
+		r es f g
+		as2 g4 f
+		es es f g %85
+		as2 g4 f
+		es es f g
+		as2 g
+		f1
+		es2 r %90
+		r4 f2 f4
+		es d c h
+		c2 f
+		es4 d c h
+		c2 f %95
+		es c'
+		f,1
+		es
+		d
+		c %100
+		b!
+		a!2 a'
+		g c
+		b4 a g fis
+		g2 c %105
+		b4 a g fis
+		g2 c
+		b4 a g fis
+		g2 b,
+		c cis %110
+		d4 d a' fis
+		a fis a fis
+		e g e g
+		e g e g
+		a fis a fis %115
+		a fis a fis
+		h g h g
+		h g h g
+		d' b d b
+		d b d b %120
+		c a c a
+		b g b g
+		d d' d, d'
+		d, d' d, d'
+		g,2 r %125
+		r c
+		b4 a g fis
+		g2 c
+		b4 a g fis
+		g2 c %130
+		b b,
+		c es
+		d es~
+		es d
+		d r %135
+		r f!
+		es4 d c h
+		c2 f
+		es4 d c h
+		c2 f %140
+		es4 d c d
+		es d es c
+		d fis a fis
+		d g b g
+		d a' c a %145
+		d, g b b,
+		c d es c
+		d2 d,
+		g r
+		c-! d-! %150
+		es-! r4 b-!
+		c2-! d-!
+		es-! r4 b-!
+		c2-! d-!
+		es-! b %155
+		c d
+		g, r\fermata \bar "|." %157 finis
+	}
+}
