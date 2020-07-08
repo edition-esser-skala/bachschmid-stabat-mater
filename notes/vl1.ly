@@ -981,6 +981,90 @@ FacUtViolinoI = {
 	}
 }
 
+SanctaMaterViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoSanctaMater
+		f'4.(\fE es16 d) g( f) f8~ f16 a( b f)
+		es8-! es~ es16 d( c b) d( c) b8-! r f\p
+		b-! b4( a8) es'-! es4( d8)
+		g-!\f g4 a b f8
+		\appoggiatura f16 es8 d16 c \appoggiatura c g'8 f16 es \appoggiatura es d8 c16 b \appoggiatura b f'8 es16 d %5
+		c d8 es16~ es f-! g-! a-! b32( b,16.) f'32([ as16.)] g32( c,16.) es32([ c16.)]
+		\afterGrace b8.[\p { c32 b a b } d16] \appoggiatura d c8 b16 a \afterGrace f'8.[ { g32[ f e f] } g16] f( g) es( c)
+		b32(\f f16.) b32([ d16.)] \appoggiatura d16 c8 b16 a b8 f b,4
+		f''4.(\p es16 d) g( f) f4.
+		es8-! es~ es16 d( c b) d( c) b8-! r f %10
+		b-! b4( a8) es'-! es4( d8)
+		c-! c4( b8) r a-! a-! a-!
+		a a c c c b b b
+		b b a a b b d d
+		c c4 c8~ c16 es( d es) f( es d c) %15
+		b4.( c8) b4-! r16 f'-! f( g)
+		a,8 a c c c b b b
+		b b a a b b d d
+		c c4 c8~ c r g' r
+		f f es es d r16 b-!\f a8-! g-! %20
+		f-! c''4(\p b16 a) d( c) c4.
+		b8-! b~ b16 a( g f) a( g) f8-! r c
+		f-! f4( e8) b'-! b4( a8)
+		g-! g4( f8) r e-! e-! e-!
+		e-! e-! g,-! g-! g-! f-! f-! f-! %25
+		f-! f-! e-! e-! f f a a
+		b d d d d-! d4 b8
+		a4.( b8) a4-! r16 c-! c( d)
+		e,8-! e-! g-! g-! g-! f-! f-! f-!
+		f-! f-! e-! e-! f-! f-! a-! a-! %30
+		b-! d-! d-! d-! d r b' r
+		a-\parenthesize-! f4( e8) f8.-! c16 h( c h c)
+		g'8-! g4( b8) \appoggiatura b16 as8 g-! h,16( c h c)
+		g'4. b8 \appoggiatura b16 as8 g-! e,16( f e f)
+		g4. b8 \appoggiatura b16 as8 g-! h,16( c h c) %35
+		g'8-! g4 b8 \appoggiatura b16 as8 g-! e'16( b g' e)
+		f4-! e16( b g' e) f4-! e16( b g' e)
+		f8-! c4 d8 c d c b
+		a a g g f4 e'16( f) e( f)
+		b,2( \scriptOut a4)-! e'16( f) e( f) %40
+		d2( \scriptOut c4)-\parenthesize-! e16( f) e( f)
+		b8\f b4 b8 a\p d c b
+		a a a a g g g g
+		f8-!\f f4( e8) b'-! b4( a8)
+		d, d4 e f c8 %45
+		\appoggiatura c16 b8 a16 g \appoggiatura g d'8 c16 b \appoggiatura b16 a8 g16 f \appoggiatura f c'8 b16 a
+		b c8 d16~ d e-! f-! g-! a32([ f16.)] c32( es16.) d32([ f16.)] d32( b16.)
+		a32([ c16.)] d32( b16.) a32([ c16.)] e,32( g16.) f8 c f4
+		c''4.(\p b16 a) d( c) c4.
+		b8-! b~ b16 a( g f) a( g f g) a4-!\f %50
+		d,8-!\p d4( c16 b) es( d) d4.
+		c8-! c~ c16 b( a g) b( a) g8-! r d'(
+		f!) f-! f-! f,( es!4) r8 c'(
+		es) es-! es-! es,( d4) r8 f'(
+		as) as,-! as-! as-! g-! g'-! g-! g-! %55
+		g-! g4( f16 es) d8( c) r16 f( es c)
+		b8-! d16( f) r8 d16( f) r8 es16( g) r8 es16( g)
+		r8 c,16( es) r8 c16( es) r8 d16( f) r8 d16( f)
+		r8 d,16( f) r8 d16( f) r8 es16( g) r8 es16( g)
+		r8 a!16( c) r8 a16( c) r8 d16( f) r8 d16( f) %60
+		r8 c4 es8 \appoggiatura es16 des8 c e16( f) e( f)
+		c8-! c4 es8 \appoggiatura es16 des8 c c c
+		c-\parenthesize-! f4 es8 des( es) des( es)
+		es des des des c4 a16( es! c' a)
+		b4-! a16( es c' a) b4-! a16( es c' a) %65
+		b8 f'4 g8 f g f es
+		d d c c b r16 f'-! b( a g f)
+		es8\pp es4 es es es8~
+		es es4 es8~ es es-! es16( f g! f)
+		es([ d)] d( es) es4\fermata es16(\p f es f) es( f es c) %70
+		d( es d es) d( es d b) c( d c d) c( d c a)
+		b8 f'4 g8 f g f es
+		d d d d c c c c
+		b16(\f f) b-! d-! \appoggiatura d c8 b16 a d( b) d-! f-! \appoggiatura f es8 d16 c
+		d es8 f16~ f g-! as-! f-! g-! g8 b16 a-! a8 c16 %75
+		b32([ d16.)] f,32( as16.) g32([ b16.)] c,32( es16.) d16( f) b,( d) \appoggiatura d c8 b16 a
+		b32([ b'16.)] g32( es16.) d32([ f16.)] a,32( c16.) b8 f b,4\fermata \bar "|." %77 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

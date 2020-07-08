@@ -939,6 +939,117 @@ FacUtAltoLyrics = \lyricmode {
 	am. %149 finis
 }
 
+SanctaMaterAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoSanctaMater
+		R1*20 %20
+		\mvTr c'4.\pE^\soloE b16([ a)] d([ c)] c4.
+		b4~ b16[ a] g([ f)] \appoggiatura a g8 f r4
+		f8 f4( e8) b' b4( a8)
+		g g4( f8) e16([ d)] c8 r4
+		b' e, g16([ f)] f8 r4 %25
+		d' b gis16([ a)] a8 r4
+		g g g16[( b a b] c[ b)] a([ g)]
+		f4( a8[ g16)] f f4 r
+		b e, g16([ f)] f8 r4
+		d' b gis16([ a)] a8 r4 %30
+		g g g16([ a b c] d[ e)] f([ d)]
+		c16([ a] f4) g8 f4 r
+		e4. g8 \appoggiatura g16 f8 e r4
+		e4. g8 \appoggiatura g16 f8 e r4
+		e4. g8 \appoggiatura g16 f8 e r4 %35
+		e4. g8 \appoggiatura g16 f8 e r4
+		R1
+		a!4. b8 a([ b)] a([ g)]
+		f4( e8.) f16 f4 r
+		g2 f4 r %40
+		b2 a4 r
+		g4. g8 a([ b)] a([ g)]
+		f2( e4.) e8
+		f4 r r2
+		R1*4 %48
+		c'4. b16([ a)] d([ c)] c4.
+		b4~ b16[ a] g([ f)] \appoggiatura a g8 f r4 %50
+		R1*2
+		r4 r8 g c2
+		a4 r8 f b2(
+		d,) es4 r8 es' %55
+		es4. d16([ c)] b8([ a!)] r4
+		R1*2
+		b4. as8 \appoggiatura as g4. g8
+		es'4. a,8 c16([ b)] b8 r4 %60
+		a4. c8 \appoggiatura c16 b8 a r4
+		a4. c8 b16 a a8 r4
+		a4. c8 b([ c)] b([ c)]
+		\appoggiatura c b4. b8 a4 r
+		R1 %65
+		d4. es8 d([ es)] d([ c)]
+		b4( a8.) b16 b4 r
+		r2 a4 b
+		a b c~ c16[ d es d]
+		c[ h] h([ c)] c4\fermata r2 %70
+		R1
+		d4. es8 d([ es)] d([ c)]
+		b2( a4.) a8
+		b4 r r2
+		R1*2 %76
+		R1\fermataMarkup \bar "|." %77 finis
+	}
+}
+
+SanctaMaterAltoLyrics = \lyricmode {
+	Tu -- i na -- ti %21
+	vul -- ne -- ra -- ti,
+	tam di -- gna -- ti __
+	pro me __ pa -- ti,
+	poe -- nas me -- cum, %25
+	poe -- nas me -- cum,
+	poe -- nas me -- cum
+	di -- vi -- de,
+	poe -- nas me -- cum,
+	poe -- nas me -- cum, %30
+	poe -- nas me -- cum
+	di -- vi -- de.
+	Fac me te -- cum
+	pi -- e fle -- re,
+	cru -- ci -- fi -- xo %35
+	con -- do -- le -- re,
+
+	do -- nec e -- go
+	vi -- xe -- ro,
+	do -- nec, %40
+	do -- nec,
+	do -- nec e -- go
+	vi -- xe --
+	ro.
+
+	Iux -- ta cru -- cem %49
+	te -- cum sta -- re, %50
+
+	in plan -- %53
+	ctu, in plan --
+	ctu de -- %55
+	si -- de -- ro.
+
+	mi -- hi iam non %59
+	sis a -- ma -- ra, %60
+	fac me te -- cum,
+	te -- cum plan -- ge -- re,
+	fac me te -- cum
+	plan -- ge -- re,
+	%65
+	fac me te -- cum
+	plan -- ge -- re,
+	fac me
+	te -- cum plan --
+	_ ge -- re, %70
+
+	fac me te -- cum
+	plan -- ge --
+	re. %74 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

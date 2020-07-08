@@ -977,3 +977,87 @@ FacUtViola = {
 		g, r\fermata \bar "|." %157 finis
 	}
 }
+
+SanctaMaterViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoSanctaMater
+		b8\fE b b b b b b b
+		b b b b f b b b
+		b\p r f' r f, r f r
+		es\f es es' es f f d' d
+		g, g c c b b f f %5
+		g f es4 f8 d es g
+		f4-!\p f-! f-! f-!
+		f8\f f g c, d f b,4
+		b8\p b b b b b b b
+		b b b b f b b b %10
+		b r f' r f, r f' r
+		es4( e) f r
+		es8-! es-! es-! es-! d-! d-! d-! d-!
+		c-! c-! c-! c-! b-! b-! b-! b-!
+		es-! es-! es-! es-! es-! es-! es-! es-! %15
+		f f f f b,4 r
+		es8-! es-! es-! es-! d-! d-! d-! d-!
+		c-! c-! c-! c-! b-! b-! b-! b-!
+		es-! es-! es-! es-! es r es r
+		f f f f b, r16 b'-!\f a8-! g-! %20
+		f\p f f f f f f f
+		f f f f c f f f
+		f r c' r c, r c r
+		b4( h) c8-! c-! c-! c-!
+		b-! b-! b-! b-! a-! a-! a-! a-! %25
+		g-! g-! g-! g-! f-! f-! f-! f-!
+		b-! b-! b-! b-! b-! b-! b-! b-!
+		c c c c f,4 r
+		b8-! b-! b-! b-! a-! a-! a-! a-!
+		g-! g-! g-! g-! f-! f-! f-! f-! %30
+		b-! b-! b-! b-! b r b r
+		c8 c c c f,4 r
+		c'8 c c c c c c c
+		c c c c c c c c
+		c c c c c c c c %35
+		c c c c c c r4
+		f8-! f-! g4-! f8-! f-! g4-!
+		f8-! f4 e8 f e f b,
+		c c c c f f f f
+		f f f f f f f f %40
+		f f f f f f f f
+		g\f g4 g8 a\p f f b
+		c c c c c, c c c
+		f\f a g c, d e f f,
+		b b'4 g8 a a a, a %45
+		g g g' g f f a a
+		g g g g f a b e,
+		f b c c, f c f4
+		f8\p f f f f f f f
+		f f f f c-! f4(\f fis8) %50
+		g\p g g g g g g g
+		g, g g g d g g g
+		r h( c d) r es!( f g)
+		r a,( b c) r d( es f)
+		r d-! d-! d-! es-! es-! es-! es-! %55
+		es es es es f f f r
+		r f16( d) r8 f16( d) r8 g16( es) r8 g16( es)
+		r8 es16( c) r8 es16( c) r8 f16( d) r8 f16( d)
+		b8 b b b b b b b
+		b b b b b b b b %60
+		f' f f f f f f f
+		f f f f f f f f
+		f-! f4 a8 b([ a)] b( a)
+		b e, e e f4 r
+		b,8-! b-! c4-! b8-! b-! c4-! %65
+		b8 b'4 a8 b a b es,
+		f f f, f b4 r
+		f'(\pp ges) f( ges)
+		f( ges) f8 f f f
+		f f f4\fermata f,2~\pE %70
+		f f
+		b8 b'4 a8 b a b es,
+		f f f f f, f f f
+		b\f r f r b r f' r
+		b b b b b b es, es %75
+		d d es es f d es f~
+		f g f f b f b,4\fermata \bar "|." %77 finis
+	}
+}

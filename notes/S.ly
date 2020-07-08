@@ -1180,6 +1180,117 @@ FacUtSopranoLyrics = \lyricmode {
 	am. %149 finis
 }
 
+SanctaMaterSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoSanctaMater
+		R1*8 %8
+		\mvTr f'4.\pE^\soloE es16([ d)] g([ f)] f4.
+		es4~ es16[ d] c([ b)] \appoggiatura d c8 b r4 %10
+		b8 b4( a8) es' es4( d8)
+		c c4( b8) a16([ g)] f8 r4
+		es'4 a, c16([ b)] b8 r4
+		g' es cis16([ d)] d8 r4
+		c c c16([ es d es] f[ es)] d([ c)] %15
+		b4( d8[ c16)] b b4 r
+		es a, c16([ b)] b8 r4
+		g' es cis16([ d)] d8 r4
+		c4. c8 c16([ d es f] g[ a)] b([ g)]
+		f([ d] b4) c8 b4 r %20
+		R1*12 %32
+		g4. b8 \appoggiatura b16 as8 g r4
+		g4. b8 \appoggiatura b16 as8 g r4
+		g4. b8 \appoggiatura b16 as8 g r4 %35
+		g4. b8 \appoggiatura b16 as8 g r4
+		R1
+		c4. d8 c([ d)] c([ b)]
+		a4( g8.) f16 f4 r
+		b2 a4 r %40
+		d2 c4 r
+		e4. e8 f([ d)] c([ b)]
+		a2( g4.) g8
+		f4 r r2
+		R1*6 %50
+		d'4. c16([ b)] es([ d)] d4.
+		c4~ c16[ b] a([ g)] \appoggiatura b a8 g r d'
+		f!2 es!4 r8 c
+		es2 d4 r8 f
+		as,2 g4 r8 g' %55
+		g4. f16([ es)] d8([ c)] r4
+		b4. as8 \appoggiatura as g8. g16 g4
+		es'8. es16 es8 a, c16([ b)] b8 r4
+		R1*2 %60
+		c4. es8 \appoggiatura es16 des8 c r4
+		c4. es8 des16 c c8 r4
+		c4. es8 des([ es)] des([ es)]
+		\appoggiatura es des4. des8 c4 r
+		R1 %65
+		f4. g8 f([ g)] f([ es)]
+		d4( c8.) b16 b4 r
+		r2 es4 es
+		es es es~ es16[ f g! f]
+		es[ d] d([ es)] es4\fermata r2 %70
+		R1
+		f4. g8 f([ g)] f([ es)]
+		d2( c4.) c8
+		b4 r r2
+		R1*2 %76
+		R1\fermataMarkup \bar "|." %77 finis
+	}
+}
+
+SanctaMaterSopranoLyrics = \lyricmode {
+	San -- cta ma -- ter, %9
+	i -- stud a -- gas, %10
+	cru -- ci -- fi -- xi __
+	fi -- ge __ pla -- gas
+	cor -- di me -- o,
+	cor -- di me -- o,
+	cor -- di me -- o %15
+	va -- li -- de,
+	cor -- di me -- o,
+	cor -- di me -- o,
+	cor -- di me -- o
+	va -- li -- de. %20
+
+	Fac me te -- cum %33
+	pi -- e fle -- re,
+	cru -- ci -- fi -- xo %35
+	con -- do -- le -- re,
+
+	do -- nec e -- go
+	vi -- xe -- ro,
+	do -- nec, %40
+	do -- nec,
+	do -- nec e -- go
+	vi -- xe --
+	ro.
+
+	te li -- ben -- ter %51
+	so -- ci -- a -- re in
+	plan -- ctu, in
+	plan -- ctu, in
+	plan -- ctu de -- %55
+	si -- de -- ro.
+	Vir -- go vir -- gi -- num,
+	vir -- gi -- num prae -- cla -- ra,
+
+	fac me te -- cum, %61
+	te -- cum plan -- ge -- re,
+	fac me te -- cum
+	plan -- ge -- re,
+	%65
+	fac me te -- cum
+	plan -- ge -- re,
+	fac me
+	te -- cum plan --
+	_ ge -- re, %70
+
+	fac me te -- cum
+	plan -- ge --
+	re. %74 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

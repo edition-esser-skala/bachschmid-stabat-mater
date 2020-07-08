@@ -652,6 +652,7 @@ tempoQuisEst = \tempoMarkup "Largo"
 tempoViditSuum = \tempoMarkup "Andante moderato"
 tempoEiaMater = \tempoMarkup "Andante ma non troppo"
 tempoFacUt = \tempoMarkup "Allegro"
+tempoSanctaMater = \tempoMarkup "Andante con moto"
 
 
 \include "notes/vl1.ly"
