@@ -29,7 +29,7 @@ StabatMaterViola = {
 		g\p g g g
 		c8\pp f4 es f es8~ %20
 		es f4 es d c8~
-		c4 g-! g-! g-!
+		c4 g-. g-. g-.
 		g2~ g4-\parenthesize-! r
 		c4\f r c r
 		c r c r %25
@@ -141,7 +141,7 @@ StabatMaterViola = {
 		g, g g g
 		c8 f4\p es f es8~
 		es f4 es d c8~
-		c4-! g-! g-! g-!
+		c4 g-. g-. g-.
 		g2~ g4-! r\fermata \bar "|." %135 finis
 	}
 }
@@ -413,7 +413,7 @@ OQuamViola = {
 		c, r c\p r
 		c r c r
 		c r c r
-		c-! c-! c-! c-!
+		c-. c-. c-. c-.
 		c1\fermata \bar "|." %85 finis
 	}
 }
@@ -423,7 +423,7 @@ QuaeMaerebatViola = {
 		\clef alto
 		\twofourtime \key es \major \time 2/4 \tempoQuaeMaerebat
 		es4(\f e)
-		f as8-! c-!
+		f as8-. c-.
 		b4 d,
 		es r8 b'
 		g\p g g g %5
@@ -465,10 +465,10 @@ QuaeMaerebatViola = {
 		b r b r
 		a r a r
 		b r b r
-		b16-! b-! b-! b-! b4-!
-		c16-! c-! c-! c-! c4-! %45
-		d16-! d-! d-! d-! d4-!
-		es16-! es-! es-! es-! es4-!
+		b16-. b-. b-. b-. b4-!
+		c16-. c-. c-. c-. c4-! %45
+		d16-. d-. d-. d-. d4-!
+		es16-. es-. es-. es-. es4-!
 		b'8 b b b
 		es, es es es
 		f f f f %50
@@ -525,10 +525,10 @@ QuaeMaerebatViola = {
 		es r es r
 		d r d r
 		es r es r
-		es16-! es-! es-! es-! es4-! %110
-		f16-! f-! f-! f-! f4-!
-		g16-! g-! g-! g-! g4-!
-		as16-! as-! as-! as-! as4-!
+		es16-. es-. es-. es-. es4-! %110
+		f16-. f-. f-. f-. f4-!
+		g16-. g-. g-. g-. g4-!
+		as16-. as-. as-. as-. as4-!
 		es8 es es es
 		as, as as as %115
 		b b b b
@@ -573,11 +573,11 @@ QuisEstViola = {
 		b'8\mf r b r e, e4 e8
 		a r a r d, d4 d8
 		g r g r c, c4 b8
-		c-! c-! c-! c-! d r16 d-!\f es( e f fis)
+		c-. c-. c-. c-. d r16 d-!\f es( e f fis)
 		g8\p r b r e, e4 e8 %5
 		a r a r d, d4 d8
 		g r g g c,-! c4( b8)
-		c-! c-! c-! c-! d4 r
+		c-. c-. c-. c-. d4 r
 		d2( es4 h)
 		c8([ d)] es( e) f2\fermata %10
 		b,8-! r b-! r c c4 c8
@@ -614,7 +614,7 @@ QuisEstViola = {
 		c c c c cis cis cis cis
 		d d d d d d d d
 		g,(\p c) b( a) g( c) b( a)
-		g-! g-! g-! g-! g4-! r\fermata \bar "|." %45 finis
+		g-. g-. g-. g-. g4-! r\fermata \bar "|." %45 finis
 	}
 }
 
@@ -675,9 +675,9 @@ ViditSuumViola = {
 		r d4( d8) r d4( d8)
 		r d4(\pp d8) r d4( d8)
 		r d4( d8) r cis4( cis8)
-		d4 r r8 e-!\p e-! e-!
-		r d-! d-! d-! r e-! e-! e-! %55
-		r f-! f-! f-! e r a, r
+		d4 r r8 e-.\p e-. e-.
+		r d-. d-. d-. r e-. e-. e-. %55
+		r f-. f-. f-. e r a, r
 		a r a r a r a r
 		a4 r r2
 		r4 r8 d~ d-! d4( d8)
@@ -687,8 +687,8 @@ ViditSuumViola = {
 		r cis4( cis8) d4 r
 		g,8\p r a r b4 r
 		g8 r a r d-! f( g e) %65
-		d-! f( g e) d-! f,-! f-! f-!
-		f2-! r\fermata \bar "|." %67 finis
+		d-! f( g e) d-! f,-. f-. f-.
+		f2-. r\fermata \bar "|." %67 finis
 	}
 }
 
@@ -771,10 +771,10 @@ EiaMaterViola = {
 		e r e r
 		f4 r
 		a,( b) %75
-		f-! f-!
-		f-! f-!
-		f-! f-!
-		f-! r
+		f-. f-.
+		f-. f-.
+		f-. f-.
+		f-. r
 		f2~ %80
 		f4 r
 		R2
@@ -988,37 +988,37 @@ SanctaMaterViola = {
 		es\f es es' es f f d' d
 		g, g c c b b f f %5
 		g f es4 f8 d es g
-		f4-!\p f-! f-! f-!
+		f4-.\p f-. f-. f-.
 		f8\f f g c, d f b,4
 		b8\p b b b b b b b
 		b b b b f b b b %10
 		b r f' r f, r f' r
 		es4( e) f r
-		es8-! es-! es-! es-! d-! d-! d-! d-!
-		c-! c-! c-! c-! b-! b-! b-! b-!
-		es-! es-! es-! es-! es-! es-! es-! es-! %15
+		es8-. es-. es-. es-. d-. d-. d-. d-.
+		c-. c-. c-. c-. b-. b-. b-. b-.
+		es-. es-. es-. es-. es-. es-. es-. es-. %15
 		f f f f b,4 r
-		es8-! es-! es-! es-! d-! d-! d-! d-!
-		c-! c-! c-! c-! b-! b-! b-! b-!
-		es-! es-! es-! es-! es r es r
+		es8-. es-. es-. es-. d-. d-. d-. d-.
+		c-. c-. c-. c-. b-. b-. b-. b-.
+		es-. es-. es-. es-. es r es r
 		f f f f b, r16 b'-!\f a8-! g-! %20
 		f\p f f f f f f f
 		f f f f c f f f
 		f r c' r c, r c r
-		b4( h) c8-! c-! c-! c-!
-		b-! b-! b-! b-! a-! a-! a-! a-! %25
-		g-! g-! g-! g-! f-! f-! f-! f-!
-		b-! b-! b-! b-! b-! b-! b-! b-!
+		b4( h) c8-. c-. c-. c-.
+		b-. b-. b-. b-. a-. a-. a-. a-. %25
+		g-. g-. g-. g-. f-. f-. f-. f-.
+		b-. b-. b-. b-. b-. b-. b-. b-.
 		c c c c f,4 r
-		b8-! b-! b-! b-! a-! a-! a-! a-!
-		g-! g-! g-! g-! f-! f-! f-! f-! %30
-		b-! b-! b-! b-! b r b r
+		b8-. b-. b-. b-. a-. a-. a-. a-.
+		g-. g-. g-. g-. f-. f-. f-. f-. %30
+		b-. b-. b-. b-. b r b r
 		c8 c c c f,4 r
 		c'8 c c c c c c c
 		c c c c c c c c
 		c c c c c c c c %35
 		c c c c c c r4
-		f8-! f-! g4-! f8-! f-! g4-!
+		f8-. f-. g4-! f8-. f-. g4-!
 		f8-! f4 e8 f e f b,
 		c c c c f f f f
 		f f f f f f f f %40
@@ -1036,7 +1036,7 @@ SanctaMaterViola = {
 		g, g g g d g g g
 		r h( c d) r es!( f g)
 		r a,( b c) r d( es f)
-		r d-! d-! d-! es-! es-! es-! es-! %55
+		r d-. d-. d-. es-. es-. es-. es-. %55
 		es es es es f f f r
 		r f16( d) r8 f16( d) r8 g16( es) r8 g16( es)
 		r8 es16( c) r8 es16( c) r8 f16( d) r8 f16( d)
@@ -1046,7 +1046,7 @@ SanctaMaterViola = {
 		f f f f f f f f
 		f-! f4 a8 b([ a)] b( a)
 		b e, e e f4 r
-		b,8-! b-! c4-! b8-! b-! c4-! %65
+		b,8-. b-. c4-! b8-. b-. c4-! %65
 		b8 b'4 a8 b a b es,
 		f f f, f b4 r
 		f'(\pp ges) f( ges)

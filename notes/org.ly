@@ -29,7 +29,7 @@ StabatMaterOrgano = {
 		g\p g g, g
 		c\pp r c-! r %20
 		c-! r c-! r
-		c-! c-! c-! c-!
+		c-. c-. c-. c-.
 		c2~ c4-! r
 		\mvTr c\f-\tutti r c r
 		c r c r %25
@@ -141,7 +141,7 @@ StabatMaterOrgano = {
 		g, g g g
 		c r c\p r
 		c r c r
-		c-! c-! c-! c-!
+		c-. c-. c-. c-.
 		c2~ c4-! r\fermata \bar "|." %135 finis
 	}
 }
@@ -1083,8 +1083,8 @@ QuisEstOrgano = {
 		es8 es es es d4 b
 		c2 cis
 		d4 d d2
-		g,4-!\p g-! g-! g-!
-		g8-! g-! g-! g-! g4-! r\fermata \bar "|." %45 finis
+		g,4-.\p g-. g-. g-.
+		g8-. g-. g-. g-. g4-! r\fermata \bar "|." %45 finis
 	}
 }
 
@@ -1193,8 +1193,8 @@ ViditSuumOrgano = {
 		r2 d4\p r
 		g8 r a r b4 r
 		g8 r a r d,4 r %65
-		d r d-! d-!
-		d2-! r\fermata \bar "|." %67 finis
+		d r d-. d-.
+		d2-. r\fermata \bar "|." %67 finis
 	}
 }
 
@@ -1891,8 +1891,8 @@ SanctaMaterOrgano = {
 		b b'4 a8 b a b es,
 		f f f f b,4 r
 		f'(\pp ges) f( ges)
-		f( ges) f8-! f-! f-! f-!
-		f-! f-! f4\fermata a2\pE %70
+		f( ges) f8-. f-. f-. f-.
+		f-. f-. f4\fermata a2\pE %70
 		b f
 		b8 b4 a8 b a b es,
 		f f f f f f f f

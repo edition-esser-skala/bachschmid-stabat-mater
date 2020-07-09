@@ -314,7 +314,7 @@ CuiusAnimamViolinoI = {
 		d( es! c)
 		b4.~
 		b
-		b8-! b-! b-! %165
+		b8-. b-. b-. %165
 		b( c a)
 		g16\f a b c d b
 		es8-! fis,( g)
@@ -413,7 +413,7 @@ OQuamViolinoI = {
 		c2 g'8\p( e c b!)
 		\appoggiatura b as4 g2 b4
 		\appoggiatura b8 as4 g2 b4
-		\appoggiatura b8 as4-! as-! as-! as-!
+		\appoggiatura b8 as4-. as-. as-. as-.
 		g1\fermata \bar "|." %85 finis
 	}
 }
@@ -500,9 +500,9 @@ QuaeMaerebatViolinoI = {
 		f'~
 		f4. d8
 		es( c) b!4-!\mf
-		as8-!\p as-! as-! as-!
-		as-! as-! as-! as-! %80
-		a-! a-! a-! a-!
+		as8-.\p as-. as-. as-.
+		as-. as-. as-. as-. %80
+		a-. a-. a-. a-.
 		b( d) f( as!)
 		ges4( f)
 		b( as)
@@ -563,9 +563,9 @@ QuaeMaerebatViolinoI = {
 		es8 es e e
 		f f as16( f as f) %140
 		g8 g f f
-		r b-!\pp b-! b-!
+		r b-.\pp b-. b-.
 		d,2(
-		es8) b'-! b-! b-!
+		es8) b'-. b-. b-.
 		d,,2( %145
 		es16) b''8\f g es b16~
 		b g'8 es b g16
@@ -585,7 +585,7 @@ QuisEstViolinoI = {
 		d'16(\p es d es) d( es d g) \appoggiatura d cis8-! cis4. %5
 		c16( d c d) c( d c a') \appoggiatura c, h8-! h4.
 		b16( c b c) b( c b g') \appoggiatura b, a8-! a4( b8)
-		b16( c) a-! a-! a( b) g-! g-! g8( fis) r d'
+		b16( c) a-. a-. a( b) g-. g-. g8( fis) r d'
 		g1~
 		g8( f!) es([ d)] c2\fermata %10
 		d8-! r d-! r es16( f es f) es( f es f)
@@ -595,10 +595,10 @@ QuisEstViolinoI = {
 		b( h) c( d) %15
 		es8([ d)] c( b) a2\fermata
 		c16-! c8( f16) c-! c8( f16) d-! d8( f16) d-! d8( f16)
-		es-! es-! es-! es-! es-! es-! d-! d-! d c8 c c c16~
-		c-! c-! c-! c-! c4-! c16( d) d-! d-! d( es f g)
-		f( es) es-! es-! es-! es-! d-! d-! d8 c16.( d32) c8-! c-! %20
-		f2 r8 g16.( as32) g8-! g-!
+		es-. es-. es-. es-. es-. es-. d-. d-. d c8 c c c16~
+		c-. c-. c-. c-. c4-! c16( d) d-. d-. d( es f g)
+		f( es) es-. es-. es-. es-. d-. d-. d8 c16.( d32) c8-. c-. %20
+		f2 r8 g16.( as32) g8-. g-.
 		g2( \scriptOut fis8-!) r16 a,!-!\f b( a b c)
 		d16( es d es) d( es d g) \appoggiatura d cis8-! cis4.
 		c16( d c d) c( d c a') \appoggiatura c, h8-! h4.
@@ -622,7 +622,7 @@ QuisEstViolinoI = {
 		g g4 g g g8
 		fis a, b b a a a a
 		g4~\p g16( a g fis) g4~ g16( a g fis)
-		g8-! g-! g-! g-! g4-! r\fermata \bar "|." %45 finis
+		g8-. g-. g-. g-. g4-! r\fermata \bar "|." %45 finis
 	}
 }
 
@@ -650,7 +650,7 @@ ViditSuumViolinoI = {
 		r f4( es8) r d4( b'8)
 		r f4( es8) r d4( b'8)
 		r f4( es8) d( c4 b8) %20
-		b4.( a8) r g-! g-! g-!
+		b4.( a8) r g-. g-. g-.
 		g( b e) r a,( c) f( a)
 		g,( b e) r a,( c) f-! f,16. f32
 		c'8-! c4( f8) des-! des4( c8)
@@ -664,8 +664,8 @@ ViditSuumViolinoI = {
 		b( a) c16. a32 a16( g) b16. g32 f8 c f4
 		r8 \slurDashed c'4(\p c8) r c4( c8) \slurSolid
 		r c4( cis8) d a a r
-		c4. c8 h([ c)] c-! c-! %35
-		r c4 c8 h([ c)] c-! c-!
+		c4. c8 h([ c)] c-. c-. %35
+		r c4 c8 h([ c)] c-. c-.
 		r c4 c8 b( d) es( c)
 		b4.( a8)g-! r g'16(\pp b g b)
 		cis,8-! r cis16( e cis e) g,8-! r g16(\f b g b)
@@ -695,8 +695,8 @@ ViditSuumViolinoI = {
 		r a4( a8) a a'4\p b8~
 		b cis,4 d a b8~
 		b cis,4 d8~ d4-! r %65
-		d-! r d-! d-!
-		d2-! r\fermata \bar "|." %67 finis
+		d-. r d-. d-.
+		d2-. r\fermata \bar "|." %67 finis
 	}
 }
 
@@ -762,10 +762,10 @@ EiaMaterViolinoI = {
 		c-! c( h c) d-! d( cis d)
 		a8 a' a a
 		g g g g
-		f16-! f-! f-! f-! f-! f-! f( g)
-		es!-! es-! es-! es-! es-! es-! es( f) %60
-		d-! d-! d-! d-! d-! d-! d( es)
-		c-! c-! c-! c-! c-! c-! c( d)
+		f16-. f-. f-. f-. f-. f-. f( g)
+		es!-. es-. es-. es-. es-. es-. es( f) %60
+		d-. d-. d-. d-. d-. d-. d( es)
+		c-. c-. c-. c-. c-. c-. c( d)
 		b8 b b b
 		d d d d
 		f f f f %65
@@ -786,7 +786,7 @@ EiaMaterViolinoI = {
 		\appoggiatura h c8. f16 e( f des b) %80
 		c8 des4 es8~
 		es f4 ges8~
-		ges-! ges-! ges-! ges-!
+		ges-. ges-. ges-. ges-.
 		f f a, a
 		b f'4( d!8) %85
 		r c4( es8)
@@ -803,10 +803,10 @@ EiaMaterViolinoI = {
 		b b4 b8~
 		b b4 a8
 		r e'16( f) e([ f)] e( f)
-		es4-! es,-! %100
+		es4-. es,-. %100
 		r8 b''16( a) b[( a)] g( f)
-		es4-! es,-!
-		d-! r16 f( g a)
+		es4-. es,-.
+		d-. r16 f( g a)
 		b-! b-! b( d) c-! c-! c( d)
 		b-! b-! b( d) c-! c-! c( es) %105
 		d-! d( cis d) es-! es( d es)
@@ -996,26 +996,26 @@ SanctaMaterViolinoI = {
 		f''4.(\p es16 d) g( f) f4.
 		es8-! es~ es16 d( c b) d( c) b8-! r f %10
 		b-! b4( a8) es'-! es4( d8)
-		c-! c4( b8) r a-! a-! a-!
-		a a c c c b b b
-		b b a a b b d d
+		c-! c4( b8) r a-. a-. a-.
+		\parOn a-\parenthesize-. a-. c-. c-. c-. b-. b-. \parOff b-\parenthesize-.
+		\parOn b-\parenthesize-. b-. a-. a-. b-. b-. d-. \parOff d-\parenthesize-.
 		c c4 c8~ c16 es( d es) f( es d c) %15
 		b4.( c8) b4-! r16 f'-! f( g)
-		a,8 a c c c b b b
-		b b a a b b d d
+		\parOn a,8-\parenthesize-. a-. c-. c-. c-. b-. b-. \parOff b-\parenthesize-.
+		\parOn b-\parenthesize-. b-. a-. a-. b-. b-. d-. \parOff d-\parenthesize-.
 		c c4 c8~ c r g' r
 		f f es es d r16 b-!\f a8-! g-! %20
 		f-! c''4(\p b16 a) d( c) c4.
 		b8-! b~ b16 a( g f) a( g) f8-! r c
 		f-! f4( e8) b'-! b4( a8)
-		g-! g4( f8) r e-! e-! e-!
-		e-! e-! g,-! g-! g-! f-! f-! f-! %25
-		f-! f-! e-! e-! f f a a
-		b d d d d-! d4 b8
+		g-! g4( f8) r e-. e-. e-.
+		e-. e-. g,-. g-. g-. f-. f-. f-. %25
+		f-. f-. e-. e-. \parOn f-\parenthesize-. f-. a-. \parOff a-\parenthesize-.
+		\parOn b-\parenthesize-. d-. d-. \parOff d-\parenthesize-. d-! d4 b8
 		a4.( b8) a4-! r16 c-! c( d)
-		e,8-! e-! g-! g-! g-! f-! f-! f-!
-		f-! f-! e-! e-! f-! f-! a-! a-! %30
-		b-! d-! d-! d-! d r b' r
+		e,8-. e-. g-. g-. g-. f-. f-. f-.
+		f-. f-. e-. e-. f-. f-. a-. a-. %30
+		b-. d-. d-. d-. d r b' r
 		a-\parenthesize-! f4( e8) f8.-! c16 h( c h c)
 		g'8-! g4( b8) \appoggiatura b16 as8 g-! h,16( c h c)
 		g'4. b8 \appoggiatura b16 as8 g-! e,16( f e f)
@@ -1037,9 +1037,9 @@ SanctaMaterViolinoI = {
 		b8-! b~ b16 a( g f) a( g f g) a4-!\f %50
 		d,8-!\p d4( c16 b) es( d) d4.
 		c8-! c~ c16 b( a g) b( a) g8-! r d'(
-		f!) f-! f-! f,( es!4) r8 c'(
-		es) es-! es-! es,( d4) r8 f'(
-		as) as,-! as-! as-! g-! g'-! g-! g-! %55
+		f!) f-. f-. f,( es!4) r8 c'(
+		es) es-. es-. es,( d4) r8 f'(
+		as) as,-. as-. as-. g-. g'-. g-. g-. %55
 		g-! g4( f16 es) d8( c) r16 f( es c)
 		b8-! d16( f) r8 d16( f) r8 es16( g) r8 es16( g)
 		r8 c,16( es) r8 c16( es) r8 d16( f) r8 d16( f)

@@ -7,8 +7,8 @@
 \include "../definitions.ly"
 
 \paper {
-	#(set-paper-size "a4" 'landscape)
-	indent = 1\cm
+	% #(set-paper-size "a4" 'landscape)
+	% indent = 1\cm
 	% #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
@@ -482,63 +482,12 @@
 	% 		\midi { \tempo 1 = 70 }
 	% 	}
 	% }
-	% \bookpart {
-	% 	\header {
-	% 		number = "XI–XV"
-	% 		title = "S A N C T A   M A T E R,   I S T U D   A G A S"
-	% 	}
-	% 	\tocSection "11–15" "Sancta mater, istud agas"
-	% 	\score {
-	% 		<<
-	% 			\new StaffGroup <<
-	% 				\new GrandStaff \with { \smallGroupDistance } <<
-	% 					\set GrandStaff.instrumentName = "vl"
-	% 					\new Staff {
-	% 						\set Staff.instrumentName = "1"
-	% 						\SanctaMaterViolinoI
-	% 					}
-	% 					\new Staff {
-	% 						\set Staff.instrumentName = "2"
-	% 						\SanctaMaterViolinoII
-	% 					}
-	% 				>>
-	% 				\new Staff {
-	% 					\set Staff.instrumentName = "vla"
-	% 					\SanctaMaterViola
-	% 				}
-	% 			>>
-	% 			\new ChoirStaff <<
-	% 				\new Staff {
-	% 					\set Staff.instrumentName = "S"
-	% 					\new Voice = "Soprano" { \dynamicUp \SanctaMaterSopranoNotes }
-	% 				}
-	% 				\new Lyrics \lyricsto Soprano \SanctaMaterSopranoLyrics
-	%
-	% 				\new Staff {
-	% 					\set Staff.instrumentName = "A"
-	% 					\new Voice = "Alto" { \dynamicUp \SanctaMaterAltoNotes }
-	% 				}
-	% 				\new Lyrics \lyricsto Alto \SanctaMaterAltoLyrics
-	% 			>>
-	% 			\new StaffGroup <<
-	% 				\new Staff {
-	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
-	% 					% \transpose c c,
-	% 					\SanctaMaterOrgano
-	% 				}
-	% 			>>
-	% 			\new FiguredBass { \SanctaMaterBassFigures }
-	% 		>>
-	% 		\layout { }
-	% 		\midi { \tempo 4 = 80 }
-	% 	}
-	% }
 	\bookpart {
 		\header {
-			number = "XVI–XVII"
-			title = "F A C,   U T   P O R T E M   C H R I S T I   M O R T E M"
+			number = "XI–XV"
+			title = "S A N C T A   M A T E R,   I S T U D   A G A S"
 		}
-		\tocSection "16–17" "Fac, ut portem Christi mortem"
+		\tocSection "11–15" "Sancta mater, istud agas"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -546,42 +495,93 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\FacUtPortemViolinoI
+							\SanctaMaterViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\FacUtPortemViolinoII
+							\SanctaMaterViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\FacUtPortemViola
+						\SanctaMaterViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \FacUtPortemTenoreNotes }
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \SanctaMaterSopranoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \FacUtPortemTenoreLyrics
+					\new Lyrics \lyricsto Soprano \SanctaMaterSopranoLyrics
 
 					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \FacUtPortemBassoNotes }
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \SanctaMaterAltoNotes }
 					}
-					\new Lyrics \lyricsto Basso \FacUtPortemBassoLyrics
+					\new Lyrics \lyricsto Alto \SanctaMaterAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\FacUtPortemOrgano
+						\SanctaMaterOrgano
 					}
 				>>
-				\new FiguredBass { \FacUtPortemBassFigures }
+				\new FiguredBass { \SanctaMaterBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 50 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
+	% \bookpart {
+	% 	\header {
+	% 		number = "XVI–XVII"
+	% 		title = "F A C,   U T   P O R T E M   C H R I S T I   M O R T E M"
+	% 	}
+	% 	\tocSection "16–17" "Fac, ut portem Christi mortem"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\FacUtPortemViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\FacUtPortemViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\FacUtPortemViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \FacUtPortemTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \FacUtPortemTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \FacUtPortemBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \FacUtPortemBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\FacUtPortemOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \FacUtPortemBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 50 }
+	% 	}
+	% }
 }
