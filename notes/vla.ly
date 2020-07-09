@@ -1061,3 +1061,55 @@ SanctaMaterViola = {
 		f g f f b f b,4\fermata \bar "|." %77 finis
 	}
 }
+
+FacUtPortemViola = {
+	\relative c' {
+		\clef alto
+		\key g \minor \time 4/4 \tempoFacUtPortem
+		\partial 16 r16 r g'\p-. g-. g-. r g-. g-. g-. r fis-. fis-. fis-. r fis-. fis-. fis-.
+		g8\f f e es d c! b! a
+		g\p r g r d' r d r
+		fis r fis r d r d r
+		g( a) g([ a)] g4 r8 fis %5
+		g cis, cis cis d d d r
+		d2 es4 r
+		c2 d4 r
+		r8 b b b r b b b
+		r f' f f r f f f %10
+		f\f f f f b,\p b es es
+		f f f f b,4 r
+		f'8 f f f f f f f
+		f f f f f f f f
+		f f f f f f f f %15
+		f( a4 b8) d16( b) a8-! r4
+		f f f f
+		g f f f
+		es g f b8 es,
+		f4 f b8\f d es c %20
+		b d es c b d, es c
+		b\p r b r f' r f r
+		a, r a r b r b r
+		r16 g'-. g-. g-. r g-. g-. g-. r a-. a-. a-. r a-. a-. a-.
+		r g-. g-. g-. r g-. g-. g-. r g,-. g-. g-. r b-. b-. b-. %25
+		r8 d d d d d fis16-. fis-. fis-. fis-.
+		g-. g-. g-. g-. a-. a-. a-. a-. fis-. fis-. fis-. fis-. g-. g-. g-. g-.
+		e-. e-. e-. e-. fis-. fis-. fis-. fis-. g-. g-. g-. g-. g-. g-. g-. g-.
+		e\f e8 e e e16 d8\p d g c,
+		d d d d g,4 r %30
+		d'8 d d d d d d d
+		d d d d d d d d
+		d d d d d d d d
+		d d d d d d r a'
+		b b a a a a g g %35
+		g g c c c c b b
+		b b a a d, d d d
+		es es d d g, g c c
+		d d d d es16\f es8 es es es16~
+		es8\p es e4 d8 d d4 %40
+		c8 c c4 b8 b b4
+		a8 a a a g g c c
+		d d d d d d d d
+		g,-!\pp r g-! r g-! r g-! r
+		g-. g-. g-. g-. g2\fermata \bar "|." %45 finis
+	}
+}

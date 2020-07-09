@@ -1063,3 +1063,55 @@ SanctaMaterViolinoII = {
 		b32([ b'16.)] g32( es16.) d32([ f16.)] a,32( c16.) b8 f b,4\fermata \bar "|." %77 finis
 	}
 }
+
+FacUtPortemViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoFacUtPortem
+		\partial 16 r16 r b'\p-. b-. b-. r b-. b-. b-. r a-. a-. a-. r a-. a-. a-.
+		g\f b8 h c cis16~ cis d8 es! d c16
+		r g(\p b g) r g( b g) r fis( a fis) r fis( a fis)
+		r a( c a) r a( c a) r g( b g) r g( b g)
+		r b-. c-. c-. b-. b-. c-. c-. b-. b-. c-. c-. b-. b-. a-. a-. %5
+		g8 b4 g8 a16( g) fis8-! fis r
+		r16 g( b g) r g( h g) r g( es' g,) r g( b g)
+		r f( a f) r f( a f) r f( d' f,) r f( as f)
+		es-. es-. es-. es-. es'-. es-. es-. es-. es-. es-. es-. es-. d-. d-. d-. d-.
+		d-. d-. d-. d-. c-. c-. c-. c-. c-. c-. c-. c-. b-. b-. b-. b-. %10
+		a\f c8 a c a16 b\p b d d es es c c
+		b8 b a a r16 f( e f) es( d c b)
+		a c'8 a c a16 r d8 b d b16
+		c16. d32 c4 b8~ b a16. b32 a16. b32 a16. b32
+		r16 a-. a-. a-. a-. a-. a-. a-. a( b) b-. b-. b-. b-. b-. b-. %15
+		c-. c-. c-. c-. c-. c-. b-. b-. r f'-. f-. f-. r f-. f-. f-.
+		r f-. f-. f-. r es-. es-. es-. r es-. es-. es-. r d-. d-. d-.
+		r d-. d-. d-. r c-. c-. c-. r c-. c-. c-. r b-. b-. b-.
+		r g'-. g-. g-. r g-. g-. g-. c,8 c d b~
+		b b a a b16\f f'8 g es d16~ %20
+		d f8 g es d16~ d f8 es es, d16~
+		d16-! b'(\p d b) r b( d b) r a( c a) r a( c a)
+		r c( es c) r c( es c) r b( d b) r b( d b)
+		r e,-. e-. e-. r e-. e-. e-. r d-. d-. d-. r d-. d-. d-.
+		r d-. d-. d-. r d-. d-. d-. r g-. g-. g-. r g-. g-. g-. %25
+		r fis-. fis-. fis-. fis-. fis-. a-. a-. a( g) fis8-! d'16-. d-. d-. d-.
+		es-. es-. es-. es-. es-. es-. es-. es-. d-. d-. d-. d-. d-. d-. d-. d-.
+		c-. c-. c-. c-. c-. c-. c-. c-. b-. b-. b-. b-. b-. b-. b-. b-.
+		a\f a8 a a a16 a8\p a b b
+		a a a a r16 d,( cis d) c( b a g) %30
+		d' a'8 fis a fis16 r b8 g b g16
+		a16. b32 a4 g8~ g fis16. g32 fis16. g32 fis16. g32
+		r16 fis-. fis-. fis-. fis-. fis-. fis-. fis-. fis( g) g-. g-. g-. g-. g-. g-.
+		a-. a-. a-. a-. a-. a-. g-. g-. b( g) fis8-! d' d
+		d d c c c c b b %35
+		es es es es d d d d
+		c c4 c8( b) b4 b8(
+		a) a4 a8 g b c a
+		g g fis fis g16\f b8 b b b16~
+		b8\p b a a a a g g %40
+		g g f f f f es! es
+		e? e d d g b c a
+		g g' g g fis fis fis fis
+		g16\pp g8 d b g16~ g d'8 b g d16~
+		d8-. <b d>-. q-. q-. q2\fermata \bar "|." %45 finis
+	}
+}

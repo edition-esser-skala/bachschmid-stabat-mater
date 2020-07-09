@@ -1065,6 +1065,58 @@ SanctaMaterViolinoI = {
 	}
 }
 
+FacUtPortemViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoFacUtPortem
+		\partial 16 d'16-!\p c( b) r d-! c( b) r d-! b( a) r d-! b( a) r d-!
+		c\f b8 h c cis16~ cis d8 es! d c16
+		r b(\p d b) r b( d b) r a( d a) r a( d a)
+		r c( a' c,) r c( a' c,) r b( g' b,) r b( g' b,)
+		r d-. d-. d-. d-. d-. d-. d-. d-. d-. es-. es-. d-. d-. c-. c-. %5
+		b8 g'4 b,8 c16( b) a8-! r16 es'( d c)
+		b-! b( g' b,) r h( g' h,) r c( g' c,) r b( g' b,)
+		r a( f' a,) r a( f' a,) r b( f' b,) r as( f' as,)
+		g-. g-. g-. g-. g'-. g-. g-. g-. f-. f-. f-. f-. f-. f-. b( f)
+		es-. es-. es-. es-. es-. es-. c'( es,) d-. d-. d-. d-. d-. d-. b'( d,) %10
+		c\f es8 c es c16 d\p d f f g g es es
+		d8 d c c r16 f( e f) es( d c b)
+		c f8 c f c16 r f8 d f d16
+		es16. f32 es4 d8~ d c16. d32 c16. d32 c16. d32
+		r16 c-. c-. c-. c-. c-. c-. c-. cis( d) d-. d-. d-. d-. d-. d-. %15
+		es-. es-. es-. es-. es-. es-. d-. d-. f( d) c8-! r4
+		r16 c-. c-. c-. r c-. c-. c-. r c-. c-. c-. r b-. b-. b-.
+		r es-. es-. es-. r es-. es-. es-. r d-. d-. d-. r d-. d-. d-.
+		r d-. d-. d-. c-. c-. b-. b-. a8-! f'~ f16( b) g( b)
+		c,8 c c c b16\f f'8 g es d16~ %20
+		d f8 g es d16~ d f8 g a b16~
+		b-! d,(\p f d) r d( f d) r c( f c) r c( f c)
+		r es( c' es,) r es( c' es,) r d( b' d,) r d( b' d,)
+		r cis-. cis-. cis-. r cis-. cis-. cis-. r c-. c-. c-. r c-. c-. c-.
+		r b-. b-. b-. r h-. h-. h-. r c-. c-. c-. r cis-. cis-. cis-. %25
+		r d-. d-. d-. d-. d-. c-. c-. c( b) a8-! r4
+		d'16-. d-. d-. d-. c-. c-. c-. c-. c-. c-. c-. c-. b-. b-. b-. b-.
+		b-. b-. b-. b-. a-. a-. a-. a-. a-. a-. a-. a-. g-. g-. g-. g-.
+		g\f g8 g g g16 fis8\p fis g g
+		g g fis fis r16 d( cis d) c( b a g) %30
+		a fis'8 a, fis' a,16 r g'8 b, g' b,16
+		c16. d32 c4 b8~ b a16. b32 a16. b32 a16. b32
+		r16 a-. a-. a-. a-. a-. a-. a-. a( b) b-. b-. b-. b-. b-. b-.
+		c-. c-. c-. c-. c-. c-. b-. b-. d( b) a8-! r4
+		es'8 es4 es8( d) d4 d8( %35
+		c) g'4 g g g8(
+		fis) fis4 fis8( g) g4 g8(
+		c,) c4 c8( b) d es c
+		b b a a g16\f g'8 g g g16~
+		g8\p g g g fis fis f f %40
+		e e es es d d d d
+		cis cis c c b d es c
+		b b' b b a a a a
+		g16\pp b8 g d b16~ b g'8 d b g16~
+		g8-. g-. g-. g-. g2\fermata \bar "|." %45 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

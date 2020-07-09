@@ -757,6 +757,102 @@ FacUtTenoreLyrics = \lyricmode {
 	am. %149 finis
 }
 
+FacUtPortemTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoFacUtPortem
+		\partial 16 r16 R1*2
+		\mvTr b4.\pE^\solo b8 b16([ a)] a8 r4
+		c4. c8 c16([ b)] b8 r4
+		d4. d8 d([ es)] d([ c)] %5
+		b b4. c16([ b)] a8 r a
+		b4 h c b
+		a2 b4 as
+		g es'2 d4~
+		d c2 b4 %10
+		a!2 b8([ d)] es[( c)]
+		b4( a8.) b16 b4 r
+		c4. c8 cis16([ d)] d8 r4
+		es4. d8 d c r4
+		c4. c8 cis([ d)] d4 %15
+		es4. d8 d c r4
+		r c2 b4
+		es2 d~
+		d4 c8[ b] a4 b
+		b( a8.) b16 b4 r %20
+		R1
+		d4. d8 d16([ c)] c8 r4
+		es4. es8 es16([ d)] d8 r4
+		cis4 cis a'4. c,8
+		b4 h c cis %25
+		d4. c8 c16([ b)] a8 d d
+		es2 d
+		c b
+		a4. a8 a4 b
+		a4. a8 g4 r %30
+		a4. a8 a16([ b)] b8 r4
+		c4. b8 b a r4
+		a4. a8 a([ b)] r4
+		c8 c4 b8 b a d4
+		d c2 b4 %35
+		es2 d
+		fis g
+		c, b8([ d)] es([ c)]
+		b4( a8.) g16 g4 r
+		g'2 fis4 f %40
+		e es d2
+		cis4 c b8([ d)] es([ c)]
+		b2( a4.) a8
+		g4 r r2
+		R1\fermataMarkup \bar "|." %45 finis
+	}
+}
+
+FacUtPortemTenoreLyrics = \lyricmode {
+	Fac, ut por -- tem %3
+	Chri -- sti mor -- tem,
+	pas -- si -- o -- nis %5
+	fac con -- sor -- tem et
+	pla -- _ _ _
+	_ _ _
+	_ _ _
+	_ _ %10
+	_ gas re --
+	co -- le -- re,
+	fac, ut por -- tem
+	Chri -- sti mor -- tem,
+	pas -- si -- o -- nis %15
+	fac con -- sor -- tem
+	et pla --
+	_ _
+	_ gas re --
+	co -- le -- re. %20
+
+	Fac me pla -- gis
+	vul -- ne -- ra -- ri,
+	cru -- ce hac in --
+	e -- _ _ _ %25
+	_ bri -- a -- ri ob a --
+	mo -- _
+	_ rem,
+	ob a -- mo -- rem
+	fi -- li -- i, %30
+	fac me pla -- gis
+	vul -- ne -- ra -- ri,
+	cru -- ce hac
+	in -- e -- bri -- a -- ri et
+	pla -- _ _ %35
+	_ _
+	_ _
+	_ gas re --
+	co -- le -- re,
+	et pla -- _ %40
+	_ _ _
+	_ _ gas re --
+	co -- le --
+	re. %44 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

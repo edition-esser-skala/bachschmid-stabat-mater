@@ -1979,6 +1979,106 @@ SanctaMaterBassFigures = \figuremode {
 	\bo q <6 4>8 \bc <[5 3]> r2 %77 finis
 }
 
+FacUtPortemOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoFacUtPortem
+		\partial 16 r16 \mvTr g'8\p-\soloE r g r fis r fis r
+		g\f f e es d c! b! a
+		g\p r g r d' r d r
+		fis r fis r g r g r
+		g([ fis)] g fis g4 r8 fis %5
+		g cis, cis cis d d d r
+		g4( f!) es!( e)
+		f( es) d d
+		es es b b
+		f f b b %10
+		f8\f f f f b\p b es es
+		f f f f b,4 r
+		f'8 f f f f f f f
+		f f f f f f f f
+		f f f f f f f f %15
+		f f f f f f r4
+		a, a b b
+		g a b d
+		es es es d8 es
+		f4 f b,8\f d es c %20
+		b d es c b d es c
+		b\p r b r f' r f r
+		f, r f r b r b' r
+		b4 a8 g fis4 fis
+		g f e es %25
+		d d d d
+		d-\tasto d d d
+		d d d d
+		cis8\f cis cis cis c\p c b c
+		d d d d g,4 r %30
+		d'8 d d d d d d d
+		d d d d d d d d
+		d d d d d d d d
+		d d d d d d r fis
+		g g a a fis fis g g %35
+		c, c c' c c c b b
+		b b a a a a g g
+		g g fis fis g g c, c
+		d d d d es\f es es es
+		es\p d cis4 d8 c h4 %40
+		c8 b a4 b8 a g4
+		a8 g fis fis g g c c
+		d d d d d d d d
+		g,-!\pp r g-! r g-! r g-! r
+		g-. g-. g-. g-. g2\fermata \bar "|." %45 finis
+	}
+}
+
+FacUtPortemBassFigures = \figuremode {
+	r16 r2 <[6]>
+	<_->8 <4!> <6> <6\\> <_+> <[3]> <6> <6\\>
+	r2 <6 4>8 <5 _+>4.
+	<[6 5]>2 <9 4>8 <8 3>4.
+	r8 \bo <[6 5]>4 <6 5>2 \bc <[5 3]>8 %5
+	<8 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 4>8 <5 _+>4.
+	<3>4 <4!> <6> <5->
+	<3> <\t> <6> <5->
+	r2 <4>4 <3>
+	<7 6> <\t 5> <9> <8> %10
+	<7>2.. <8 6>8
+	<6 4>4 <5 3>2.
+	<5 3>2 <[5+] \t>8 <6 4>4.
+	<7 5> <6 4>8 <\t \t> <5 3>4.
+	<5 3>2 <[5+] \t>8 <6 4>4. %15
+	<7 5> <6 4>8 <\t \t> <5 3>4.
+	<6 3>4 <5 \t> <9 4> <8 3>
+	<6 5> <[5 3]> <9> <6>
+	<7> <6>8 <5> <4 2>4 <6>4
+	<5 4> <\t 3> r8 \bo <[6]>4 \bc q8 %20
+	r \bo q4 <6> q \bc <[6]>8
+	r2 <6 4>8 <5 3>4.
+	<[7]>2 <9 4>8 <8 3>4.
+	\bo <[4!] 2+>4. \bassFigureExtendersOn \bc q8 \bassFigureExtendersOff <6 [5!]>2
+	<3>4 <4!> <6> <6\\> %25
+	<8 _+> \bassFigureExtendersOn q16 q <7 _+>8 \bassFigureExtendersOff <6 4> <5 _+>4.
+	r1
+	r
+	<6 5 [_!]>2 <6 4+>4 <8 6>8 <\t \t>
+	<5 4>4 <\t _+>2. %30
+	<5 _+>2 <\t \t>8 <6 4>4.
+	<7 5> <6 4>8 <\t \t> <5 _+>4.
+	<5 _+>2 <\t \t>8 <6 4>4.
+	<7 5> <6 4>8 <\t \t> <5 _+>4 <6>8
+	<6 5>2 q %35
+	r2 <5 2>4 <\t 3>
+	<5+ 2> <\t \t> <7 2> <\t \t>
+	<4 2> <\t \t>2 r8 <8 6>
+	<6 4>4 <5 _+> <5 3>2
+	r4 <6 5 _!> <_+>8 <[\t]> <6 5!>4 %40
+	<_!>8 <[\t]> <6 5->4 <3>8 <\t> <6- 5>4
+	<[5!] _+> <6 5>2 r8 <8 6>
+	<6 4>2 <5 _+>
+	r1
+	r %45 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

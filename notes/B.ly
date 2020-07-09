@@ -623,6 +623,102 @@ FacUtBassoLyrics = \lyricmode {
 	am. %149 finis
 }
 
+FacUtPortemBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoFacUtPortem
+		\partial 16 r16 R1*2
+		\mvTr g'4.\pE^\solo g8 g16([ fis)] fis8 r4
+		a4. a8 a16([ g)] g8 r4
+		b8([ a)] b([ a)] b([ c)] b([ a)] %5
+		g g4. a16([ g)] fis8 r4
+		r r8 d es!4 e
+		f es d2
+		es4 g f2
+		es d %10
+		c d8([ f)] g([ es)]
+		d4( c8.) b16 b4 r
+		a'4. a8 a16([ b)] b8 r4
+		c4. b8 b a r4
+		a4. a8 a([ b)] b4 %15
+		c4. b8 b a f4~
+		f es2 d4~
+		d c2 b4
+		es2 es4 d
+		c4. b8 b4 r %20
+		R1
+		b'4. b8 b16([ a)] a8 r4
+		c4. c8 c16([ b)] b8 r4
+		r2 a4 a
+		g1 %25
+		fis8 fis4 a8 a16([ g)] fis8 r4
+		r c'8 c c4 b~
+		b a2 g4
+		g4. g8 fis4 g
+		g fis g r %30
+		fis4. fis8 fis16([ g)] g8 r4
+		a4. g8 g fis r4
+		fis4. fis8 fis([ g)] r4
+		a8 a4 g8 g fis r4
+		g4 a fis g %35
+		c, c'2 b4~
+		b a2 g4~
+		g fis g8([ b)] c([ a)]
+		g4( fis8.) g16 g4 g
+		b a2 g4~ %40
+		g f!2 es4(
+		e?) d g8([ b)] c([ a)]
+		g2( fis4.) fis8
+		g4 r r2
+		R1\fermataMarkup \bar "|." %45 finis
+	}
+}
+
+FacUtPortemBassoLyrics = \lyricmode {
+	Fac, ut por -- tem %3
+	Chri -- sti mor -- tem,
+	pas -- si -- o -- nis %5
+	fac con -- sor -- te
+	et pla -- _
+	_ _ _
+	_ _ _
+	_ _ %10
+	_ gas re --
+	co -- le -- re,
+	fac, ut por -- tem
+	Chri -- sti mor -- tem,
+	pas -- si -- o -- nis %15
+	fac con -- sor -- tem et __
+	pla -- _
+	_ _
+	_ gas re --
+	co -- le -- re. %20
+
+	Fac me pla -- gis
+	vul -- ne -- ra -- ri,
+	cru -- ce
+	hac %25
+	in -- e -- bri -- a -- ri
+	ob a -- mo -- _
+	_ rem,
+	ob a -- mo -- rem
+	fi -- li -- i, %30
+	fac me pla -- gis
+	vul -- ne -- ra -- ri,
+	cru -- ce hac
+	in -- e -- bri -- a -- ri
+	et pla -- _ _ %35
+	_ _ _
+	_ _
+	_ gas re --
+	co -- le -- re, et
+	pla -- _ _ %40
+	_ _
+	_ gas re --
+	co -- le --
+	re. %44 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

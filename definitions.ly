@@ -345,6 +345,21 @@ sbOff = {
 	\unset beatStructure
 }
 
+parOn = {
+	\once \override ParenthesesItem.font-size = #-3
+	\once \override ParenthesesItem.stencils = #(lambda (grob)
+		(let ((par-list (parentheses-item::calc-parenthesis-stencils grob))
+					(right-par (grob-interpret-markup grob (markup #:null))))
+	     (list (car par-list) right-par )))
+}
+parOff = {
+	\once \override ParenthesesItem.font-size = #-3
+	\once \override ParenthesesItem.stencils = #(lambda (grob)
+		(let ((par-list (parentheses-item::calc-parenthesis-stencils grob))
+					(left-par (grob-interpret-markup grob (markup #:null))))
+			(list left-par (cadr par-list))))
+}
+
 
 
 % modify the Scheme function 'format-bass-figure'
@@ -653,6 +668,7 @@ tempoViditSuum = \tempoMarkup "Andante moderato"
 tempoEiaMater = \tempoMarkup "Andante ma non troppo"
 tempoFacUt = \tempoMarkup "Allegro"
 tempoSanctaMater = \tempoMarkup "Andante con moto"
+tempoFacUtPortem = \tempoMarkup "Larghetto"
 
 
 \include "notes/vl1.ly"
