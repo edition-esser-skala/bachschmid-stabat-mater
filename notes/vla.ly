@@ -1113,3 +1113,155 @@ FacUtPortemViola = {
 		g-. g-. g-. g-. g2\fermata \bar "|." %45 finis
 	}
 }
+
+InflammatisViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key es \major \time 2/4 \tempoInflammatis
+		es4(\f g)
+		b( es,)
+		d( f)
+		as( d,)
+		es\p es %5
+		es es
+		b b
+		es r
+		as8 as as as
+		g g g g %10
+		f f f f
+		es es es es
+		as,\f as' c as
+		c as c as
+		b g as f %15
+		es b'16 c b8 b
+		b\p b b b
+		b b b b
+		b b b b
+		b b b b %20
+		b\f b b b
+		b as g f
+		es d c4
+		b r
+		f'8\p es d4 %25
+		es8 f g4
+		f8 es d4
+		es8 f g4
+		f8\f es d f
+		es f g b %30
+		c4 f,
+		g r
+		f f
+		g es~
+		es d %35
+		es r
+		es4(\p g)
+		b( es,)
+		d( f)
+		as( d,) %40
+		es es
+		es es
+		b b
+		es8 es es es
+		es es es es %45
+		es es es es
+		es es es es
+		es es es es
+		es es es es
+		as, as as as %50
+		b b b b
+		b b b b
+		es,4 r8 es'-!\f
+		d-! es-! d-! c-!
+		b4(\p d) %55
+		f( b,)
+		a( c)
+		es( a,)
+		b b
+		b b %60
+		f f
+		b8 b b b
+		b b b b
+		b b b b
+		b b b b %65
+		b b b b
+		b b b b
+		es es es es
+		f f f f
+		f f f f %70
+		b,4 r
+		b r
+		f' r
+		f r
+		f r %75
+		f r
+		es r
+		es r
+		es es
+		es es %80
+		es es
+		es es
+		es es
+		es es
+		b b %85
+		b b
+		b b
+		b b
+		b b
+		b b %90
+		b b
+		b b
+		b r
+		R2
+		d8 es f4 %95
+		es8 f g4
+		d8 es f4
+		es8 f g4
+		d b
+		es as, %100
+		b b
+		es, r
+		g2\pp
+		as
+		a4 a %105
+		b r
+		f'8\p es d4
+		es8 f g4
+		f8 es d4
+		es8 f g4 %110
+		f8 es d f
+		es4 as,
+		b b
+		es, r
+		g2( %115
+		\scriptOut as4)-! r
+		g2(
+		\scriptOut f4)-! r
+		R2
+		f4 r %120
+		as( a)
+		b r8 b
+		es g f es
+		d b c d
+		es g f es %125
+		d b c d
+		es es es es
+		as as as as
+		b b b b
+		es, g f es %130
+		d b c d
+		es g f es
+		d b c d
+		es es es es
+		as as as as %135
+		b b b b
+		b, b b b
+		es4 r
+		b2\pp
+		es4 r %140
+		b2
+		b8 b4 b8~
+		b b4 b8~
+		b4-. b-.
+		b-. r\fermata \bar "|." %145 finis
+	}
+}

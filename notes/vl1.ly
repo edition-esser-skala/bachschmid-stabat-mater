@@ -1117,6 +1117,158 @@ FacUtPortemViolinoI = {
 	}
 }
 
+InflammatisViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \major \time 2/4 \tempoInflammatis
+		b''8-!\f b4( g8)
+		es-! es4( g8)
+		as-! as4( f8)
+		d-! d4( f8)
+		es\p as4 g8~ %5
+		g c4 b8~
+		b as4 g8~
+		g4-! r8 a16( b)
+		f4.( g8)
+		es4-! r8 a,16( b) %10
+		as'!4.( b8)
+		g4-! r8 b16(\f g)
+		\appoggiatura g f8 f4 f8~
+		f16( g) as-! g-! \appoggiatura b as8 g16 f
+		g8-! b4 d,8( %15
+		es4) r8 b'-!\p
+		as( g f) as
+		g( f es) b'
+		as( g f) as
+		g( f es) b'-! %20
+		as(\f g) f( as)
+		g( f) es( d)
+		es( f) g( a)
+		b b4 b8~
+		b\p b4 b8~ %25
+		b b4 b8~
+		b b4 b8~
+		b b4 b8~
+		b\f b4 b8~
+		b b4 b8 %30
+		\appoggiatura b16 as8 g16 f b8 b,
+		es-! es( f g)
+		\appoggiatura b16 as8 g16 f b8 b,
+		es-! es( f g)
+		\appoggiatura b16 as8 g16 f b8 b, %35
+		es4 r
+		b'8-!\p b4( g8)
+		es-! es4( g8)
+		as-! as4( f8)
+		d-! d4( f8) %40
+		es as4 g8~
+		g c4 b8~
+		b as4 g8~
+		g4 r
+		f2( %45
+		es4) r
+		as2(
+		g4) r
+		b b
+		as4. f8 %50
+		es4-! es~
+		es f8( d)
+		es4 r8 es-!\f
+		d-! es-! d-! c-!
+		f-!\p f4( d8) %55
+		b-! b4( d8)
+		es-! es4( c8)
+		a-! a4( c8)
+		b es4 d8~
+		d g4 f8~ %60
+		f es4 d8~
+		d4 r
+		es2(
+		d4) r
+		g2( %65
+		f4) r
+		as! as
+		g4. es8
+		d4-! d~
+		d es8( c) %70
+		r d-. d-. d-.
+		r d-. d-. d-.
+		r es-. es-. es-.
+		r es-. es-. es-.
+		r d-. d-. d-. %75
+		r d-. d-. d-.
+		r des-. des-. des-.
+		r des-. des-. des-.
+		r c-. c-. c-.
+		c4( es8) r %80
+		r8 b-. b-. b-.
+		b es4 g8~
+		g es g b
+		as g f es
+		es d4 f8~ %85
+		f as4 f8
+		g es4 d8
+		c b as g
+		g f4 f'8~
+		f as4 f8 %90
+		g es4 d8
+		c b as g
+		f4 r
+		r r8 b'
+		as( g f) as %95
+		g( f es) b'
+		as( g f) as
+		g( f es) b'-!
+		as-! g-! f-! as-!
+		g-! as-! g-! f-! %100
+		es4 d
+		es r8 es,~\pp
+		es des'4 c8~
+		c as'4 g8~
+		g f4 es8~ %105
+		es d r4
+		f8\p g as4
+		g8 f es4
+		f8 g as4
+		g8 f es4 %110
+		f8 g as f
+		g as g f
+		es4 d
+		es r8 es,~
+		es des'4 c8~ %115
+		c4-! r8 c~
+		c e4 f8~
+		f4-! r8 f~
+		f g4 as8~
+		as b4 c8~ %120
+		c es,4 d8~
+		d4 r8 d
+		es( b' as g)
+		f( d es f)
+		g( b as g) %125
+		f( d es f)
+		g g g g
+		as as f f
+		es4 d
+		b'8 b4~ b8 %130
+		b b4 b8~
+		b b4 b8~
+		b b4 b8~
+		b b b b
+		c c as as %135
+		g g g g
+		f f f f
+		es4 r8 b'~\pp
+		b as4 g8~
+		g4 r8 b,~ %140
+		b as4 g8~
+		g4.( as8)
+		g( as) g( as)
+		g4-. g-.
+		g-. r\fermata \bar "|." %145 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -1291,6 +1291,164 @@ SanctaMaterSopranoLyrics = \lyricmode {
 	re. %74 finis
 }
 
+InflammatisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \major \time 2/4 \autoBeamOff \tempoInflammatis
+		R2*54 %54
+		\mvTr f'8\pE^\solo f4( d8) %55
+		b b4( d8)
+		es es4( c8)
+		a a4( c8)
+		b([ es)] es([ d)]
+		d([ g)] g([ f)] %60
+		f4 es
+		d16([ c)] b8 r b
+		es2
+		d4 r8 b
+		g'2 %65
+		f4 r8 b,
+		as'!2
+		g8([ b)] g([ es)]
+		d2~
+		d4 es8([ c)] %70
+		b4 r
+		R2
+		r4 es~
+		es es
+		\appoggiatura es8 d4 d %75
+		R2
+		r4 des~
+		des des
+		\appoggiatura des8 c4 c
+		c es8.([ c16)] %80
+		\appoggiatura c8 b4 b
+		b b
+		es4. d8
+		c([ b)] as8[( g)]
+		g4 f %85
+		d' d
+		es4. d8
+		c([ b)] as([ g)]
+		g4 f
+		d' d %90
+		es4. d8
+		c([ b)] as([ g)]
+		f4 r
+		b b
+		b2~ %95
+		b~
+		b~
+		b~
+		b~
+		b8[ c] b([ as)] %100
+		g4 f
+		es r
+		R2*4 %106
+		f'8([ g)] as4
+		g8([ f)] es4
+		f8([ g)] as4
+		g8([ f)] es4 %110
+		f8([ g)] as4
+		g8([ as)] g([ f)]
+		es4 d
+		es r
+		R2*8 %122
+		es4 es
+		f2
+		es %125
+		f
+		es4 g
+		as f
+		es d
+		es r %130
+		f f
+		es2
+		f
+		es4 g
+		as f %135
+		es2(
+		d4.) d8
+		es4 r
+		R2*6 %144
+		R2\fermataMarkup \bar "|." %145 finis
+	}
+}
+
+InflammatisSopranoLyrics = \lyricmode {
+	In -- flam -- %55
+	ma -- tis __
+	et ac --
+	cen -- sus __
+	per te,
+	vir -- go, %60
+	sim de --
+	fen -- sus in
+	di --
+	e, in
+	di -- %65
+	e, in
+	di --
+	e __ iu --
+	di --
+	ci -- %70
+	i.
+
+	Fac __
+	me
+	cru -- ce, %75
+
+	fac __
+	me
+	cru -- ce
+	cu -- sto -- %80
+	di -- ri,
+	fac me
+	cru -- ce
+	cu -- sto --
+	di -- ri, %85
+	mor -- te
+	Chri -- sti
+	prae -- mu --
+	ni -- ri,
+	con -- fo -- %90
+	ve -- ri
+	gra -- ti --
+	a,
+	con -- fo --
+	ve -- %95
+
+	ri __ %100
+	gra -- ti --
+	a,
+
+	con -- fo -- %107
+	ve -- ri,
+	con -- fo --
+	ve -- ri %110
+	con -- fo --
+	ve -- ri __
+	gra -- ti --
+	a,
+
+	con -- fo -- %123
+	ve --
+	_ %125
+	_
+	_ _
+	_ ri
+	gra -- ti --
+	a, %130
+	con -- fo --
+	ve --
+	_
+	_ _
+	_ ri %135
+	gra --
+	ti --
+	a. %138 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

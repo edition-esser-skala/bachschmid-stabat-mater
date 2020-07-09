@@ -482,57 +482,57 @@
 	% 		\midi { \tempo 1 = 70 }
 	% 	}
 	% }
-	\bookpart {
-		\header {
-			number = "XI–XV"
-			title = "S A N C T A   M A T E R,   I S T U D   A G A S"
-		}
-		\tocSection "11–15" "Sancta mater, istud agas"
-		\score {
-			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \smallGroupDistance } <<
-						\set GrandStaff.instrumentName = "vl"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\SanctaMaterViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\SanctaMaterViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "vla"
-						\SanctaMaterViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \SanctaMaterSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \SanctaMaterSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \SanctaMaterAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \SanctaMaterAltoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
-						% \transpose c c,
-						\SanctaMaterOrgano
-					}
-				>>
-				\new FiguredBass { \SanctaMaterBassFigures }
-			>>
-			\layout { }
-			\midi { \tempo 4 = 80 }
-		}
-	}
+	% \bookpart {
+	% 	\header {
+	% 		number = "XI–XV"
+	% 		title = "S A N C T A   M A T E R,   I S T U D   A G A S"
+	% 	}
+	% 	\tocSection "11–15" "Sancta mater, istud agas"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SanctaMaterViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SanctaMaterViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\SanctaMaterViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \SanctaMaterSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \SanctaMaterSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \SanctaMaterAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \SanctaMaterAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\SanctaMaterOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SanctaMaterBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 80 }
+	% 	}
+	% }
 	% \bookpart {
 	% 	\header {
 	% 		number = "XVI–XVII"
@@ -584,4 +584,55 @@
 	% 		\midi { \tempo 4 = 50 }
 	% 	}
 	% }
+	\bookpart {
+		\header {
+			number = "XVII–XIX"
+			title = "I N F L A M M A T I S   E T   A C C E N S U S"
+		}
+		% \tocSection "18–19" "Inflammatis et accensus"
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \smallGroupDistance } <<
+						\set GrandStaff.instrumentName = "vl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\InflammatisViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\InflammatisViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "vla"
+						\InflammatisViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \InflammatisSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \InflammatisSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \InflammatisAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \InflammatisAltoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+						% \transpose c c,
+						\InflammatisOrgano
+					}
+				>>
+				\new FiguredBass { \InflammatisBassFigures }
+			>>
+			\layout { }
+			\midi { \tempo 2 = 70 }
+		}
+	}
 }

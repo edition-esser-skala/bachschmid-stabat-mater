@@ -1050,6 +1050,170 @@ SanctaMaterAltoLyrics = \lyricmode {
 	re. %74 finis
 }
 
+InflammatisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \major \time 2/4 \autoBeamOff \tempoInflammatis
+		R2*36 %36
+		\mvTr b'8\pE^\solo b4( g8)
+		es es4( g8)
+		as as4( f8)
+		d d4( f8) %40
+		es([ as)] as([ g)]
+		g([ c)] c([ b)]
+		b4 as
+		g16([ f)] es8 r es
+		as2 %45
+		g4 r8 es
+		c'2
+		b4 r8 es,
+		des'2
+		c8([ es)] c([ as)] %50
+		g2~
+		g4 as8([ f)]
+		es4 r
+		R2*17 %70
+		r4 b'~
+		b b
+		\appoggiatura b8 a4 a
+		R2
+		r4 as~ %75
+		as as
+		\appoggiatura as8 g4 g
+		R2
+		as4 as
+		as c8.([ as16)] %80
+		\appoggiatura as8 g4 g
+		g g
+		g4. b8
+		as([ g)] f([ es)]
+		es4 d %85
+		f f
+		g4. b8
+		as([ g)] f([ es)]
+		es4 d
+		f f %90
+		g4. b8
+		as([ g)] f([ es)]
+		d4 r
+		R2
+		f8([ g)] as4 %95
+		g8([ f)] es4
+		f8([ g)] as4
+		g8([ f)] es4
+		f8([ g)] as4
+		g8([ as)] g([ f)] %100
+		es4 d
+		es r
+		R2*3 %105
+		b'4 b
+		b2~
+		b~
+		b~
+		b~ %110
+		b~
+		b8[ c] b([ as)]
+		g4 f
+		es r
+		R2*8 %122
+		g4 g
+		as2
+		g %125
+		as
+		g4 b
+		c as
+		g f
+		es r %130
+		as as
+		g2
+		as
+		g4 b
+		c as %135
+		g2(
+		f4.) f8
+		es4 r
+		R2*6 %144
+		R2\fermataMarkup \bar "|." %145 finis
+	}
+}
+
+InflammatisAltoLyrics = \lyricmode {
+	In -- flam -- %37
+	ma -- tis __
+	et ac --
+	cen -- sus __ %40
+	per te,
+	vir -- go,
+	sim de --
+	fen -- sus in
+	di -- %45
+	e, in
+	di --
+	e, in
+	di --
+	e __ iu -- %50
+	di --
+	ci --
+	i.
+
+	Fac __ %71
+	me
+	cru -- ce,
+
+	fac __ %75
+	me
+	cru -- ce,
+
+	cru -- ce
+	cu -- sto -- %80
+	di -- ri,
+	fac me
+	cru -- ce
+	cu -- sto --
+	di -- ri, %85
+	mor -- te
+	Chri -- sti
+	prae -- mu --
+	ni -- ri,
+	con -- fo -- %90
+	ve -- ri
+	gra -- ti --
+	a,
+
+	con -- fo -- %95
+	ve -- ri,
+	con -- fo --
+	ve -- ri
+	con -- fo --
+	ve -- ri __ %100
+	gra -- ti --
+	a,
+
+	con -- fo -- %106
+	ve --
+
+	ri __ %112
+	gra -- ti --
+	a,
+
+	con -- fo -- %123
+	ve --
+	_ %125
+	_
+	_ _
+	_ ri
+	gra -- ti --
+	a, %130
+	con -- fo --
+	ve --
+	_
+	_ _
+	_ ri %135
+	gra --
+	ti --
+	a. %138 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

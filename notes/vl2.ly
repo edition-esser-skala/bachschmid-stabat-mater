@@ -1115,3 +1115,155 @@ FacUtPortemViolinoII = {
 		d8-. <b d>-. q-. q-. q2\fermata \bar "|." %45 finis
 	}
 }
+
+InflammatisViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \major \time 2/4 \tempoInflammatis
+		b'8-!\f b4( g8)
+		es-! es4( g8)
+		as-! as4( f8)
+		d-! d4( f8)
+		es4 r %5
+		es8\p as4 g8~
+		g f4 es8~
+		es b'16 c b8 b
+		b b b b
+		b b b b %10
+		b b b b
+		b b b b
+		as\f f'4 f8~
+		f16( g) as-! g-! \appoggiatura b as8 g16 f
+		g8-! b4 d,8( %15
+		es4) r8 g,\p
+		f es d4
+		b'8 as g4
+		f8 es d4
+		b'8 as g4 %20
+		f8\f es d f
+		es4-! b'8( as)
+		g( f) es4-!
+		d-! r8 f
+		d'\p es f4 %25
+		b,8 as g4
+		d'8 es f4
+		b,8 as g4
+		d'8(\f es) f( d)
+		es b g es' %30
+		es4 d
+		es r
+		es d
+		es g,
+		\appoggiatura b16 as8 g16 f b8 b, %35
+		es4 r
+		b'8-!\p b4( g8)
+		es-! es4( g8)
+		as-! as4( f8)
+		d-! d4( f8) %40
+		es4 r
+		es8 as4 g8~
+		g f4 es8~
+		es4 r
+		as2( %45
+		g4) r
+		c2(
+		b4) r
+		des des
+		c4. as8 %50
+		g4-! g~
+		g as8( f)
+		es4 r8 g-!\f
+		f-! g-! f-! es-!
+		d-!\p f4( d8) %55
+		b-! b4( d8)
+		es-! es4( c8)
+		a-! a4( c8)
+		b4 r
+		b8 es4 d8~ %60
+		d c4 b8~
+		b4 r
+		c'2(
+		b4) r
+		es2( %65
+		d4) r
+		f f
+		es4. c8
+		b4-! b~
+		b c8( a) %70
+		r b-. b-. b-.
+		r b-. b-. b-.
+		r a-. a-. a-.
+		r a-. a-. a-.
+		r as-. as-. as-. %75
+		r as-. as-. as-.
+		r g-. g-. g-.
+		r g-. g-. g-.
+		r as-. as-. as-.
+		as4( c8) r %80
+		r g-. g-. g-.
+		g b4 es8~
+		es b es d
+		c b as g
+		g f4 d'8~ %85
+		d f4 d8
+		es g,4 b8
+		as g f es
+		es d4 d'8~
+		d f4 d8 %90
+		es g,4 b8
+		as g f es
+		d b'16 c b8 b
+		b b b b
+		f' es d4 %95
+		b8 as g4
+		f'8 es d4
+		b8 as g4
+		f'8 es d f
+		es c b as %100
+		g4 f
+		es r
+		b2\pp
+		c
+		c4 c %105
+		b8 b'16 c b8 b
+		as!\p g f b,
+		b' as g es
+		as g f b,
+		b' as g es %110
+		as g f b~
+		b c b as
+		g4 f
+		es r
+		es2~ %115
+		es4-! r
+		b2(
+		\scriptOut as4)-! r8 as~
+		as c4 f8~
+		f g4 as8~ %120
+		as g f4~
+		f8 b16 c b8 b
+		b b4 b8~
+		b b4 b8~
+		b b4 b8~ %125
+		b b4 b8~
+		b b b b
+		c c as as
+		g g f f
+		\kneeBeam es-! b''( as g) %130
+		f( d es f)
+		g( b as g)
+		f( d es f)
+		g g g g
+		as as f f %135
+		es es es es
+		d d d d
+		es4 r8 g~\pp
+		g f4 es8~
+		es4 r8 g,~
+		g f4 es8~
+		es4.( f8)
+		es( f) es( f)
+		es4-. es-.
+		es-. r\fermata \bar "|."
+	}
+}

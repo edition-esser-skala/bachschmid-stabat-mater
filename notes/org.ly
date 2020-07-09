@@ -2079,6 +2079,269 @@ FacUtPortemBassFigures = \figuremode {
 	r %45 finis
 }
 
+InflammatisOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key es \major \time 2/4 \tempoInflammatis
+		\mvTr es4(\f-\soloE g)
+		b( es,)
+		d( f)
+		as( d,)
+		es\p es %5
+		es es
+		b b
+		es r
+		R2*4 %12
+		as4\f as
+		as as
+		b b %15
+		es, r
+		r r8 b\p
+		es f g4
+		r r8 b,
+		es f g4 %20
+		r r8 b,\f
+		es f g f
+		es d c4-!
+		b r8 b'-!\p
+		as( g f) as %25
+		g( f es) b'
+		as( g f) as
+		g( f es) b'-\parenthesize-!
+		as(\f g) f( as)
+		g( f) es( g) %30
+		as4 b
+		es, r
+		as b
+		g es'
+		as, b %35
+		es, r
+		es(\p g)
+		b( es,)
+		d( f)
+		as d, %40
+		es es
+		es es
+		b b
+		es r
+		R2*4 %48
+		es4 es
+		as as %50
+		b b
+		b b
+		es, r8 es-!\f
+		d-! es-! d-! c-!
+		b4(\p d) %55
+		f( b,)
+		a( c)
+		es( a,?)
+		b b
+		b b %60
+		f f
+		b r
+		R2*4 %66
+		b4 b
+		es es
+		f f
+		f f %70
+		b, r
+		b r
+		f' r
+		f r
+		b, r %75
+		b r
+		es r
+		es r
+		es es
+		es es %80
+		es es
+		es es
+		es es
+		es es
+		b b %85
+		b b
+		b b
+		b b
+		b b
+		b b %90
+		b b
+		b b
+		b r
+		R2
+		b4 r %95
+		es r
+		b r
+		es r
+		b b
+		es as %100
+		b b,
+		es r
+		R2*4 %106
+		b4\pE r
+		es r
+		b r
+		es r %110
+		b b
+		es as
+		b b,
+		es r
+		R2*5 %119
+		f4 r %120
+		as( a)
+		b r8 b,
+		es g f es
+		d b c d
+		es g f es %125
+		d b c d
+		es es es es
+		as as as as
+		b b b b
+		es, g f es %130
+		d b c d
+		es g f es
+		d b c d
+		es es es es
+		as as as as %135
+		b b b b
+		b, b b b
+		es4 r
+		b2\pp
+		es4 r %140
+		b2
+		es4. b8
+		es b es b
+		es4-. es-.
+		es-. r\fermata \bar "|." %145 finis
+	}
+}
+
+InflammatisBassFigures = \figuremode {
+	<5 3>2 \bassFigureExtendersOn
+	q4 q
+	<5\! 3\!>2
+	<5 3>4 q \bassFigureExtendersOff
+	<3 1> <4 2> %5
+	<3 1> <6 4>
+	<8 6> <7 5>
+	r2*5 %12
+	<6 5>2
+	r
+	<6 4>4 <5 3> %15
+	r2
+	r
+	r8 \bo <[6]> \bc q4
+	r2
+	r8 \bo <[6]> \bc q4 %20
+	r2
+	r8 \bo <[6]> <6> \bc <[6]>8
+	r q <5> <6!>
+	r2
+	<[6]> %25
+	q
+	q
+	q
+	q
+	q %30
+	<6 5>
+	r
+	q
+	<[6]>
+	<6 5> %35
+	r
+	<5 3>2 \bassFigureExtendersOn
+	q4 q
+	<5\! 3\!>2
+	<5 3>4 q \bassFigureExtendersOff %40
+	<8 3> <4 2>
+	<3 1> <[6 4]>
+	<8 6> <7 5>
+	r2*5 %48
+	<7->2
+	r4 <6> %50
+	<6 4>2
+	<\t \t>4 <5 3>
+	r2
+	r
+	<5 3>2 \bassFigureExtendersOn %55
+	q4 q
+	<5\! 3\!>2
+	<5 3>4 q \bassFigureExtendersOff
+	<8 3> <4 2>
+	<3 1> <6 4> %60
+	<8 6> <7 5>
+	r2*5 %66
+	<7->2
+	r4 <6>
+	<6 4>2
+	<\t \t>4 <5 _!> %70
+	r2
+	r
+	<7 _!>
+	r
+	<7- 3> %75
+	r
+	<7- 3>
+	r
+	<6 4>
+	r %80
+ 	<[\t \t]>8 <5 3>4.
+	r2
+	r
+	r
+	\bo <[6 4]>4 \bc <[5 3]> %85
+	r2
+	<[6 4]>
+	r
+	\bo <[\t \t]>4 \bc <[5 3]>
+	r2 %90
+	<[6 4]>
+	r
+	<[5 3]>
+	r
+	<[7]> %95
+	r
+	q
+	r
+	q
+	r4 \bo <[9 7]>8 \bc <[8 6]> %100
+	<6 4>4 <5 3>
+	r2*5 %106
+	<[7]>2
+	r
+	q
+	r %110
+	q
+	r4 \bo <[9 7]>8 \bc <[8 6]>
+	<6 4>4 <5 3>
+	r2*6 %119
+	r2 %120
+	\bo <[6]>4 \bc <[5]>
+	r2
+	r
+	<[6 5]>
+	r %125
+	q
+	r
+	r4 <6>
+	<6 4> <5 3>
+	r2 %130
+	<[6 5]>
+	r
+	q
+	r
+	r4 <6> %135
+	<6 4>2
+	<5 3>
+	r
+	<8 6>4 <7 5>
+	r2 %140
+	<8 6>4 <7 5>
+	r4. <[7]>8
+	r \bo q4 \bc q8
+	r2
+	r %145 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
