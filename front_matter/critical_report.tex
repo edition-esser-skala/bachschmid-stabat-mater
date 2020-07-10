@@ -4,7 +4,7 @@
 \setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
 \setkomafont{pageheadfoot}{\normalsize}
 
-\def\pnumbox#1{#1\hspace*{8cm}}
+\def\pnumbox#1{#1\hspace*{7cm}}
 \def\gobble#1{}
 \DeclareTOCStyleEntry[
   indent=0pt,
@@ -20,9 +20,9 @@
 % use commented values if there are no parts
 \DeclareTOCStyleEntry[
   indent=0pt,
-  beforeskip=0pt,
+  beforeskip=-.5\baselineskip,
   entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
+  numwidth=3em,
   linefill=\hfill,
   pagenumberbox=\pnumbox
 ]{tocline}{section}
@@ -95,6 +95,7 @@
 }
 \def\lyrefitem#1{\item[\lyref{#1}]}
 
+\usepackage{multicol}
 
 \makeatletter
 
@@ -257,8 +258,97 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 Wolfgang Esser-Skala}
 
 \cleardoublepage
+\chapter*{Lyrics.}
+
+\bigskip
+\begin{multicols}{2}
+\begin{enumerate}[label=\textcolor{oldred}{\Roman*},leftmargin=0pt]
+\item Stabat mater dolorosa\\
+iuxta crucem lacrimosa,\\
+dum pendebat filius.
+
+\item Cuius animam gementem,\\
+contristantem et dolentem\\
+pertransivit gladius.
+
+\item O quam tristis et afflicta\\
+fuit illa benedicta\\
+mater unigeniti!
+
+\item Quae maerebat et dolebat,\\
+pia mater cum videbat\\
+nati poenas incliti.
+
+\item Quis est homo, qui non fleret,\\
+matrem Christi si videret\\
+in tanto supplicio?
+
+\item Quis non posset contristari,\\
+piam matrem contemplari\\
+dolentem cum filio?
+
+\item Pro peccatis suae gentis\\
+vidit Iesum in tormentis\\
+et flagellis subditum.
+
+\item Vidit suum dulcem natum\\
+morientem, desolatum,\\
+dum emisit spiritum.
+
+\item Eia, mater, fons amoris,\\
+me sentire vim doloris\\
+fac, ut tecum lugeam.
+
+\item Fac, ut ardeat cor meum\\
+in amando Christum Deum,\\
+ut sibi complaceam.
+
+\item Sancta mater, istud agas,\\
+crucifixi fige plagas\\
+cordi meo valide.
+
+\item Tui nati vulnerati,\\
+tam dignati pro me pati,\\
+poenas mecum divide.
+
+\item Fac me tecum pie flere,\\
+crucifixo condolere,\\
+donec ego vixero
+
+\item Iuxta crucem tecum stare,\\
+te libenter sociare\\
+in planctu desidero.
+
+\item Virgo virginum praeclara,\\
+mihi iam non sis amara,\\
+fac me tecum plangere.
+
+\item Fac, ut portem Christi mortem,\\
+passionis fac consortem\\
+et plagas recolere.
+
+\item Fac me plagis vulnerari,\\
+cruce hac inebriari\\
+ob amorem filii.
+
+\item Inflammatis et accensus\\
+per te, virgo, sim defensus\\
+in die iudicii.
+
+\item Fac me cruce custodiri,\\
+morte Christi praemuniri,\\
+confoveri gratia.
+
+\item Quando corpus morietur,\\
+fac ut anima donetur\\
+paradisi gloriae.
+\end{enumerate}
+\end{multicols}
+
+\cleardoublepage
 \chapter*{Contents.}
 
+\vspace*{\baselineskip}
 \InputIfFileExists{../out/lilypond.toc}{}{\InputIfFileExists{../lilypond.toc}{}{}}
 
 \cleardoublepage
