@@ -853,13 +853,297 @@ FacUtPortemTenoreLyrics = \lyricmode {
 	re. %44 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+QuandoCorpusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 4/4 \autoBeamOff \tempoQuandoCorpus
+		R1*4
+		\mvTr es4.\fE^\tutti es8 d4 es %5
+		es4. es8 d4 es
+		c c b!4. b8
+		as4 c c2
+		g4 r c4. c8
+		b!4 b c4. c8 %10
+		b4 b b4. b8
+		b4 r r2
+		r4 \mvTr es2\pE^\solo des4
+		r es2 es4
+		\mvTr es\fE^\tutti es es8 es es es %15
+		es2 d4 r
+		r g,8 g c4 d
+		es h c f
+		es d c f
+		es8[ d] c2 b!4 %20
+		as r r2
+		r8 \mvTr f'4\pE^\solo f8 f es! d c
+		h([ a)] g4 r2
+		\mvTr g'4\fE^\tutti f es d
+		c( d es) f %25
+		es r r2
+		d4 es!8([ fis)] g2
+		g4 r r2
+		h,4.\p h8 c2\f
+		d\p c4.\f c8 %30
+		d8 d4 d8 c2(
+		h4) c h c
+		h r r2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\time 2/2 \tempoAmen \newSpacingSection R1*4 %38
+		r2 c~
+		c d4 c %40
+		b! a g2
+		R1*2
+		c1
+		es %45
+		fis,
+		g2 g'~
+		g f!~
+		f g4 f
+		es d c2 %50
+		r d~
+		d c~
+		c b
+		a1
+		g2 r %55
+		R1*6 %61
+		r2 g
+		c4 es d c
+		h g a h
+		c es d c %65
+		h g a h
+		c2 c
+		des1
+		c
+		b! %70
+		as
+		b
+		r2 c~
+		c b~
+		b as %75
+		g c
+		c c
+		b! d
+		es b
+		c b4 as %80
+		g1
+		as
+		b
+		R
+		r2 f'~ %85
+		f e
+		f d
+		c1
+		b
+		a! %90
+		g2 r
+		d'1~
+		\once \tieDashed d~
+		d
+		g,2 r %95
+		R1*2
+		r2 d'
+		es4 g f es
+		d h c d %100
+		es g f es
+		d h c d
+		es2 r
+		c1
+		d %105
+		c
+		R1*2
+		d1
+		es %110
+		fis,
+		g
+		r2 d'
+		es2 d~
+		d c %115
+		d1
+		g,2 c
+		c1
+		h
+		R1*3 %122
+		r2 g'
+		f4 es d f
+		es d c es %125
+		d c h d
+		c d es c
+		f1
+		d2 c~
+		c h %130
+		c1
+		R1*3
+		r2 c %135
+		b!4 as g b
+		as g f as
+		g f e g
+		f g as f
+		g as b g %140
+		as b c2~
+		c d!
+		d h
+		c d
+		c c~ %145
+		c h
+		c r
+		R1
+		c~\p
+		c %150
+		c2 r
+		R1
+		c~
+		c
+		c2 r %155
+		R1
+		c\f
+		c
+		c
+		c %160
+		\tempoAmenFinis c\breve*1/2
+		c\fermata \bar "|." %162 FINIS
+	}
+}
+
+QuandoCorpusTenoreLyrics = \lyricmode {
+	Quan -- do cor -- pus %5
+	mo -- ri -- e -- tur,
+	fac ut a -- ni --
+	mae do -- ne --
+	tur pa -- ra --
+	di -- si, pa -- ra -- %10
+	di -- si glo -- ri --
+	a.
+	Quan -- do,
+	quan -- do,
+	quan -- do cor -- pus mo -- ri -- %15
+	e -- tur,
+	fac ut a -- ni --
+	mae do -- ne -- _
+	_ _ _ _
+	_ _ _ %20
+	tur,
+	fac ut a -- ni -- mae do --
+	ne -- tur
+	pa -- ra -- di -- si
+	glo -- ri -- %25
+	a,
+	pa -- ra -- di --
+	si,
+	pa -- ra -- di --
+	si glo -- ri -- %30
+	a, pa -- ra -- di --
+	si glo -- ri --
+	a.
+
+	A -- %39
+	_ _ %40
+	_ _ men,
+
+	a -- %44
+	_ %45
+	_
+	men, a --
+	_
+	_ _
+	_ _ men, %50
+	a --
+	_
+	_
+	_
+	men, %55
+
+	a -- %62
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %65
+	_ _ _ _
+	men, a --
+	_
+	_
+	_ %70
+	_
+	men,
+	a --
+	_
+	_ %75
+	_ _
+	men, a --
+	_ _
+	_ _
+	_ _ _ %80
+	_
+	_
+	men,
+
+	a -- %85
+	_
+	_ _
+	_
+	_
+	_ %90
+	men,
+	a --
+
+	men, %95
+
+	a -- %98
+	_ _ _ _
+	_ _ _ _ %100
+	_ _ _ _
+	_ _ _ _
+	men,
+	a --
+	_ %105
+	men,
+
+	a -- %109
+	_ %110
+	_
+	men,
+	a --
+	_ _
+	_ %115
+	_
+	_ men,
+	a --
+	men,
+
+	a -- %123
+	_ _ _ _
+	_ _ _ _ %125
+	_ _ _ _
+	_ _ _ _
+	_
+	men, a --
+	_ %130
+	men,
+
+	a -- %135
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %140
+	_ _ _
+	_
+	men, a --
+	_ _
+	men, a -- %145
+	_
+	men,
+
+	a --
+	%150
+	men,
+
+	a --
+
+	men, %155
+
+	a --
+	men,
+	a --
+	men, %160
+	a --
+	men. %162 FINIS
+}

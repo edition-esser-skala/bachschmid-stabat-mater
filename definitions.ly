@@ -670,6 +670,9 @@ tempoFacUt = \tempoMarkup "Allegro"
 tempoSanctaMater = \tempoMarkup "Andante con moto"
 tempoFacUtPortem = \tempoMarkup "Larghetto"
 tempoInflammatis = \tempoMarkup "Allegro moderato"
+tempoQuandoCorpus = \tempoMarkup "Poco adagio"
+	tempoAmen = \tempoMarkup "Allabreve"
+	tempoAmenFinis = \tempoMarkup "Adagio"
 
 
 \include "notes/vl1.ly"

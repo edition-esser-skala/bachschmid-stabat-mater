@@ -1265,3 +1265,167 @@ InflammatisViola = {
 		b-. r\fermata \bar "|." %145 finis
 	}
 }
+
+QuandoCorpusViola = {
+	\relative c' {
+		\clef alto
+		\key c \dorian \time 4/4 \tempoQuandoCorpus
+		c8\f r c r h r c r
+		c r c r h r c r
+		h r h r c r c r
+		as r as r g r g r
+		c r c r h r c r %5
+		c r c r h r c r
+		es r es r e r e r
+		f r f r fis r fis r
+		g r g r as r as r
+		g r g r a r a r %10
+		b r b r b, r b r
+		es r es\p r b r b r
+		r16 es-. es-. es-. r es-. es-. es-. r es-. es-. es-. r des-. des-. des-.
+		r c-. c-. c-. r as'-. as-. as-. r as-. as-. as-. as-.^\critnote as-. as-. as-.
+		as8\f as4 as as as8~ %15
+		as as as as d,4 r
+		R1
+		r2 r4 g,8 g
+		c4 d es h
+		c g' as b %20
+		as8 g f2 e4
+		f r r2
+		R1
+		g4\fE f es d
+		c d es f %25
+		es2 f4 fis
+		g r d8 d es! fis
+		g h c c, h4 r
+		g'16\p g8 g g g16( as)\f as8 as as as16(
+		g)\p g8 g g g16( as)\f as8 as as as16( %30
+		g)\ff h8 h h h16 c c8 c c c16
+		g8\p g4 g g g8~
+		g g,4 g g g8~ \noBreak
+		g-. g-. g-. g-. g2\fermata \bar "||"
+		\time 2/2 \newSpacingSection \tempoAmen r4 c d es \noBreak %35
+		f as f es
+		d g, g' f
+		es d c2
+		r c'~
+		c a! %40
+		b! b
+		c c,
+		f d
+		c1
+		r2 c'~ %45
+		c d4 c
+		b a g2~
+		g f!4 es
+		d es8 f g4 f
+		es d c2 %50
+		r d
+		es1
+		d2 g~
+		g fis
+		g4 b a g %55
+		fis d e fis
+		g b a g
+		fis d e fis
+		g2 d
+		es! f! %60
+		d es
+		as d,
+		es4 es' d c
+		h g a h
+		c es d c %65
+		h g a h
+		c2-! c~
+		c b!~
+		b as~
+		as g~ %70
+		g f
+		f1
+		r2 c'~
+		c b!~
+		b as %75
+		g1
+		f2 es!
+		d! b
+		es b'
+		c b %80
+		r4 es, f g
+		as c as g
+		f b, b' as
+		g f es d
+		c f, f' es %85
+		d c b2
+		r f'
+		g a!
+		fis g
+		e fis %90
+		g d'-!
+		d-! d-!
+		d-! d-!
+		d-! d-!
+		g, r %95
+		R1*2
+		r2 d
+		es4 g f es
+		d h c d %100
+		es g f es
+		d h c d
+		es2 r
+		R1
+		g %105
+		as
+		h,
+		c
+		d
+		es %110
+		fis,
+		g
+		r2 g'~
+		g f!~
+		f es! %115
+		d1
+		es2 g
+		as a
+		g1
+		R1*3 %122
+		r4 g g g
+		f es d f
+		es d c es %125
+		d c h d
+		c d es c
+		f g as f
+		g2 as~
+		as g %130
+		g1
+		R1*3
+		r4 c c c %135
+		b! as g b
+		as g f as
+		g f e g
+		f g as f
+		b2 g %140
+		f4 g as g
+		f es! d! c
+		h2 g'
+		a! h
+		c g %145
+		as g
+		g r
+		R1
+		c,2-.\p c-.
+		c-. c-. %150
+		c-. r
+		R1
+		c2-. c-.
+		c-. c-.
+		c-. r %155
+		r g'\f
+		c,4 c'2 c4~
+		c c2 c4~
+		c c2 c4~
+		c c2 c4-! %160
+		\tempoAmenFinis c\breve*1/2
+		c,\fermata \bar "|." %162 FINIS
+	}
+}

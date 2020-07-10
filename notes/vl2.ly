@@ -1267,3 +1267,167 @@ InflammatisViolinoII = {
 		es-. r\fermata \bar "|."
 	}
 }
+
+QuandoCorpusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoQuandoCorpus
+		r16 es'(\f c g) r es'( c g) r d'( h g) r es'( c g)
+		r g'( es c) r es( c g) r d'( h g) r es'( c g)
+		r d'( h g) r d'( h g) r es'( c g) r es'( c g)
+		r es'( c as) r es'( c as) r h( g d) r h'( g d)
+		r es'( c g) r es'( c g) r d'( h g) r es'( c g) %5
+		r g'( es c) r es( c g) r d'( h g) r es'( c g)
+		r c( g es) r c'( g es) r b'!( g e) r b'( g e)
+		r f'( c as) r f'( c as) r c( a fis) r c'( a fis)
+		r d'( h g) r d'( h g) r c-! c( g') r c,-! c( f)
+		r b,!-! b( f') r b,-! b( es) r c( a! c) r c( a c) %10
+		r f( d f) r g( es g) r es( f es) r d( f d)
+		r g,-.\p g-. g-. r g-. g-. g-. r f-. f-. f-. r as-. as-. as-.
+		r as-. as-. as-. r g-. g-. g-. r b-. b-. b-. r b-. b-. b-.
+		r c-. c-. c-. r c-. c-. c-. r c-. c-. c-. c-. c-. c-. c-.
+		c8\f c4 c c c8~ %15
+		c c c c h4 r
+		r g,8 g c4 d
+		es h c f
+		es d c f
+		es c'2 e4 %20
+		f c c2
+		r8 as4\pE as8 as g f( fis)
+		g g'\fE f!4 es d
+		c d es g~
+		g h c g~ %25
+		g8 g g g as as a a
+		d, d es! fis g h, c c,
+		h4 r8 c' d h c c,
+		g16\p h'?8 h h h16( c)\f c8 c c c16(
+		h)\p h8 h h h16( c) c8 c c c16( %30
+		h)\ff d8 d d g16( es) es8 es es c16(
+		h8)\p h( c) c( h) h( c) c(
+		h) h,( c) c( h) h( c) c( \noBreak
+		h)-. h-. h-. h-. h2\fermata \bar "||"
+		\time 2/2 \newSpacingSection \tempoAmen R1*3 %37
+		c'1
+		es
+		fis, %40
+		g2 g'~
+		g4 c, f! es
+		d es8 f g4 f
+		es d c2
+		R1*4 %48
+		d1
+		es %50
+		fis,
+		g
+		fis2 g
+		c4 b8 c d4 c
+		b2 d-! %55
+		d-! d-!
+		d-! d-!
+		d-! d-!
+		d g
+		as1 %60
+		g
+		f
+		es4 g f es
+		d h c d
+		es g f es %65
+		d h c d
+		es2-! c-!
+		des1
+		c
+		b! %70
+		as4 as2 g8 as
+		b4 des b as
+		g c, c' b
+		as g f2
+		r c' %75
+		des c~
+		c4 d es!2
+		f2 d
+		es4 b es2~
+		es d %80
+		es r
+		R1
+		f
+		g
+		a,! %85
+		b
+		a!2 b
+		es1
+		d
+		c %90
+		b4 d c b
+		a fis g a
+		b d c b
+		a fis g a
+		b2 h %95
+		c d
+		h c~
+		c h
+		c g'-!
+		g-! g-! %100
+		g-! g-!
+		g-! g-!
+		g,-! r
+		c1
+		d2 g~ %105
+		g f~
+		f4 d g f
+		es d c2
+		R1
+		g' %110
+		a!2 d,~
+		d c!
+		d b
+		c d
+		h c~ %115
+		c h
+		c c~
+		c d4 c
+		h1
+		R %120
+		r4 g' g g
+		f es d f
+		es d c es
+		d c h d
+		c d es c %125
+		d es f d
+		es f g es
+		c2 c
+		g4 f es2
+		d1 %130
+		c
+		R
+		r4 c'' c c
+		b! as g b
+		as g f as %135
+		g f e g
+		f g as f
+		g as b g
+		as b c as
+		e f g e %140
+		f2 as,~
+		as a
+		g4 g'2 fis4~
+		fis f2 es4~
+		es2 es %145
+		d1
+		c2 r
+		r e,(\p
+		f)-. f-.
+		f-. f-. %150
+		e-. r
+		r e(
+		f)-. f-.
+		f-. f-.
+		e-. r %155
+		r e(\f
+		f4) f'2 f4~
+		f f2 f4~
+		f f2 f4~
+		f f2 f4-! %160
+		\tempoAmenFinis f\breve*1/2
+		e\fermata \bar "|." %162 FINIS
+	}
+}

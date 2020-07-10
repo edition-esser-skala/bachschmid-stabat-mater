@@ -7,8 +7,8 @@
 \include "../definitions.ly"
 
 \paper {
-	% #(set-paper-size "a4" 'landscape)
-	% indent = 1\cm
+	#(set-paper-size "a4" 'landscape)
+	indent = 1\cm
 	% #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
@@ -584,12 +584,63 @@
 	% 		\midi { \tempo 4 = 50 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "XVII–XIX"
+	% 		title = "I N F L A M M A T I S   E T   A C C E N S U S"
+	% 	}
+	% 	\tocSection "18–19" "Inflammatis et accensus"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\InflammatisViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\InflammatisViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\InflammatisViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \InflammatisSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \InflammatisSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \InflammatisAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \InflammatisAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\InflammatisOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \InflammatisBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "XVII–XIX"
-			title = "I N F L A M M A T I S   E T   A C C E N S U S"
+			number = "XX"
+			title = "Q U A N D O   C O R P U S   M O R I E T U R   –   A M E N"
 		}
-		% \tocSection "18–19" "Inflammatis et accensus"
+		% \tocSection "20" "Quando corpus morietur – Amen"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -597,42 +648,54 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\InflammatisViolinoI
+							\QuandoCorpusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\InflammatisViolinoII
+							\QuandoCorpusViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\InflammatisViola
+						\QuandoCorpusViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \InflammatisSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuandoCorpusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \InflammatisSopranoLyrics
+					\new Lyrics \lyricsto Soprano \QuandoCorpusSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \InflammatisAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuandoCorpusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \InflammatisAltoLyrics
+					\new Lyrics \lyricsto Alto \QuandoCorpusAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \QuandoCorpusTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \QuandoCorpusTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \QuandoCorpusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuandoCorpusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\InflammatisOrgano
+						\QuandoCorpusOrgano
 					}
 				>>
-				\new FiguredBass { \InflammatisBassFigures }
+				\new FiguredBass { \QuandoCorpusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 70 }
+			\midi { \tempo 1 = 75 }
 		}
 	}
 }

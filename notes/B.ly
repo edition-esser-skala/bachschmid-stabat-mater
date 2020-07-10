@@ -719,13 +719,276 @@ FacUtPortemBassoLyrics = \lyricmode {
 	re. %44 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+QuandoCorpusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \autoBeamOff \tempoQuandoCorpus
+		R1*4
+		\mvTr c4.\fE^\tutti c8 h4 c %5
+		c4. c8 h4 c
+		es es e4. e8
+		f4 f fis2
+		g4 g( as) as
+		g g a4. a8 %10
+		b4 b b4. b8
+		es,4 r r2
+		r2 r4 \mvTr b'~\pE^\solo
+		b as r2
+		\mvTr as4\fE^\tutti as as8 as as g %15
+		fis2 g4 r
+		r2 r4 g,8 g
+		c4 d es h
+		c f es d
+		c b'! as g %20
+		f2. e4
+		f8 \mvTr as4\pE^\solo as8 as g f fis
+		g4 g, r2
+		r \mvTr g'4\fE^\tutti f
+		es d c h %25
+		c es f fis
+		g r d es!8([ fis)]
+		g2 g4 r
+		g4.\p g8 as2\f
+		g\p as4.\f as8 %30
+		g g4 g8 as2
+		g4 g2 g4
+		g r r2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\time 2/2 \tempoAmen \newSpacingSection R1*6 %40
+		g1
+		as
+		h,
+		c
+		r2 c'~ %45
+		c d4 c
+		b! a g2
+		R1*3 %50
+		d1
+		es
+		d2 g~
+		g fis
+		g4 b a g %55
+		fis d e fis
+		g b a g
+		fis d e fis
+		g2 g~
+		g f!~ %60
+		f es
+		d1
+		c
+		R1*9 %72
+		c1
+		des
+		c2 f~ %75
+		f e
+		f es
+		d! b!
+		es g
+		as b %80
+		es, r
+		R1*3
+		f1 %85
+		g
+		f2 b~
+		b a!~
+		a g~
+		g fis %90
+		g1
+		R1*6 %97
+		r2 g,
+		c4 es d c
+		h g a h %100
+		c es d c
+		h g a h
+		c2 r
+		R1
+		g' %105
+		as
+		h,
+		c
+		R1*2 %110
+		d1
+		es
+		d2 g~
+		g \once \tieDashed f!~
+		f es! %115
+		d1
+		c2 es
+		f fis
+		g1
+		g~ %120
+		g~
+		g~
+		g~
+		g
+		g2 g %125
+		f4 es d f
+		es d c es
+		f g as f
+		g2 as
+		f g %130
+		c,1
+		c~
+		c~
+		c~
+		c~ %135
+		c
+		c2 c'
+		b!4 as g b
+		as g f as
+		g f e g %140
+		f g as g
+		f es! d! c
+		h2 g
+		a! h
+		c c' %145
+		f, g
+		c, r
+		R1
+		f~\p
+		f %150
+		c2 r
+		R1
+		f~
+		f
+		c2 r %155
+		R1
+		f\f
+		f
+		f
+		f %160
+		\tempoAmenFinis f\breve*1/2
+		c\fermata \bar "|." %162 FINIS
+	}
+}
+
+QuandoCorpusBassoLyrics = \lyricmode {
+	Quan -- do cor -- pus %5
+	mo -- ri -- e -- tur,
+	fac ut a -- ni --
+	mae do -- ne --
+	tur pa -- ra --
+	di -- si, pa -- ra -- %10
+	di -- si glo -- ri --
+	a.
+	Quan --
+	do,
+	quan -- do cor -- pus mo -- ri -- %15
+	e -- tur,
+	fac ut
+	a -- ni -- mae do --
+	ne -- _ _ _
+	_ _ _ _ %20
+	_ _
+	tur, fac ut a -- ni -- mae do --
+	ne -- tur
+	pa -- ra --
+	di -- si, pa -- ra %25
+	di -- si glo -- ri --
+	a, pa -- ra --
+	di -- si,
+	pa -- ra -- di --
+	si glo -- ri -- %30
+	a, pa -- ra -- di --
+	si glo -- ri --
+	a.
+
+	A -- %41
+	_
+	_
+	men,
+	a -- %45
+	_ _
+	_ _ men,
+
+	a -- %51
+	_
+	_ _
+	_
+	_ _ _ _ %55
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	men, a --
+	_ %60
+	men,
+	a --
+	men,
+
+	a -- %73
+	_
+	_ _ %75
+	_
+	_ _
+	_ _
+	_ _
+	_ _ %80
+	men,
+
+	a -- %85
+	_
+	_ _
+	_
+	_
+	_ %90
+	men,
+
+	a -- %98
+	_ _ _ _
+	_ _ _ _ %100
+	_ _ _ _
+	_ _ _ _
+	men,
+
+	a -- %105
+	_
+	_
+	men,
+
+	a -- %111
+	_
+	_ _
+	_
+	_ %115
+	_
+	men, a --
+	_ _
+	men,
+	a -- %120
+
+	men, a -- %125
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ men,
+	a -- _ %130
+	men,
+	a --
+
+	men, a -- %137
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ %140
+	_ _ _ _
+	_ _ _ _
+	_ _
+	_ _
+	men, a -- %145
+	_ _
+	men,
+
+	a --
+	%150
+	men,
+
+	a --
+
+	men, %155
+
+	a --
+	men,
+	a --
+	men, %160
+	a --
+	men. %162 FINIS
+}
