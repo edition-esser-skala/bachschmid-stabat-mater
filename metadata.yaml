@@ -1,0 +1,17 @@
+composer: Bachschmid, Anton Adam
+title: Stabat mater
+id: (D-Eu Esl II 60)
+genre: sequence
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-Eu
+    shelfmark: Esl II 60
+    type: autograph manuscript
+    date: 1780-02-17
+    rism: 450200700
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-60-4
+github: bachschmid-stabat-mater 
+imslp: Stabat_mater_(Bachschmid,_Anton_Adam)
+notes:
+
